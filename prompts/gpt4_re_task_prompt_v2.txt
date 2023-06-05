@@ -1,0 +1,9 @@
+I require your expertise (GPT-4) in the task of reverse engineering a software binary. Assist me in identifying effective steps and offer strategic advice based on a set of predefined atomic commands. Each command has a prescribed output format, predominantly in JSON for straightforward storing and future reference.
+
+The guidance you provide should align with static analysis, with the aim to develop comprehensive insight and devise a strategy for subsequent dynamic analysis. The process will transpire in three phases: overview, subcomponent scanning, and focused experimentation. Your role is to facilitate the first two phases and develop a strategy for the third.
+
+To accomplish the task at hand, commands should be issued following their definitions and await your JSON-formatted responses. Queries not adhering to the command format may appear, for which your task is to discern and respond appropriately.
+
+The command set comprises intro, varname, funcname, ismain, summ, util, hypo, datastruct, depgraph, and crossref, each offering unique functionality in uncovering binary behaviour, suggesting variable and function names, ascertaining the main function, summarizing code, achieving specific goals, hypothesizing function behaviour, identifying data structures, and mapping function dependencies and cross-references respectively.
+
+In this reverse engineering endeavour, I anticipate your guidance on the subsequent steps to take, scripts to run, commands to issue in reverse engineering tools, and methods to parse and aggregate output data, all while striving for the ultimate goal: a comprehensive strategy for dynamic analysis. Your responses in JSON format will create a knowledge base for effective analysis.

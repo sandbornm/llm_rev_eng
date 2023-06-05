@@ -1,0 +1,16 @@
+
+Sections:
+Idx Name            Size     VMA              Type
+  0 __text          00003a9f 0000000100003940 TEXT
+  1 __stubs         000001f8 00000001000073e0 TEXT
+  2 __stub_helper   00000358 00000001000075d8 TEXT
+  3 __const         00000123 0000000100007930 DATA
+  4 __cstring       000004f4 0000000100007a53 DATA
+  5 __unwind_info   000000ac 0000000100007f48 DATA
+  6 __nl_symbol_ptr 00000008 0000000100008000 DATA
+  7 __got           00000038 0000000100008008 DATA
+  8 __la_symbol_ptr 000002a0 0000000100008040 DATA
+  9 __const         00000268 00000001000082e0 DATA
+ 10 __data          00000028 0000000100008550 DATA
+ 11 __common        000000b0 0000000100008578 BSS
+ 12 __bss           00000160 0000000100008630 BSS

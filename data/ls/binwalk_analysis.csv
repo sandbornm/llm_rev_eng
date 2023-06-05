@@ -1,0 +1,357 @@
+
+Scan Time:     2023-06-05 01:06:49
+Target File:   /bin/ls
+MD5 Checksum:  4e5a37f83422f953095fdb5bcf2c4397
+Signatures:    445
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             Mach-O universal binary with 2 architectures
+17908         0x45F4          Unix path: /usr/lib/dyld
+18048         0x4680          Unix path: /usr/lib/libutil.dylib
+47493         0xB985          Copyright string: "Copyright (c) 1989, 1993, 1994"
+71333         0x116A5         Certificate in DER format (x509 v3), header length: 4, sequence length: 1038
+72375         0x11AB7         Certificate in DER format (x509 v3), header length: 4, sequence length: 1204
+73583         0x11F6F         Certificate in DER format (x509 v3), header length: 4, sequence length: 1211
+74258         0x12212         Certificate in DER format (x509 v3), header length: 4, sequence length: 260
+75160         0x12598         XML document, version: "1.0"
+99740         0x1859C         Unix path: /usr/lib/dyld
+112676        0x1B824         AArch64 instructions, function epilogue
+112688        0x1B830         AArch64 instructions, function epilogue
+112692        0x1B834         AArch64 instructions, nop
+112696        0x1B838         AArch64 instructions, nop
+112792        0x1B898         AArch64 instructions, function epilogue
+112804        0x1B8A4         AArch64 instructions, function epilogue
+112808        0x1B8A8         AArch64 instructions, nop
+112812        0x1B8AC         AArch64 instructions, nop
+112908        0x1B90C         AArch64 instructions, function epilogue
+112920        0x1B918         AArch64 instructions, function epilogue
+112924        0x1B91C         AArch64 instructions, nop
+112928        0x1B920         AArch64 instructions, nop
+113024        0x1B980         AArch64 instructions, function epilogue
+113036        0x1B98C         AArch64 instructions, function epilogue
+113040        0x1B990         AArch64 instructions, nop
+113044        0x1B994         AArch64 instructions, nop
+113120        0x1B9E0         AArch64 instructions, function epilogue
+113132        0x1B9EC         AArch64 instructions, function epilogue
+113176        0x1BA18         AArch64 instructions, function epilogue
+113188        0x1BA24         AArch64 instructions, function epilogue
+113292        0x1BA8C         AArch64 instructions, nop
+113308        0x1BA9C         AArch64 instructions, nop
+113316        0x1BAA4         AArch64 instructions, nop
+113364        0x1BAD4         AArch64 instructions, nop
+113420        0x1BB0C         AArch64 instructions, nop
+113536        0x1BB80         AArch64 instructions, nop
+113564        0x1BB9C         AArch64 instructions, nop
+113596        0x1BBBC         AArch64 instructions, nop
+113604        0x1BBC4         AArch64 instructions, nop
+113656        0x1BBF8         AArch64 instructions, nop
+113820        0x1BC9C         AArch64 instructions, nop
+113840        0x1BCB0         AArch64 instructions, nop
+113860        0x1BCC4         AArch64 instructions, nop
+113880        0x1BCD8         AArch64 instructions, nop
+113900        0x1BCEC         AArch64 instructions, nop
+113920        0x1BD00         AArch64 instructions, nop
+113940        0x1BD14         AArch64 instructions, nop
+113960        0x1BD28         AArch64 instructions, nop
+113980        0x1BD3C         AArch64 instructions, nop
+114000        0x1BD50         AArch64 instructions, nop
+114044        0x1BD7C         AArch64 instructions, nop
+114532        0x1BF64         AArch64 instructions, nop
+114544        0x1BF70         AArch64 instructions, nop
+114572        0x1BF8C         AArch64 instructions, nop
+114580        0x1BF94         AArch64 instructions, nop
+114704        0x1C010         AArch64 instructions, nop
+114868        0x1C0B4         AArch64 instructions, nop
+114944        0x1C100         AArch64 instructions, nop
+114960        0x1C110         AArch64 instructions, nop
+114996        0x1C134         AArch64 instructions, nop
+115012        0x1C144         AArch64 instructions, nop
+115048        0x1C168         AArch64 instructions, nop
+115072        0x1C180         AArch64 instructions, nop
+115096        0x1C198         AArch64 instructions, nop
+115120        0x1C1B0         AArch64 instructions, nop
+115144        0x1C1C8         AArch64 instructions, nop
+115172        0x1C1E4         AArch64 instructions, nop
+115248        0x1C230         AArch64 instructions, nop
+115260        0x1C23C         AArch64 instructions, nop
+115296        0x1C260         AArch64 instructions, nop
+115336        0x1C288         AArch64 instructions, nop
+115348        0x1C294         AArch64 instructions, nop
+115364        0x1C2A4         AArch64 instructions, nop
+115384        0x1C2B8         AArch64 instructions, nop
+115428        0x1C2E4         AArch64 instructions, nop
+115516        0x1C33C         AArch64 instructions, nop
+115596        0x1C38C         AArch64 instructions, nop
+115684        0x1C3E4         AArch64 instructions, nop
+115700        0x1C3F4         AArch64 instructions, nop
+115716        0x1C404         AArch64 instructions, nop
+115728        0x1C410         AArch64 instructions, nop
+115740        0x1C41C         AArch64 instructions, nop
+115752        0x1C428         AArch64 instructions, nop
+115764        0x1C434         AArch64 instructions, nop
+115780        0x1C444         AArch64 instructions, nop
+115796        0x1C454         AArch64 instructions, nop
+115816        0x1C468         AArch64 instructions, nop
+115832        0x1C478         AArch64 instructions, nop
+115848        0x1C488         AArch64 instructions, nop
+115860        0x1C494         AArch64 instructions, nop
+115872        0x1C4A0         AArch64 instructions, nop
+115884        0x1C4AC         AArch64 instructions, nop
+115896        0x1C4B8         AArch64 instructions, nop
+115912        0x1C4C8         AArch64 instructions, nop
+115928        0x1C4D8         AArch64 instructions, nop
+115956        0x1C4F4         AArch64 instructions, nop
+115976        0x1C508         AArch64 instructions, nop
+116004        0x1C524         AArch64 instructions, nop
+116020        0x1C534         AArch64 instructions, nop
+116060        0x1C55C         AArch64 instructions, nop
+116092        0x1C57C         AArch64 instructions, nop
+116116        0x1C594         AArch64 instructions, nop
+116164        0x1C5C4         AArch64 instructions, nop
+116212        0x1C5F4         AArch64 instructions, nop
+116232        0x1C608         AArch64 instructions, nop
+116668        0x1C7BC         AArch64 instructions, nop
+116884        0x1C894         AArch64 instructions, nop
+116936        0x1C8C8         AArch64 instructions, nop
+116996        0x1C904         AArch64 instructions, nop
+117064        0x1C948         AArch64 instructions, nop
+117424        0x1CAB0         AArch64 instructions, function epilogue
+117484        0x1CAEC         AArch64 instructions, function epilogue
+117500        0x1CAFC         AArch64 instructions, function epilogue
+117504        0x1CB00         AArch64 instructions, nop
+117560        0x1CB38         AArch64 instructions, nop
+117596        0x1CB5C         AArch64 instructions, nop
+117648        0x1CB90         AArch64 instructions, nop
+117692        0x1CBBC         AArch64 instructions, nop
+117848        0x1CC58         AArch64 instructions, nop
+118176        0x1CDA0         AArch64 instructions, nop
+118184        0x1CDA8         AArch64 instructions, nop
+118328        0x1CE38         AArch64 instructions, nop
+118372        0x1CE64         AArch64 instructions, nop
+118540        0x1CF0C         AArch64 instructions, nop
+118580        0x1CF34         AArch64 instructions, nop
+118740        0x1CFD4         AArch64 instructions, nop
+118796        0x1D00C         AArch64 instructions, nop
+119068        0x1D11C         AArch64 instructions, nop
+119100        0x1D13C         AArch64 instructions, nop
+119164        0x1D17C         AArch64 instructions, nop
+119188        0x1D194         AArch64 instructions, nop
+119336        0x1D228         AArch64 instructions, nop
+119368        0x1D248         AArch64 instructions, nop
+119452        0x1D29C         AArch64 instructions, nop
+119484        0x1D2BC         AArch64 instructions, nop
+119520        0x1D2E0         AArch64 instructions, nop
+119564        0x1D30C         AArch64 instructions, nop
+119664        0x1D370         AArch64 instructions, nop
+119768        0x1D3D8         AArch64 instructions, function epilogue
+119804        0x1D3FC         AArch64 instructions, nop
+119832        0x1D418         AArch64 instructions, nop
+119836        0x1D41C         AArch64 instructions, nop
+119844        0x1D424         AArch64 instructions, nop
+119848        0x1D428         AArch64 instructions, nop
+119864        0x1D438         AArch64 instructions, nop
+119868        0x1D43C         AArch64 instructions, nop
+119904        0x1D460         AArch64 instructions, nop
+120024        0x1D4D8         AArch64 instructions, nop
+120028        0x1D4DC         AArch64 instructions, nop
+120052        0x1D4F4         AArch64 instructions, nop
+120072        0x1D508         AArch64 instructions, nop
+120076        0x1D50C         AArch64 instructions, nop
+120088        0x1D518         AArch64 instructions, nop
+120092        0x1D51C         AArch64 instructions, nop
+120128        0x1D540         AArch64 instructions, nop
+120144        0x1D550         AArch64 instructions, nop
+120220        0x1D59C         AArch64 instructions, nop
+120224        0x1D5A0         AArch64 instructions, nop
+120276        0x1D5D4         AArch64 instructions, nop
+120280        0x1D5D8         AArch64 instructions, nop
+120288        0x1D5E0         AArch64 instructions, nop
+120292        0x1D5E4         AArch64 instructions, nop
+120312        0x1D5F8         AArch64 instructions, nop
+120316        0x1D5FC         AArch64 instructions, nop
+120376        0x1D638         AArch64 instructions, nop
+120400        0x1D650         AArch64 instructions, nop
+120408        0x1D658         AArch64 instructions, nop
+120424        0x1D668         AArch64 instructions, nop
+120428        0x1D66C         AArch64 instructions, nop
+120480        0x1D6A0         AArch64 instructions, nop
+120504        0x1D6B8         AArch64 instructions, nop
+120524        0x1D6CC         AArch64 instructions, nop
+120528        0x1D6D0         AArch64 instructions, nop
+120556        0x1D6EC         AArch64 instructions, nop
+120608        0x1D720         AArch64 instructions, nop
+120648        0x1D748         AArch64 instructions, nop
+120652        0x1D74C         AArch64 instructions, nop
+120660        0x1D754         AArch64 instructions, nop
+120664        0x1D758         AArch64 instructions, nop
+120736        0x1D7A0         AArch64 instructions, nop
+120784        0x1D7D0         AArch64 instructions, nop
+120792        0x1D7D8         AArch64 instructions, nop
+120796        0x1D7DC         AArch64 instructions, nop
+120824        0x1D7F8         AArch64 instructions, nop
+120868        0x1D824         AArch64 instructions, nop
+120892        0x1D83C         AArch64 instructions, nop
+120896        0x1D840         AArch64 instructions, nop
+120916        0x1D854         AArch64 instructions, nop
+120920        0x1D858         AArch64 instructions, nop
+120940        0x1D86C         AArch64 instructions, nop
+120944        0x1D870         AArch64 instructions, nop
+121004        0x1D8AC         AArch64 instructions, nop
+121080        0x1D8F8         AArch64 instructions, nop
+121084        0x1D8FC         AArch64 instructions, nop
+121152        0x1D940         AArch64 instructions, nop
+121176        0x1D958         AArch64 instructions, nop
+121220        0x1D984         AArch64 instructions, nop
+121240        0x1D998         AArch64 instructions, nop
+121280        0x1D9C0         AArch64 instructions, nop
+121304        0x1D9D8         AArch64 instructions, nop
+121308        0x1D9DC         AArch64 instructions, nop
+121408        0x1DA40         AArch64 instructions, nop
+121412        0x1DA44         AArch64 instructions, nop
+121584        0x1DAF0         AArch64 instructions, nop
+121588        0x1DAF4         AArch64 instructions, nop
+121664        0x1DB40         AArch64 instructions, nop
+121672        0x1DB48         AArch64 instructions, nop
+121688        0x1DB58         AArch64 instructions, nop
+121716        0x1DB74         AArch64 instructions, nop
+121724        0x1DB7C         AArch64 instructions, nop
+121744        0x1DB90         AArch64 instructions, nop
+121772        0x1DBAC         AArch64 instructions, nop
+121820        0x1DBDC         AArch64 instructions, nop
+121828        0x1DBE4         AArch64 instructions, nop
+121848        0x1DBF8         AArch64 instructions, nop
+121880        0x1DC18         AArch64 instructions, nop
+121928        0x1DC48         AArch64 instructions, nop
+121936        0x1DC50         AArch64 instructions, nop
+121956        0x1DC64         AArch64 instructions, nop
+121992        0x1DC88         AArch64 instructions, nop
+122000        0x1DC90         AArch64 instructions, nop
+122052        0x1DCC4         AArch64 instructions, nop
+122060        0x1DCCC         AArch64 instructions, nop
+122092        0x1DCEC         AArch64 instructions, nop
+122116        0x1DD04         AArch64 instructions, nop
+122204        0x1DD5C         AArch64 instructions, nop
+122208        0x1DD60         AArch64 instructions, nop
+122224        0x1DD70         AArch64 instructions, nop
+122260        0x1DD94         AArch64 instructions, nop
+122268        0x1DD9C         AArch64 instructions, nop
+122272        0x1DDA0         AArch64 instructions, nop
+122292        0x1DDB4         AArch64 instructions, nop
+122308        0x1DDC4         AArch64 instructions, nop
+122372        0x1DE04         AArch64 instructions, nop
+122448        0x1DE50         AArch64 instructions, nop
+122452        0x1DE54         AArch64 instructions, nop
+122464        0x1DE60         AArch64 instructions, nop
+122468        0x1DE64         AArch64 instructions, nop
+122488        0x1DE78         AArch64 instructions, nop
+122496        0x1DE80         AArch64 instructions, nop
+122528        0x1DEA0         AArch64 instructions, nop
+122564        0x1DEC4         AArch64 instructions, nop
+122572        0x1DECC         AArch64 instructions, nop
+122588        0x1DEDC         AArch64 instructions, nop
+122596        0x1DEE4         AArch64 instructions, nop
+122624        0x1DF00         AArch64 instructions, nop
+122656        0x1DF20         AArch64 instructions, nop
+122920        0x1E028         AArch64 instructions, nop
+122940        0x1E03C         AArch64 instructions, nop
+122980        0x1E064         AArch64 instructions, nop
+123016        0x1E088         AArch64 instructions, nop
+123112        0x1E0E8         AArch64 instructions, nop
+123256        0x1E178         AArch64 instructions, function epilogue
+123264        0x1E180         AArch64 instructions, function epilogue
+123336        0x1E1C8         AArch64 instructions, nop
+123352        0x1E1D8         AArch64 instructions, nop
+123384        0x1E1F8         AArch64 instructions, nop
+123388        0x1E1FC         AArch64 instructions, nop
+123404        0x1E20C         AArch64 instructions, nop
+123420        0x1E21C         AArch64 instructions, nop
+123448        0x1E238         AArch64 instructions, nop
+123452        0x1E23C         AArch64 instructions, nop
+123512        0x1E278         AArch64 instructions, nop
+123516        0x1E27C         AArch64 instructions, nop
+123588        0x1E2C4         AArch64 instructions, nop
+123760        0x1E370         AArch64 instructions, nop
+123768        0x1E378         AArch64 instructions, nop
+123984        0x1E450         AArch64 instructions, nop
+123988        0x1E454         AArch64 instructions, nop
+124028        0x1E47C         AArch64 instructions, nop
+124180        0x1E514         AArch64 instructions, nop
+124184        0x1E518         AArch64 instructions, nop
+124208        0x1E530         AArch64 instructions, nop
+124212        0x1E534         AArch64 instructions, nop
+124236        0x1E54C         AArch64 instructions, nop
+124240        0x1E550         AArch64 instructions, nop
+124264        0x1E568         AArch64 instructions, nop
+124268        0x1E56C         AArch64 instructions, nop
+124380        0x1E5DC         AArch64 instructions, nop
+124384        0x1E5E0         AArch64 instructions, nop
+124400        0x1E5F0         AArch64 instructions, nop
+124404        0x1E5F4         AArch64 instructions, nop
+124444        0x1E61C         AArch64 instructions, nop
+124476        0x1E63C         AArch64 instructions, nop
+124540        0x1E67C         AArch64 instructions, nop
+124656        0x1E6F0         AArch64 instructions, nop
+124660        0x1E6F4         AArch64 instructions, nop
+124820        0x1E794         AArch64 instructions, nop
+124856        0x1E7B8         AArch64 instructions, nop
+124888        0x1E7D8         AArch64 instructions, nop
+125108        0x1E8B4         AArch64 instructions, nop
+125128        0x1E8C8         AArch64 instructions, nop
+125412        0x1E9E4         AArch64 instructions, nop
+125428        0x1E9F4         AArch64 instructions, nop
+125444        0x1EA04         AArch64 instructions, nop
+125500        0x1EA3C         AArch64 instructions, nop
+125536        0x1EA60         AArch64 instructions, nop
+125592        0x1EA98         AArch64 instructions, nop
+125612        0x1EAAC         AArch64 instructions, nop
+125616        0x1EAB0         AArch64 instructions, nop
+125628        0x1EABC         AArch64 instructions, nop
+125668        0x1EAE4         AArch64 instructions, nop
+125672        0x1EAE8         AArch64 instructions, nop
+125696        0x1EB00         AArch64 instructions, nop
+125736        0x1EB28         AArch64 instructions, nop
+125740        0x1EB2C         AArch64 instructions, nop
+125764        0x1EB44         AArch64 instructions, nop
+125872        0x1EBB0         AArch64 instructions, nop
+125912        0x1EBD8         AArch64 instructions, nop
+126100        0x1EC94         AArch64 instructions, nop
+126116        0x1ECA4         AArch64 instructions, nop
+126204        0x1ECFC         AArch64 instructions, nop
+126244        0x1ED24         AArch64 instructions, nop
+126464        0x1EE00         AArch64 instructions, nop
+126544        0x1EE50         AArch64 instructions, nop
+126600        0x1EE88         AArch64 instructions, nop
+126772        0x1EF34         AArch64 instructions, nop
+126864        0x1EF90         AArch64 instructions, nop
+126936        0x1EFD8         AArch64 instructions, nop
+126948        0x1EFE4         AArch64 instructions, nop
+126956        0x1EFEC         AArch64 instructions, nop
+127364        0x1F184         AArch64 instructions, nop
+127436        0x1F1CC         AArch64 instructions, nop
+127452        0x1F1DC         AArch64 instructions, nop
+127484        0x1F1FC         AArch64 instructions, nop
+127508        0x1F214         AArch64 instructions, nop
+127544        0x1F238         AArch64 instructions, nop
+127620        0x1F284         AArch64 instructions, nop
+127700        0x1F2D4         AArch64 instructions, nop
+127744        0x1F300         AArch64 instructions, nop
+127768        0x1F318         AArch64 instructions, nop
+127792        0x1F330         AArch64 instructions, nop
+127816        0x1F348         AArch64 instructions, nop
+127868        0x1F37C         AArch64 instructions, nop
+127924        0x1F3B4         AArch64 instructions, nop
+127932        0x1F3BC         AArch64 instructions, nop
+127940        0x1F3C4         AArch64 instructions, nop
+127968        0x1F3E0         AArch64 instructions, nop
+127996        0x1F3FC         AArch64 instructions, nop
+128004        0x1F404         AArch64 instructions, nop
+128012        0x1F40C         AArch64 instructions, nop
+129439        0x1F99F         Copyright string: "Copyright (c) 1989, 1993, 1994"
+132369        0x20511         LZMA compressed data, properties: 0x7E, dictionary size: 65536 bytes, uncompressed size: 65536 bytes
+169173        0x294D5         Certificate in DER format (x509 v3), header length: 4, sequence length: 1038
+170215        0x298E7         Certificate in DER format (x509 v3), header length: 4, sequence length: 1204
+171423        0x29D9F         Certificate in DER format (x509 v3), header length: 4, sequence length: 1211
+172098        0x2A042         Certificate in DER format (x509 v3), header length: 4, sequence length: 260
+173000        0x2A3C8         XML document, version: "1.0"
+

@@ -1,0 +1,101 @@
+@(#)PROGRAM:ls  PROJECT:file_cmds-403.100.6
+1y@$FreeBSD$
+@(#) Copyright (c) 1989, 1993, 1994
+The Regents of the University of California.  All rights reserved.
+$FreeBSD$
+$FreeBSD$
+$FreeBSD$
+\\""
+bin/ls
+Unix2003
+COLUMNS
+LS_SAMESORT
+CLICOLOR
++@1ABCD:FGHILOPRSTUWabcdefghiklmnopqrstuvwxy%,
+unsupported --color value '%s' (must be always, auto, or never)
+TERM
+LSCOLORS
+vfs.nspace.prevent_materialization
+prevent_materialization
+stdout
+color
+always
+force
+auto
+if-tty
+never
+none
+COLORTERM
+CLICOLOR_FORCE
+fts_open
+%s: directory causes a cycle
+%s: %s
+fts_read
+LS_COLWIDTHS
+user_from_uid
+group_from_gid
+fflagstostr
+malloc
+%s/%s
+%#jx
+%llu
+%lld
+printscol
+print.c
+total %qu
+%*ju 
+%*lld 
+%s%s %*ju   
+%s%s %*ju %-*s  
+%s%s %*ju %-*s  %-*s  
+%-*s 
+printcol
+base < dp->entries
+LSCOLORS should use characters a-h instead of 0-9 (see the manual page)
+invalid character '%c' in LSCOLORS env var
+allow
+deny
+unknown
+ %d: %s%s %s 
+ inherited
+%s%s
+%s:%s
+user
+group
+read
+list
+write
+add_file
+execute
+search
+delete
+append
+add_subdirectory
+delete_child
+readattr
+writeattr
+readextattr
+writeextattr
+readsecurity
+writesecurity
+chown
+file_inherit
+directory_inherit
+limit_inherit
+only_inherit
+%#*jx 
+%e %b %T %Y
+%b %e %T %Y
+%e %b %R
+%b %e %R
+%e %b  %Y
+%b %e  %Y
+%.*s%s%*s%s
+;3%d
+;4%d
+exfxcxdxbxegedabagacad
+ls: %s: %s
+ -> 
+%*s 
+%'*lld 
+usage: ls [-@ABCFGHILOPRSTUWabcdefghiklmnopqrstuvwxy1%%,] [--color=when] [-D format] [file ...]
