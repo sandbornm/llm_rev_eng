@@ -1,0 +1,11 @@
+compiler_flags/
+ghidra_crackmes/
+ghidra_patched/
+llm_re_gproj/
+crackmes.zip
+.DS_Store
+
+scripts/complexity_summary.py
+scripts/detect_packer.sh
+scripts/run_capa.sh
+targets/crackmes
