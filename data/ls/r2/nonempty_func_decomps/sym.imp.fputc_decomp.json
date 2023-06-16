@@ -1,0 +1,1 @@
+{"annotations":[{"start":59,"end":59,"offset":4294997110,"type":"offset"},{"start":121,"end":121,"offset":4294997110,"type":"offset"}],"code":"int sym.imp.fputc (int esi, int edx) {\n    loc_0x100007476:\n        // CALL XREF from sym.func.100005f79 @ 0x10000629a(x)\n        goto loc_qword [reloc.fputc] // [0x100008108:8]=0x100007714\n         // (break)\n}\n"}

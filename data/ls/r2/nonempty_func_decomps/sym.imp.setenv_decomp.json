@@ -1,0 +1,1 @@
+{"annotations":[{"start":60,"end":60,"offset":4294997302,"type":"offset"},{"start":108,"end":108,"offset":4294997302,"type":"offset"}],"code":"int sym.imp.setenv (int esi, int edx) {\n    loc_0x100007536:\n        // CALL XREF from main @ 0x100004109(x)\n        goto loc_qword [reloc.setenv] // [0x100008208:8]=0x10000784a // \"Jx\"\n         // (break)\n}\n"}

@@ -1,0 +1,1 @@
+{"annotations":[{"start":60,"end":60,"offset":4294997056,"type":"offset"},{"start":122,"end":122,"offset":4294997056,"type":"offset"}],"code":"int sym.imp.calloc (int esi, int edx) {\n    loc_0x100007440:\n        // CALL XREF from sym.func.100004b25 @ 0x10000508d(x)\n        goto loc_qword [reloc.calloc] // [0x1000080c0:8]=0x1000076ba\n         // (break)\n}\n"}

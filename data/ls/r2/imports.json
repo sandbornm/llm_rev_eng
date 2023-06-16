@@ -1,0 +1,639 @@
+[
+    {
+        "ordinal": 0,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "_DefaultRuneLocale",
+        "plt": 0
+    },
+    {
+        "ordinal": 1,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "__assert_rtn",
+        "plt": 4294996960
+    },
+    {
+        "ordinal": 2,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "__bzero",
+        "plt": 4294996966
+    },
+    {
+        "ordinal": 3,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "__error",
+        "plt": 4294996972
+    },
+    {
+        "ordinal": 4,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "__maskrune",
+        "plt": 4294996978
+    },
+    {
+        "ordinal": 5,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "__stack_chk_fail",
+        "plt": 4294996984
+    },
+    {
+        "ordinal": 6,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "__stack_chk_guard",
+        "plt": 0
+    },
+    {
+        "ordinal": 7,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "__stderrp",
+        "plt": 0
+    },
+    {
+        "ordinal": 8,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "__stdoutp",
+        "plt": 0
+    },
+    {
+        "ordinal": 9,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "__tolower",
+        "plt": 4294996990
+    },
+    {
+        "ordinal": 10,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "abort",
+        "plt": 4294996996
+    },
+    {
+        "ordinal": 11,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "acl_free",
+        "plt": 4294997002
+    },
+    {
+        "ordinal": 12,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "acl_get_entry",
+        "plt": 4294997008
+    },
+    {
+        "ordinal": 13,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "acl_get_flag_np",
+        "plt": 4294997014
+    },
+    {
+        "ordinal": 14,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "acl_get_flagset_np",
+        "plt": 4294997020
+    },
+    {
+        "ordinal": 15,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "acl_get_link_np",
+        "plt": 4294997026
+    },
+    {
+        "ordinal": 16,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "acl_get_perm_np",
+        "plt": 4294997032
+    },
+    {
+        "ordinal": 17,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "acl_get_permset",
+        "plt": 4294997038
+    },
+    {
+        "ordinal": 18,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "acl_get_qualifier",
+        "plt": 4294997044
+    },
+    {
+        "ordinal": 19,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "acl_get_tag_type",
+        "plt": 4294997050
+    },
+    {
+        "ordinal": 20,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "calloc",
+        "plt": 4294997056
+    },
+    {
+        "ordinal": 21,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "compat_mode",
+        "plt": 4294997062
+    },
+    {
+        "ordinal": 22,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "err",
+        "plt": 4294997068
+    },
+    {
+        "ordinal": 23,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "errx",
+        "plt": 4294997074
+    },
+    {
+        "ordinal": 24,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "exit",
+        "plt": 4294997080
+    },
+    {
+        "ordinal": 25,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "ferror",
+        "plt": 4294997086
+    },
+    {
+        "ordinal": 26,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "fflagstostr",
+        "plt": 4294997092
+    },
+    {
+        "ordinal": 27,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "fflush",
+        "plt": 4294997098
+    },
+    {
+        "ordinal": 28,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "fprintf",
+        "plt": 4294997104
+    },
+    {
+        "ordinal": 29,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "fputc",
+        "plt": 4294997110
+    },
+    {
+        "ordinal": 30,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "fputs",
+        "plt": 4294997116
+    },
+    {
+        "ordinal": 31,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "free",
+        "plt": 4294997122
+    },
+    {
+        "ordinal": 32,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "fts_children$INODE64",
+        "plt": 4294997128
+    },
+    {
+        "ordinal": 33,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "fts_close$INODE64",
+        "plt": 4294997134
+    },
+    {
+        "ordinal": 34,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "fts_open$INODE64",
+        "plt": 4294997140
+    },
+    {
+        "ordinal": 35,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "fts_read$INODE64",
+        "plt": 4294997146
+    },
+    {
+        "ordinal": 36,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "fts_set$INODE64",
+        "plt": 4294997152
+    },
+    {
+        "ordinal": 37,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "getbsize",
+        "plt": 4294997158
+    },
+    {
+        "ordinal": 38,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "getenv",
+        "plt": 4294997164
+    },
+    {
+        "ordinal": 39,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "getopt_long",
+        "plt": 4294997170
+    },
+    {
+        "ordinal": 40,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "getpid",
+        "plt": 4294997176
+    },
+    {
+        "ordinal": 41,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "getuid",
+        "plt": 4294997182
+    },
+    {
+        "ordinal": 42,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "getxattr",
+        "plt": 4294997188
+    },
+    {
+        "ordinal": 43,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "group_from_gid",
+        "plt": 4294997194
+    },
+    {
+        "ordinal": 44,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "humanize_number",
+        "plt": 4294997200
+    },
+    {
+        "ordinal": 45,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "ioctl",
+        "plt": 4294997206
+    },
+    {
+        "ordinal": 46,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "isatty",
+        "plt": 4294997212
+    },
+    {
+        "ordinal": 47,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "kill",
+        "plt": 4294997218
+    },
+    {
+        "ordinal": 48,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "listxattr",
+        "plt": 4294997224
+    },
+    {
+        "ordinal": 49,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "localtime",
+        "plt": 4294997230
+    },
+    {
+        "ordinal": 50,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "malloc",
+        "plt": 4294997236
+    },
+    {
+        "ordinal": 51,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "mbr_identifier_translate",
+        "plt": 4294997242
+    },
+    {
+        "ordinal": 52,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "mbrtowc",
+        "plt": 4294997248
+    },
+    {
+        "ordinal": 53,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "memchr",
+        "plt": 4294997254
+    },
+    {
+        "ordinal": 54,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "nl_langinfo",
+        "plt": 4294997260
+    },
+    {
+        "ordinal": 55,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "optarg",
+        "plt": 0
+    },
+    {
+        "ordinal": 56,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "optind",
+        "plt": 0
+    },
+    {
+        "ordinal": 57,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "printf",
+        "plt": 4294997266
+    },
+    {
+        "ordinal": 58,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "putchar",
+        "plt": 4294997272
+    },
+    {
+        "ordinal": 59,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "puts",
+        "plt": 4294997278
+    },
+    {
+        "ordinal": 60,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "readlink",
+        "plt": 4294997284
+    },
+    {
+        "ordinal": 61,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "realloc",
+        "plt": 4294997290
+    },
+    {
+        "ordinal": 62,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "reallocf",
+        "plt": 4294997296
+    },
+    {
+        "ordinal": 63,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "setenv",
+        "plt": 4294997302
+    },
+    {
+        "ordinal": 64,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "setlocale",
+        "plt": 4294997308
+    },
+    {
+        "ordinal": 65,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "signal",
+        "plt": 4294997314
+    },
+    {
+        "ordinal": 66,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "snprintf",
+        "plt": 4294997320
+    },
+    {
+        "ordinal": 67,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "strcmp",
+        "plt": 4294997326
+    },
+    {
+        "ordinal": 68,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "strcoll",
+        "plt": 4294997332
+    },
+    {
+        "ordinal": 69,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "strcpy",
+        "plt": 4294997338
+    },
+    {
+        "ordinal": 70,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "strdup",
+        "plt": 4294997344
+    },
+    {
+        "ordinal": 71,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "strerror",
+        "plt": 4294997350
+    },
+    {
+        "ordinal": 72,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "strftime",
+        "plt": 4294997356
+    },
+    {
+        "ordinal": 73,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "strlen",
+        "plt": 4294997362
+    },
+    {
+        "ordinal": 74,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "strmode",
+        "plt": 4294997368
+    },
+    {
+        "ordinal": 75,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "strstr",
+        "plt": 4294997374
+    },
+    {
+        "ordinal": 76,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "strtonum",
+        "plt": 4294997380
+    },
+    {
+        "ordinal": 77,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "strtoul",
+        "plt": 4294997386
+    },
+    {
+        "ordinal": 78,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "sysctlbyname",
+        "plt": 4294997392
+    },
+    {
+        "ordinal": 79,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "tgetent",
+        "plt": 4294997398
+    },
+    {
+        "ordinal": 80,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "tgetstr",
+        "plt": 4294997404
+    },
+    {
+        "ordinal": 81,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "tgoto",
+        "plt": 4294997410
+    },
+    {
+        "ordinal": 82,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "time",
+        "plt": 4294997416
+    },
+    {
+        "ordinal": 83,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "tputs",
+        "plt": 4294997422
+    },
+    {
+        "ordinal": 84,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "user_from_uid",
+        "plt": 4294997428
+    },
+    {
+        "ordinal": 85,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "uuid_unparse_upper",
+        "plt": 4294997434
+    },
+    {
+        "ordinal": 86,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "warn",
+        "plt": 4294997440
+    },
+    {
+        "ordinal": 87,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "warnx",
+        "plt": 4294997446
+    },
+    {
+        "ordinal": 88,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "wcwidth",
+        "plt": 4294997452
+    },
+    {
+        "ordinal": 89,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "write",
+        "plt": 4294997458
+    },
+    {
+        "ordinal": 90,
+        "bind": "NONE",
+        "type": "FUNC",
+        "name": "dyld_stub_binder",
+        "plt": 0
+    }
+]

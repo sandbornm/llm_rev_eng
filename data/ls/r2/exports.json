@@ -1,0 +1,14 @@
+[
+    {
+        "name": "__mh_execute_header",
+        "flagname": "sym.__mh_execute_header",
+        "realname": "__mh_execute_header",
+        "ordinal": 0,
+        "bind": "GLOBAL",
+        "size": 0,
+        "type": "FUNC",
+        "vaddr": 4294967296,
+        "paddr": 16384,
+        "is_imported": false
+    }
+]
