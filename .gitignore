@@ -5,7 +5,16 @@ llm_re_gproj/
 crackmes.zip
 .DS_Store
 
-scripts/complexity_summary.py
-scripts/detect_packer.sh
-scripts/run_capa.sh
+src/scripts/complexity_summary.py
+src/scripts/detect_packer.sh
+src/scripts/run_capa.sh
+src/llm_re.ipynb
 targets/crackmes
+generated_c/
+angr_scripts/
+ghidra_scripts/
+llm_re_testing/
+radare_scripts/
+allstar_targets/
+analysis_json/
+eval_plan

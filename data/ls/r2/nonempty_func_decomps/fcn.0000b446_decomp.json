@@ -1,0 +1,1 @@
+{"annotations":[{"start":53,"end":53,"offset":46150,"type":"offset"},{"start":96,"end":96,"offset":46150,"type":"offset"}],"code":"int fcn.0000b446 (int esi, int edx) {\n    loc_0xb446:\n        // CALL XREF from rax @ +0x7bf2(x)\n        goto loc_qword [0x0000c0c8] // [0xc0c8:8]=0x1000076c4\n         // (break)\n}\n"}

@@ -1,0 +1,1 @@
+{"annotations":[{"start":60,"end":60,"offset":4294997086,"type":"offset"},{"start":108,"end":108,"offset":4294997086,"type":"offset"}],"code":"int sym.imp.ferror (int esi, int edx) {\n    loc_0x10000745e:\n        // CALL XREF from main @ 0x100004661(x)\n        goto loc_qword [reloc.ferror] // [0x1000080e8:8]=0x1000076ec\n         // (break)\n}\n"}

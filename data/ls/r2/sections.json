@@ -1,0 +1,106 @@
+[
+    {
+        "name": "0.__TEXT.__text",
+        "size": 15007,
+        "vsize": 15007,
+        "perm": "-r-x",
+        "paddr": 14656,
+        "vaddr": 4294981952
+    },
+    {
+        "name": "1.__TEXT.__stubs",
+        "size": 504,
+        "vsize": 504,
+        "perm": "-r-x",
+        "paddr": 29664,
+        "vaddr": 4294996960
+    },
+    {
+        "name": "2.__TEXT.__stub_helper",
+        "size": 856,
+        "vsize": 856,
+        "perm": "-r-x",
+        "paddr": 30168,
+        "vaddr": 4294997464
+    },
+    {
+        "name": "3.__TEXT.__const",
+        "size": 291,
+        "vsize": 291,
+        "perm": "-r-x",
+        "paddr": 31024,
+        "vaddr": 4294998320
+    },
+    {
+        "name": "4.__TEXT.__cstring",
+        "size": 1268,
+        "vsize": 1268,
+        "perm": "-r-x",
+        "paddr": 31315,
+        "vaddr": 4294998611
+    },
+    {
+        "name": "5.__TEXT.__unwind_info",
+        "size": 172,
+        "vsize": 172,
+        "perm": "-r-x",
+        "paddr": 32584,
+        "vaddr": 4294999880
+    },
+    {
+        "name": "6.__DATA.__nl_symbol_ptr",
+        "size": 8,
+        "vsize": 8,
+        "perm": "-rw-",
+        "paddr": 32768,
+        "vaddr": 4295000064
+    },
+    {
+        "name": "7.__DATA.__got",
+        "size": 56,
+        "vsize": 56,
+        "perm": "-rw-",
+        "paddr": 32776,
+        "vaddr": 4295000072
+    },
+    {
+        "name": "8.__DATA.__la_symbol_ptr",
+        "size": 672,
+        "vsize": 672,
+        "perm": "-rw-",
+        "paddr": 32832,
+        "vaddr": 4295000128
+    },
+    {
+        "name": "9.__DATA.__const",
+        "size": 616,
+        "vsize": 616,
+        "perm": "-rw-",
+        "paddr": 33504,
+        "vaddr": 4295000800
+    },
+    {
+        "name": "10.__DATA.__data",
+        "size": 40,
+        "vsize": 40,
+        "perm": "-rw-",
+        "paddr": 34128,
+        "vaddr": 4295001424
+    },
+    {
+        "name": "11.__DATA.__common",
+        "size": 0,
+        "vsize": 176,
+        "perm": "-rw-",
+        "paddr": 0,
+        "vaddr": 4295001464
+    },
+    {
+        "name": "12.__DATA.__bss",
+        "size": 0,
+        "vsize": 352,
+        "perm": "-rw-",
+        "paddr": 0,
+        "vaddr": 4295001648
+    }
+]

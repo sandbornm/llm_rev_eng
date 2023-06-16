@@ -1,0 +1,1012 @@
+[
+    {
+        "vaddr": 4294998320,
+        "paddr": 31024,
+        "ordinal": 0,
+        "size": 45,
+        "length": 44,
+        "section": "3.__TEXT.__const",
+        "type": "ascii",
+        "string": "@(#)PROGRAM:ls  PROJECT:file_cmds-403.100.6\\n"
+    },
+    {
+        "vaddr": 4294998373,
+        "paddr": 31077,
+        "ordinal": 1,
+        "size": 13,
+        "length": 12,
+        "section": "3.__TEXT.__const",
+        "type": "ascii",
+        "string": "1y@$FreeBSD$"
+    },
+    {
+        "vaddr": 4294998400,
+        "paddr": 31104,
+        "ordinal": 2,
+        "size": 105,
+        "length": 104,
+        "section": "3.__TEXT.__const",
+        "type": "ascii",
+        "string": "@(#) Copyright (c) 1989, 1993, 1994\\n\\tThe Regents of the University of California.  All rights reserved.\\n"
+    },
+    {
+        "vaddr": 4294998505,
+        "paddr": 31209,
+        "ordinal": 3,
+        "size": 10,
+        "length": 9,
+        "section": "3.__TEXT.__const",
+        "type": "ascii",
+        "string": "$FreeBSD$"
+    },
+    {
+        "vaddr": 4294998516,
+        "paddr": 31220,
+        "ordinal": 4,
+        "size": 10,
+        "length": 9,
+        "section": "3.__TEXT.__const",
+        "type": "ascii",
+        "string": "$FreeBSD$"
+    },
+    {
+        "vaddr": 4294998528,
+        "paddr": 31232,
+        "ordinal": 5,
+        "size": 48,
+        "length": 11,
+        "section": "3.__TEXT.__const",
+        "type": "utf32le",
+        "string": "@/=/%//|///"
+    },
+    {
+        "vaddr": 4294998576,
+        "paddr": 31280,
+        "ordinal": 6,
+        "size": 10,
+        "length": 9,
+        "section": "3.__TEXT.__const",
+        "type": "ascii",
+        "string": "$FreeBSD$"
+    },
+    {
+        "vaddr": 4294998592,
+        "paddr": 31296,
+        "ordinal": 7,
+        "size": 19,
+        "length": 18,
+        "section": "3.__TEXT.__const",
+        "type": "ascii",
+        "string": "\\\\\\\\\"\"\\aa\\bb\\ff\\nn\\rr\\tt\\vv"
+    },
+    {
+        "vaddr": 4294998612,
+        "paddr": 31316,
+        "ordinal": 0,
+        "size": 7,
+        "length": 6,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "bin/ls"
+    },
+    {
+        "vaddr": 4294998619,
+        "paddr": 31323,
+        "ordinal": 1,
+        "size": 9,
+        "length": 8,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "Unix2003"
+    },
+    {
+        "vaddr": 4294998628,
+        "paddr": 31332,
+        "ordinal": 2,
+        "size": 8,
+        "length": 7,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "COLUMNS"
+    },
+    {
+        "vaddr": 4294998636,
+        "paddr": 31340,
+        "ordinal": 3,
+        "size": 12,
+        "length": 11,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "LS_SAMESORT"
+    },
+    {
+        "vaddr": 4294998648,
+        "paddr": 31352,
+        "ordinal": 4,
+        "size": 9,
+        "length": 8,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "CLICOLOR"
+    },
+    {
+        "vaddr": 4294998657,
+        "paddr": 31361,
+        "ordinal": 5,
+        "size": 47,
+        "length": 46,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "+@1ABCD:FGHILOPRSTUWabcdefghiklmnopqrstuvwxy%,"
+    },
+    {
+        "vaddr": 4294998704,
+        "paddr": 31408,
+        "ordinal": 6,
+        "size": 64,
+        "length": 63,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "unsupported --color value '%s' (must be always, auto, or never)"
+    },
+    {
+        "vaddr": 4294998768,
+        "paddr": 31472,
+        "ordinal": 7,
+        "size": 5,
+        "length": 4,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "TERM"
+    },
+    {
+        "vaddr": 4294998791,
+        "paddr": 31495,
+        "ordinal": 8,
+        "size": 9,
+        "length": 8,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "LSCOLORS"
+    },
+    {
+        "vaddr": 4294998800,
+        "paddr": 31504,
+        "ordinal": 9,
+        "size": 35,
+        "length": 34,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "vfs.nspace.prevent_materialization"
+    },
+    {
+        "vaddr": 4294998835,
+        "paddr": 31539,
+        "ordinal": 10,
+        "size": 24,
+        "length": 23,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "prevent_materialization"
+    },
+    {
+        "vaddr": 4294998859,
+        "paddr": 31563,
+        "ordinal": 11,
+        "size": 7,
+        "length": 6,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "stdout"
+    },
+    {
+        "vaddr": 4294998866,
+        "paddr": 31570,
+        "ordinal": 12,
+        "size": 6,
+        "length": 5,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "color"
+    },
+    {
+        "vaddr": 4294998872,
+        "paddr": 31576,
+        "ordinal": 13,
+        "size": 7,
+        "length": 6,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "always"
+    },
+    {
+        "vaddr": 4294998883,
+        "paddr": 31587,
+        "ordinal": 14,
+        "size": 6,
+        "length": 5,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "force"
+    },
+    {
+        "vaddr": 4294998889,
+        "paddr": 31593,
+        "ordinal": 15,
+        "size": 5,
+        "length": 4,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "auto"
+    },
+    {
+        "vaddr": 4294998898,
+        "paddr": 31602,
+        "ordinal": 16,
+        "size": 7,
+        "length": 6,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "if-tty"
+    },
+    {
+        "vaddr": 4294998905,
+        "paddr": 31609,
+        "ordinal": 17,
+        "size": 6,
+        "length": 5,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "never"
+    },
+    {
+        "vaddr": 4294998914,
+        "paddr": 31618,
+        "ordinal": 18,
+        "size": 5,
+        "length": 4,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "none"
+    },
+    {
+        "vaddr": 4294998919,
+        "paddr": 31623,
+        "ordinal": 19,
+        "size": 10,
+        "length": 9,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "COLORTERM"
+    },
+    {
+        "vaddr": 4294998929,
+        "paddr": 31633,
+        "ordinal": 20,
+        "size": 15,
+        "length": 14,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "CLICOLOR_FORCE"
+    },
+    {
+        "vaddr": 4294998944,
+        "paddr": 31648,
+        "ordinal": 21,
+        "size": 9,
+        "length": 8,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "fts_open"
+    },
+    {
+        "vaddr": 4294998953,
+        "paddr": 31657,
+        "ordinal": 22,
+        "size": 29,
+        "length": 28,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "%s: directory causes a cycle"
+    },
+    {
+        "vaddr": 4294998982,
+        "paddr": 31686,
+        "ordinal": 23,
+        "size": 7,
+        "length": 6,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "%s: %s"
+    },
+    {
+        "vaddr": 4294998991,
+        "paddr": 31695,
+        "ordinal": 24,
+        "size": 9,
+        "length": 8,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "fts_read"
+    },
+    {
+        "vaddr": 4294999000,
+        "paddr": 31704,
+        "ordinal": 25,
+        "size": 13,
+        "length": 12,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "LS_COLWIDTHS"
+    },
+    {
+        "vaddr": 4294999016,
+        "paddr": 31720,
+        "ordinal": 26,
+        "size": 14,
+        "length": 13,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "user_from_uid"
+    },
+    {
+        "vaddr": 4294999030,
+        "paddr": 31734,
+        "ordinal": 27,
+        "size": 15,
+        "length": 14,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "group_from_gid"
+    },
+    {
+        "vaddr": 4294999047,
+        "paddr": 31751,
+        "ordinal": 28,
+        "size": 12,
+        "length": 11,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "fflagstostr"
+    },
+    {
+        "vaddr": 4294999059,
+        "paddr": 31763,
+        "ordinal": 29,
+        "size": 7,
+        "length": 6,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "malloc"
+    },
+    {
+        "vaddr": 4294999066,
+        "paddr": 31770,
+        "ordinal": 30,
+        "size": 6,
+        "length": 5,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "%s/%s"
+    },
+    {
+        "vaddr": 4294999072,
+        "paddr": 31776,
+        "ordinal": 31,
+        "size": 5,
+        "length": 4,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "%#jx"
+    },
+    {
+        "vaddr": 4294999077,
+        "paddr": 31781,
+        "ordinal": 32,
+        "size": 5,
+        "length": 4,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "%llu"
+    },
+    {
+        "vaddr": 4294999082,
+        "paddr": 31786,
+        "ordinal": 33,
+        "size": 5,
+        "length": 4,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "%lld"
+    },
+    {
+        "vaddr": 4294999087,
+        "paddr": 31791,
+        "ordinal": 34,
+        "size": 10,
+        "length": 9,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "printscol"
+    },
+    {
+        "vaddr": 4294999097,
+        "paddr": 31801,
+        "ordinal": 35,
+        "size": 8,
+        "length": 7,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "print.c"
+    },
+    {
+        "vaddr": 4294999108,
+        "paddr": 31812,
+        "ordinal": 36,
+        "size": 11,
+        "length": 10,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "total %qu\\n"
+    },
+    {
+        "vaddr": 4294999119,
+        "paddr": 31823,
+        "ordinal": 37,
+        "size": 6,
+        "length": 5,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "%*ju "
+    },
+    {
+        "vaddr": 4294999125,
+        "paddr": 31829,
+        "ordinal": 38,
+        "size": 7,
+        "length": 6,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "%*lld "
+    },
+    {
+        "vaddr": 4294999132,
+        "paddr": 31836,
+        "ordinal": 39,
+        "size": 13,
+        "length": 12,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "%s%s %*ju   "
+    },
+    {
+        "vaddr": 4294999145,
+        "paddr": 31849,
+        "ordinal": 40,
+        "size": 17,
+        "length": 16,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "%s%s %*ju %-*s  "
+    },
+    {
+        "vaddr": 4294999162,
+        "paddr": 31866,
+        "ordinal": 41,
+        "size": 23,
+        "length": 22,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "%s%s %*ju %-*s  %-*s  "
+    },
+    {
+        "vaddr": 4294999185,
+        "paddr": 31889,
+        "ordinal": 42,
+        "size": 6,
+        "length": 5,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "%-*s "
+    },
+    {
+        "vaddr": 4294999194,
+        "paddr": 31898,
+        "ordinal": 43,
+        "size": 9,
+        "length": 8,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "printcol"
+    },
+    {
+        "vaddr": 4294999203,
+        "paddr": 31907,
+        "ordinal": 44,
+        "size": 19,
+        "length": 18,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "base < dp->entries"
+    },
+    {
+        "vaddr": 4294999222,
+        "paddr": 31926,
+        "ordinal": 45,
+        "size": 72,
+        "length": 71,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "LSCOLORS should use characters a-h instead of 0-9 (see the manual page)"
+    },
+    {
+        "vaddr": 4294999294,
+        "paddr": 31998,
+        "ordinal": 46,
+        "size": 43,
+        "length": 42,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "invalid character '%c' in LSCOLORS env var"
+    },
+    {
+        "vaddr": 4294999337,
+        "paddr": 32041,
+        "ordinal": 47,
+        "size": 6,
+        "length": 5,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "allow"
+    },
+    {
+        "vaddr": 4294999343,
+        "paddr": 32047,
+        "ordinal": 48,
+        "size": 5,
+        "length": 4,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "deny"
+    },
+    {
+        "vaddr": 4294999348,
+        "paddr": 32052,
+        "ordinal": 49,
+        "size": 8,
+        "length": 7,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "unknown"
+    },
+    {
+        "vaddr": 4294999356,
+        "paddr": 32060,
+        "ordinal": 50,
+        "size": 14,
+        "length": 13,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": " %d: %s%s %s "
+    },
+    {
+        "vaddr": 4294999370,
+        "paddr": 32074,
+        "ordinal": 51,
+        "size": 11,
+        "length": 10,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": " inherited"
+    },
+    {
+        "vaddr": 4294999381,
+        "paddr": 32085,
+        "ordinal": 52,
+        "size": 5,
+        "length": 4,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "%s%s"
+    },
+    {
+        "vaddr": 4294999388,
+        "paddr": 32092,
+        "ordinal": 53,
+        "size": 6,
+        "length": 5,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "%s:%s"
+    },
+    {
+        "vaddr": 4294999394,
+        "paddr": 32098,
+        "ordinal": 54,
+        "size": 5,
+        "length": 4,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "user"
+    },
+    {
+        "vaddr": 4294999399,
+        "paddr": 32103,
+        "ordinal": 55,
+        "size": 6,
+        "length": 5,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "group"
+    },
+    {
+        "vaddr": 4294999405,
+        "paddr": 32109,
+        "ordinal": 56,
+        "size": 5,
+        "length": 4,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "read"
+    },
+    {
+        "vaddr": 4294999410,
+        "paddr": 32114,
+        "ordinal": 57,
+        "size": 5,
+        "length": 4,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "list"
+    },
+    {
+        "vaddr": 4294999415,
+        "paddr": 32119,
+        "ordinal": 58,
+        "size": 6,
+        "length": 5,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "write"
+    },
+    {
+        "vaddr": 4294999421,
+        "paddr": 32125,
+        "ordinal": 59,
+        "size": 9,
+        "length": 8,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "add_file"
+    },
+    {
+        "vaddr": 4294999430,
+        "paddr": 32134,
+        "ordinal": 60,
+        "size": 8,
+        "length": 7,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "execute"
+    },
+    {
+        "vaddr": 4294999438,
+        "paddr": 32142,
+        "ordinal": 61,
+        "size": 7,
+        "length": 6,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "search"
+    },
+    {
+        "vaddr": 4294999445,
+        "paddr": 32149,
+        "ordinal": 62,
+        "size": 7,
+        "length": 6,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "delete"
+    },
+    {
+        "vaddr": 4294999452,
+        "paddr": 32156,
+        "ordinal": 63,
+        "size": 7,
+        "length": 6,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "append"
+    },
+    {
+        "vaddr": 4294999459,
+        "paddr": 32163,
+        "ordinal": 64,
+        "size": 17,
+        "length": 16,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "add_subdirectory"
+    },
+    {
+        "vaddr": 4294999476,
+        "paddr": 32180,
+        "ordinal": 65,
+        "size": 13,
+        "length": 12,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "delete_child"
+    },
+    {
+        "vaddr": 4294999489,
+        "paddr": 32193,
+        "ordinal": 66,
+        "size": 9,
+        "length": 8,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "readattr"
+    },
+    {
+        "vaddr": 4294999498,
+        "paddr": 32202,
+        "ordinal": 67,
+        "size": 10,
+        "length": 9,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "writeattr"
+    },
+    {
+        "vaddr": 4294999508,
+        "paddr": 32212,
+        "ordinal": 68,
+        "size": 12,
+        "length": 11,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "readextattr"
+    },
+    {
+        "vaddr": 4294999520,
+        "paddr": 32224,
+        "ordinal": 69,
+        "size": 13,
+        "length": 12,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "writeextattr"
+    },
+    {
+        "vaddr": 4294999533,
+        "paddr": 32237,
+        "ordinal": 70,
+        "size": 13,
+        "length": 12,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "readsecurity"
+    },
+    {
+        "vaddr": 4294999546,
+        "paddr": 32250,
+        "ordinal": 71,
+        "size": 14,
+        "length": 13,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "writesecurity"
+    },
+    {
+        "vaddr": 4294999560,
+        "paddr": 32264,
+        "ordinal": 72,
+        "size": 6,
+        "length": 5,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "chown"
+    },
+    {
+        "vaddr": 4294999566,
+        "paddr": 32270,
+        "ordinal": 73,
+        "size": 13,
+        "length": 12,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "file_inherit"
+    },
+    {
+        "vaddr": 4294999579,
+        "paddr": 32283,
+        "ordinal": 74,
+        "size": 18,
+        "length": 17,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "directory_inherit"
+    },
+    {
+        "vaddr": 4294999597,
+        "paddr": 32301,
+        "ordinal": 75,
+        "size": 14,
+        "length": 13,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "limit_inherit"
+    },
+    {
+        "vaddr": 4294999611,
+        "paddr": 32315,
+        "ordinal": 76,
+        "size": 13,
+        "length": 12,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "only_inherit"
+    },
+    {
+        "vaddr": 4294999624,
+        "paddr": 32328,
+        "ordinal": 77,
+        "size": 7,
+        "length": 6,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "%#*jx "
+    },
+    {
+        "vaddr": 4294999631,
+        "paddr": 32335,
+        "ordinal": 78,
+        "size": 12,
+        "length": 11,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "%e %b %T %Y"
+    },
+    {
+        "vaddr": 4294999643,
+        "paddr": 32347,
+        "ordinal": 79,
+        "size": 12,
+        "length": 11,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "%b %e %T %Y"
+    },
+    {
+        "vaddr": 4294999655,
+        "paddr": 32359,
+        "ordinal": 80,
+        "size": 9,
+        "length": 8,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "%e %b %R"
+    },
+    {
+        "vaddr": 4294999664,
+        "paddr": 32368,
+        "ordinal": 81,
+        "size": 9,
+        "length": 8,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "%b %e %R"
+    },
+    {
+        "vaddr": 4294999673,
+        "paddr": 32377,
+        "ordinal": 82,
+        "size": 10,
+        "length": 9,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "%e %b  %Y"
+    },
+    {
+        "vaddr": 4294999683,
+        "paddr": 32387,
+        "ordinal": 83,
+        "size": 10,
+        "length": 9,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "%b %e  %Y"
+    },
+    {
+        "vaddr": 4294999696,
+        "paddr": 32400,
+        "ordinal": 84,
+        "size": 12,
+        "length": 11,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "%.*s%s%*s%s"
+    },
+    {
+        "vaddr": 4294999715,
+        "paddr": 32419,
+        "ordinal": 85,
+        "size": 5,
+        "length": 4,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": ";3%d"
+    },
+    {
+        "vaddr": 4294999720,
+        "paddr": 32424,
+        "ordinal": 86,
+        "size": 5,
+        "length": 4,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": ";4%d"
+    },
+    {
+        "vaddr": 4294999725,
+        "paddr": 32429,
+        "ordinal": 87,
+        "size": 23,
+        "length": 22,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "exfxcxdxbxegedabagacad"
+    },
+    {
+        "vaddr": 4294999751,
+        "paddr": 32455,
+        "ordinal": 88,
+        "size": 13,
+        "length": 12,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "\\nls: %s: %s\\n"
+    },
+    {
+        "vaddr": 4294999764,
+        "paddr": 32468,
+        "ordinal": 89,
+        "size": 5,
+        "length": 4,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": " -> "
+    },
+    {
+        "vaddr": 4294999769,
+        "paddr": 32473,
+        "ordinal": 90,
+        "size": 5,
+        "length": 4,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "%*s "
+    },
+    {
+        "vaddr": 4294999774,
+        "paddr": 32478,
+        "ordinal": 91,
+        "size": 8,
+        "length": 7,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "%'*lld "
+    },
+    {
+        "vaddr": 4294999782,
+        "paddr": 32486,
+        "ordinal": 92,
+        "size": 97,
+        "length": 96,
+        "section": "4.__TEXT.__cstring",
+        "type": "ascii",
+        "string": "usage: ls [-@ABCFGHILOPRSTUWabcdefghiklmnopqrstuvwxy1%%,] [--color=when] [-D format] [file ...]\\n"
+    }
+]

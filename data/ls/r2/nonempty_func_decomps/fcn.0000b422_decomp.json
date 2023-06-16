@@ -1,0 +1,1 @@
+{"annotations":[{"start":53,"end":53,"offset":46114,"type":"offset"},{"start":104,"end":104,"offset":46114,"type":"offset"}],"code":"int fcn.0000b422 (int esi, int edx) {\n    loc_0xb422:\n        // CALL XREF from fcn.00008b25 @ 0x91fd(x)\n        goto loc_qword [0x0000c098] // [0xc098:8]=0x100007688\n         // (break)\n}\n"}

@@ -1,0 +1,1 @@
+{"annotations":[{"start":61,"end":61,"offset":4294997272,"type":"offset"},{"start":82,"end":82,"offset":4294997272,"type":"offset"}],"code":"int sym.imp.putchar (int esi, int edx) {\n    loc_0x100007518:\n        // XREFS(28)\n        goto loc_qword [reloc.putchar] // [0x1000081e0:8]=0x100007818\n         // (break)\n}\n"}
