@@ -1,5 +1,5 @@
 import os
-from config import PROMPT_DIR, RESULT_DIR, DATA_DIR, REQUIRED_RESPONSE_KEYS
+from config import PROMPT_DIR, RESULT_DIR, DATA_DIR, REQUIRED_RESPONSE_KEYS, COMMANDS
 from typing import List, Dict, Any
 from chatgpt_util import ChatGPTUtil
 from handlers import RadareHandler
@@ -13,7 +13,6 @@ class LLMREDriver:
 
     def __init__(self, target_dir: str, re_tool: str, cmd_limit: int):
 
-
         print(f"init LLMREDriver with args: {target_dir}, {re_tool}, {cmd_limit}")
         assert os.path.exists(target_dir), f"File {target_dir} not found."
         self.target_dir = target_dir
@@ -21,6 +20,7 @@ class LLMREDriver:
 
         if re_tool == "r2":
             self.handler = RadareHandler(self.target_dir)
+        # add more handlers here
 
         self.cgpt_util = ChatGPTUtil()  # talk to chatGPT
         self.re_tool = re_tool  # which RE framework to get data from
@@ -56,8 +56,8 @@ class LLMREDriver:
         return response
 
 
-    def save_result(result_dict, result_dir, result_filename):
-        with open(os.path.join(result_dir, result_filename), 'w') as f:
+    def save_result(result_dict, result_filename):
+        with open(os.path.join(RESULT_DIR, result_filename), 'w') as f:
             json.dump(result_dict, f)
 
 
@@ -96,27 +96,29 @@ class LLMREDriver:
                 os.makedirs(result_dir, exist_ok=True)
             print(f"result dir is: {result_dir}")
 
-            cmd_count = 1
-            while cmd_count != self.cmd_limit:
+            r2_handler = RadareHandler(target_name)
 
-                if cmd_count == 1:  # init
+            cmd_num = 1
+            while cmd_num != self.cmd_limit:
+
+                if cmd_num == 1:  # init
                     cmd = "plan"
                     args = None
-                elif cmd_count == 2:  # init
+                elif cmd_num == 2:  # init
                     cmd = "sift"
                     args = "strings"
                 else:  # get next cmd from most recent json
-                    cmd = self.get_next_cmd(result_dir, cmd_count)
-                    args = self.get_next_args(result_dir, cmd_count)
+                    next_cmd = self.get_next_cmd(target_name, cmd_num)
+                    args = self.get_next_args(r2_handler, cmd_num, cmd)
 
-                response = self.run_cmd(cmd_count, cmd, args)
+                response = self.run_cmd(cmd_num, next_cmd, args)
 
                 if not self.validate_response_json(response):
                     print(f"Invalid response: {response}, breaking")
                     break
 
                 result_dict = {
-                    "cmd_count": cmd_count,
+                    "cmd_num": cmd_num,
                     "cmd": cmd,
                     "args": args,
                     "response": dict(response)
@@ -124,22 +126,22 @@ class LLMREDriver:
                 
                 print(f"result dict is: {result_dict}")
 
-                result_filename = f'{cmd_count}_{cmd}.json'
+                result_filename = f'{cmd_num}_{cmd}.json'
                 self.save_result(result_dict, result_dir, result_filename)
 
-                cmd_count += 1
+                cmd_num += 1
 
 
-    def get_next_cmd(self, result_dir, cmd_count):
-        prev_result = glob.glob(os.path.join(result_dir, f'{cmd_count-1}_*.json'))
+    def get_next_cmd(self, target_name, cmd_num):
+        prev_result = glob.glob(os.path.join(RESULT_DIR, target_name, f'{cmd_num-1}_*.json'))
         assert len(prev_result) == 1, f"Expected 1 result file, got {len(prev_result)}."
-
-        return prev_result['next_cmd']
+        
+        next_cmd = str(prev_result['next_cmd'])
+        assert next_cmd in COMMANDS, f"Command {next_cmd} not valid."
+        return next_cmd
     
 
-    def get_next_args(self, result_dir, cmd_count):
-        prev_result = glob.glob(os.path.join(result_dir, f'{cmd_count-1}_*.json'))
-        assert len(prev_result) == 1, f"Expected 1 result file, got {len(prev_result)}."
+    def get_next_args(self, handler, cmd_num, prev_cmd):
 
-        return prev_result['next_args']
+        return handler._retrieve_args(cmd_num, prev_cmd)
 
