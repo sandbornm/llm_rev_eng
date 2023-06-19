@@ -1,0 +1,16 @@
+{
+    "core": {
+        "type": "",
+        "file": "/Users/michael/GradSchool/Summer2023/llm_rev_eng/targets/test/ls_main_disasm.json",
+        "fd": 3,
+        "size": 35457,
+        "humansz": "34.6K",
+        "iorw": false,
+        "mode": "r-x",
+        "minopsz": 1,
+        "maxopsz": 16,
+        "invopsz": 1,
+        "block": 256,
+        "format": "any"
+    }
+}

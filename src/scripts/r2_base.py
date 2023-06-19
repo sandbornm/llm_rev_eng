@@ -6,7 +6,7 @@ import os
 
 
 
-def save_json(data, outfile): 
+def save_json(data, outfile):
     with open(outfile, "w") as f:
         json.dump(data, f, indent=4)
 
@@ -66,8 +66,9 @@ for func in func_list:
     if json.loads(func_cfg)["nodes"]:
         cfg_count += 1
         filename = func_cfg_dir + "/" + func + "_cfg.json"
-        with open(filename, "w") as f:
-            json.dump(func_cfg, f, indent=4)
+        save_json(func_cfg, filename)
+        #with open(filename, "w") as f:
+        #    json.dump(func_cfg, f, indent=4)
 
 print(f"non-empty func cfgs: {cfg_count}")
 
@@ -81,8 +82,9 @@ for func in func_list:
     if decomp_func:
         decomp_count += 1
         filename = func_decomp_dir + "/" + func + "_decomp.json"
-        with open(filename, "w") as f:
-            f.write(decomp_func)
+        save_json(decomp_func, filename)
+        # with open(filename, "w") as f:
+        #     json.dump(decomp_func)
     else:
         print(f"bad decompilation of func: {decomp_func}")
 
@@ -98,11 +100,33 @@ for func in func_list:
     if ghidra_decomp:
         ghidra_count += 1
         filename = ghidra_decomp_dir + "/" + func + "_ghidra_decomp.json"
-        with open(filename, "w") as f:
-            f.write(ghidra_decomp)
+        save_json(ghidra_decomp, filename)
+        #with open(filename, "w") as f:
+        #    json.dump(ghidra_decomp)
     else:
         print(f"bad ghidra decompilation of func: {ghidra_decomp}")
 
 print(f"non-empty ghidra decompilations: {ghidra_count}")
+
+# ghidra decompilation via radare
+disasm_dir = output_dir + "/func_disasm"
+os.makedirs(disasm_dir, exist_ok=True)
+disasm_count = 0
+
+for func in func_list:
+    disasm = r2.cmd("pdj @ " + func)
+    if disasm:
+        print(type(disasm))
+        disasm_count += 1
+        filename = disasm_dir + "/" + func + "_disasm.json"
+        save_json(disasm, filename)
+        #with open(filename, "w") as f:
+        #    json.dump(disasm)
+    else:
+        print(f"bad disassembly of func: {disasm}")
+
+print(f"non-empty disassemblies: {disasm_count}")
+
+
 
 r2.quit()

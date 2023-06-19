@@ -9,3 +9,15 @@ DATA_DIR = os.path.join(ROOT_DIR, 'data')  # background data organized by arch, 
 REQUIRED_RESPONSE_KEYS = [
     "next_cmd", "next_args", "reasoning"
 ]
+
+COMMANDS = [
+    "plan",
+    "sift",
+    "varname",
+    "types",
+    "ismain",
+    "namefunc",
+    "getsrc",
+    "summ",
+    "hypo"
+]
