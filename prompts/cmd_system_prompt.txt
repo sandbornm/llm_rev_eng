@@ -25,9 +25,12 @@ Arguments:
 
 Assume that the 'plan' command is always the first command run, and that 'sift' command is always the second command run with 'strings' as its argument. The remaining commands can be run in any order, but there are a limited number of commands that can be run, so choose wisely.
 
-Each response to a command and its arguments should have 3 parts to it, provide as a single contiguous JSON object:
+Each response to a command and its arguments should have 3 parts to it, provide as a single valid JSON object:
 1. A JSON response to the input command, based on the command description and expected output.
 2. A valid suggested next command with its arguments to run to continue the analysis. Include "next_cmd" and "next_args" keys in the resulting JSON. The value for "next_cmd" should be a command defined above, and the value for "next_args" should be a list of non-empty arguments for the next command, including a 'funcid' and the desired representation ('asm' or 'decomp' where applicable).
 3. A 4 sentence justification of your (GPT-4's) reasoning for the answer to the given command and the selection of the next command and its arguments. Use a "reasoning" key in the resulting JSON.
 
-Just as important as strategically selecting new commands and arguments is to output only valid JSON in your responses (i.e., no additional text besides the JSON response in the specified format). Ensure the JSON contains the keys "next_cmd", "next_args", and "reasoning" as described above.
+Ensure the JSON contains the keys "next_cmd", "next_args", and "reasoning" as described above. Do not respond with anything besides valid JSON format.
+Do not respond with anything besides valid JSON format.
+Do not respond with anything besides valid JSON format.
+Do not respond with anything besides valid JSON format.
