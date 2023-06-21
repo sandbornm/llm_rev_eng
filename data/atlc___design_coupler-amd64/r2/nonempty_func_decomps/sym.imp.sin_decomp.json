@@ -1,0 +1,1 @@
+"{\"annotations\":[{\"start\":54,\"end\":54,\"offset\":4196528,\"type\":\"offset\"},{\"start\":117,\"end\":117,\"offset\":4196528,\"type\":\"offset\"}],\"code\":\"int sym.imp.sin (int esi, int edx) {\\n    loc_0x4008b0:\\n        // CALL XREFS from dbg.main @ 0x400bce(x), 0x400e41(x)\\n        goto loc_qword [reloc.sin] // [0x60a4f0:8]=0x4008b6\\n         // (break)\\n}\\n\"}\n"

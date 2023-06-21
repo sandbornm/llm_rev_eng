@@ -1,0 +1,1 @@
+"{\"annotations\":[{\"start\":56,\"end\":56,\"offset\":4199552,\"type\":\"offset\"},{\"start\":116,\"end\":116,\"offset\":4199552,\"type\":\"offset\"}],\"code\":\"int sym.imp.qsort (int esi, int edx) {\\n    loc_0x401480:\\n        // CODE XREF from sym.search_sortlist @ 0x405d78(x)\\n        goto loc_qword [reloc.qsort] // [0x608270:8]=0x401486\\n         // (break)\\n}\\n\"}\n"

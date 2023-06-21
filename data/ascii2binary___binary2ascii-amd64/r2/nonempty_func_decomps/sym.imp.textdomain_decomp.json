@@ -1,0 +1,1 @@
+"{\"annotations\":[{\"start\":61,\"end\":61,\"offset\":4196816,\"type\":\"offset\"},{\"start\":110,\"end\":110,\"offset\":4196816,\"type\":\"offset\"}],\"code\":\"int sym.imp.textdomain (int esi, int edx) {\\n    loc_0x4009d0:\\n        // CALL XREF from dbg.main @ 0x400b6e(x)\\n        goto loc_qword [reloc.textdomain] // [0x604210:8]=0x4009d6\\n         // (break)\\n}\\n\"}\n"

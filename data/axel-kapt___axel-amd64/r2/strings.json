@@ -1,0 +1,1532 @@
+[
+    {
+        "vaddr": 4219492,
+        "paddr": 25188,
+        "ordinal": 0,
+        "size": 6,
+        "length": 5,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%s.st"
+    },
+    {
+        "vaddr": 4219498,
+        "paddr": 25194,
+        "ordinal": 1,
+        "size": 31,
+        "length": 30,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Buffer resized for this speed."
+    },
+    {
+        "vaddr": 4219529,
+        "paddr": 25225,
+        "ordinal": 2,
+        "size": 22,
+        "length": 21,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Could not parse URL.\\n"
+    },
+    {
+        "vaddr": 4219551,
+        "paddr": 25247,
+        "ordinal": 3,
+        "size": 22,
+        "length": 21,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "File size: %lld bytes"
+    },
+    {
+        "vaddr": 4219573,
+        "paddr": 25269,
+        "ordinal": 4,
+        "size": 23,
+        "length": 22,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Opening output file %s"
+    },
+    {
+        "vaddr": 4219596,
+        "paddr": 25292,
+        "ordinal": 5,
+        "size": 63,
+        "length": 62,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Server unsupported, starting from scratch with one connection."
+    },
+    {
+        "vaddr": 4219659,
+        "paddr": 25355,
+        "ordinal": 6,
+        "size": 53,
+        "length": 52,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "State file found: %lld bytes downloaded, %lld to go."
+    },
+    {
+        "vaddr": 4219712,
+        "paddr": 25408,
+        "ordinal": 7,
+        "size": 25,
+        "length": 24,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Error opening local file"
+    },
+    {
+        "vaddr": 4219737,
+        "paddr": 25433,
+        "ordinal": 8,
+        "size": 43,
+        "length": 42,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Crappy filesystem/OS.. Working around. :-("
+    },
+    {
+        "vaddr": 4219780,
+        "paddr": 25476,
+        "ordinal": 9,
+        "size": 18,
+        "length": 17,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Starting download"
+    },
+    {
+        "vaddr": 4219798,
+        "paddr": 25494,
+        "ordinal": 10,
+        "size": 56,
+        "length": 55,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Connection %i downloading from %s:%i using interface %s"
+    },
+    {
+        "vaddr": 4219854,
+        "paddr": 25550,
+        "ordinal": 11,
+        "size": 17,
+        "length": 16,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "pthread error!!!"
+    },
+    {
+        "vaddr": 4219871,
+        "paddr": 25567,
+        "ordinal": 12,
+        "size": 42,
+        "length": 41,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Error on connection %i! Connection closed"
+    },
+    {
+        "vaddr": 4219913,
+        "paddr": 25609,
+        "ordinal": 13,
+        "size": 34,
+        "length": 33,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Connection %i unexpectedly closed"
+    },
+    {
+        "vaddr": 4219947,
+        "paddr": 25643,
+        "ordinal": 14,
+        "size": 23,
+        "length": 22,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Connection %i finished"
+    },
+    {
+        "vaddr": 4219970,
+        "paddr": 25666,
+        "ordinal": 15,
+        "size": 13,
+        "length": 12,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Write error!"
+    },
+    {
+        "vaddr": 4219983,
+        "paddr": 25679,
+        "ordinal": 16,
+        "size": 24,
+        "length": 23,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Connection %i timed out"
+    },
+    {
+        "vaddr": 4220031,
+        "paddr": 25727,
+        "ordinal": 17,
+        "size": 8,
+        "length": 7,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "?ffffff"
+    },
+    {
+        "vaddr": 4220039,
+        "paddr": 25735,
+        "ordinal": 18,
+        "size": 12,
+        "length": 11,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "?%100[^\\n#]s"
+    },
+    {
+        "vaddr": 4220051,
+        "paddr": 25747,
+        "ordinal": 19,
+        "size": 8,
+        "length": 7,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%*[^\\n]s"
+    },
+    {
+        "vaddr": 4220059,
+        "paddr": 25755,
+        "ordinal": 20,
+        "size": 9,
+        "length": 8,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%[^= \\t]s"
+    },
+    {
+        "vaddr": 4220068,
+        "paddr": 25764,
+        "ordinal": 21,
+        "size": 17,
+        "length": 16,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "default_filename"
+    },
+    {
+        "vaddr": 4220085,
+        "paddr": 25781,
+        "ordinal": 22,
+        "size": 11,
+        "length": 10,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "http_proxy"
+    },
+    {
+        "vaddr": 4220096,
+        "paddr": 25792,
+        "ordinal": 23,
+        "size": 9,
+        "length": 8,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "no_proxy"
+    },
+    {
+        "vaddr": 4220105,
+        "paddr": 25801,
+        "ordinal": 24,
+        "size": 21,
+        "length": 20,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "strip_cgi_parameters"
+    },
+    {
+        "vaddr": 4220126,
+        "paddr": 25822,
+        "ordinal": 25,
+        "size": 20,
+        "length": 19,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "save_state_interval"
+    },
+    {
+        "vaddr": 4220146,
+        "paddr": 25842,
+        "ordinal": 26,
+        "size": 19,
+        "length": 18,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "connection_timeout"
+    },
+    {
+        "vaddr": 4220165,
+        "paddr": 25861,
+        "ordinal": 27,
+        "size": 16,
+        "length": 15,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "reconnect_delay"
+    },
+    {
+        "vaddr": 4220181,
+        "paddr": 25877,
+        "ordinal": 28,
+        "size": 16,
+        "length": 15,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "num_connections"
+    },
+    {
+        "vaddr": 4220197,
+        "paddr": 25893,
+        "ordinal": 29,
+        "size": 12,
+        "length": 11,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "buffer_size"
+    },
+    {
+        "vaddr": 4220209,
+        "paddr": 25905,
+        "ordinal": 30,
+        "size": 10,
+        "length": 9,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "max_speed"
+    },
+    {
+        "vaddr": 4220219,
+        "paddr": 25915,
+        "ordinal": 31,
+        "size": 8,
+        "length": 7,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "verbose"
+    },
+    {
+        "vaddr": 4220227,
+        "paddr": 25923,
+        "ordinal": 32,
+        "size": 17,
+        "length": 16,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "alternate_output"
+    },
+    {
+        "vaddr": 4220244,
+        "paddr": 25940,
+        "ordinal": 33,
+        "size": 15,
+        "length": 14,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "search_timeout"
+    },
+    {
+        "vaddr": 4220259,
+        "paddr": 25955,
+        "ordinal": 34,
+        "size": 15,
+        "length": 14,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "search_threads"
+    },
+    {
+        "vaddr": 4220274,
+        "paddr": 25970,
+        "ordinal": 35,
+        "size": 14,
+        "length": 13,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "search_amount"
+    },
+    {
+        "vaddr": 4220288,
+        "paddr": 25984,
+        "ordinal": 36,
+        "size": 11,
+        "length": 10,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "search_top"
+    },
+    {
+        "vaddr": 4220299,
+        "paddr": 25995,
+        "ordinal": 37,
+        "size": 11,
+        "length": 10,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "speed_type"
+    },
+    {
+        "vaddr": 4220310,
+        "paddr": 26006,
+        "ordinal": 38,
+        "size": 11,
+        "length": 10,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "interfaces"
+    },
+    {
+        "vaddr": 4220321,
+        "paddr": 26017,
+        "ordinal": 39,
+        "size": 22,
+        "length": 21,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Error in %s line %i.\\n"
+    },
+    {
+        "vaddr": 4220343,
+        "paddr": 26039,
+        "ordinal": 40,
+        "size": 17,
+        "length": 16,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "add_header_count"
+    },
+    {
+        "vaddr": 4220360,
+        "paddr": 26056,
+        "ordinal": 41,
+        "size": 14,
+        "length": 13,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "add_header[i]"
+    },
+    {
+        "vaddr": 4220374,
+        "paddr": 26070,
+        "ordinal": 42,
+        "size": 11,
+        "length": 10,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "user_agent"
+    },
+    {
+        "vaddr": 4220385,
+        "paddr": 26081,
+        "ordinal": 43,
+        "size": 8,
+        "length": 7,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "default"
+    },
+    {
+        "vaddr": 4220393,
+        "paddr": 26089,
+        "ordinal": 44,
+        "size": 17,
+        "length": 16,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Axel 2.4 (Linux)"
+    },
+    {
+        "vaddr": 4220410,
+        "paddr": 26106,
+        "ordinal": 45,
+        "size": 11,
+        "length": 10,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "HTTP_PROXY"
+    },
+    {
+        "vaddr": 4220421,
+        "paddr": 26117,
+        "ordinal": 46,
+        "size": 12,
+        "length": 11,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "/etc/axelrc"
+    },
+    {
+        "vaddr": 4220433,
+        "paddr": 26129,
+        "ordinal": 47,
+        "size": 5,
+        "length": 4,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "HOME"
+    },
+    {
+        "vaddr": 4220438,
+        "paddr": 26134,
+        "ordinal": 48,
+        "size": 8,
+        "length": 7,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": ".axelrc"
+    },
+    {
+        "vaddr": 4220446,
+        "paddr": 26142,
+        "ordinal": 49,
+        "size": 6,
+        "length": 5,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%s/%s"
+    },
+    {
+        "vaddr": 4220452,
+        "paddr": 26148,
+        "ordinal": 50,
+        "size": 10,
+        "length": 9,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "anonymous"
+    },
+    {
+        "vaddr": 4220462,
+        "paddr": 26158,
+        "ordinal": 51,
+        "size": 42,
+        "length": 41,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "mailto:axel-devel@lists.alioth.debian.org"
+    },
+    {
+        "vaddr": 4220516,
+        "paddr": 26212,
+        "ordinal": 52,
+        "size": 7,
+        "length": 6,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "ftp://"
+    },
+    {
+        "vaddr": 4220523,
+        "paddr": 26219,
+        "ordinal": 53,
+        "size": 8,
+        "length": 7,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "http://"
+    },
+    {
+        "vaddr": 4220531,
+        "paddr": 26227,
+        "ordinal": 54,
+        "size": 7,
+        "length": 6,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%s:%s@"
+    },
+    {
+        "vaddr": 4220538,
+        "paddr": 26234,
+        "ordinal": 55,
+        "size": 10,
+        "length": 9,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%s:%i%s%s"
+    },
+    {
+        "vaddr": 4220548,
+        "paddr": 26244,
+        "ordinal": 56,
+        "size": 10,
+        "length": 9,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "REST %lld"
+    },
+    {
+        "vaddr": 4220558,
+        "paddr": 26254,
+        "ordinal": 57,
+        "size": 15,
+        "length": 14,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "User-Agent: %s"
+    },
+    {
+        "vaddr": 4220573,
+        "paddr": 26269,
+        "ordinal": 58,
+        "size": 8,
+        "length": 7,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "RETR %s"
+    },
+    {
+        "vaddr": 4220581,
+        "paddr": 26277,
+        "ordinal": 59,
+        "size": 10,
+        "length": 9,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "location:"
+    },
+    {
+        "vaddr": 4220591,
+        "paddr": 26287,
+        "ordinal": 60,
+        "size": 6,
+        "length": 5,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%255s"
+    },
+    {
+        "vaddr": 4220597,
+        "paddr": 26293,
+        "ordinal": 61,
+        "size": 15,
+        "length": 14,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "http://%s:%i%s"
+    },
+    {
+        "vaddr": 4220612,
+        "paddr": 26308,
+        "ordinal": 62,
+        "size": 21,
+        "length": 20,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Too many redirects.\\n"
+    },
+    {
+        "vaddr": 4220633,
+        "paddr": 26329,
+        "ordinal": 63,
+        "size": 21,
+        "length": 20,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Unknown HTTP error.\\n"
+    },
+    {
+        "vaddr": 4220654,
+        "paddr": 26350,
+        "ordinal": 64,
+        "size": 18,
+        "length": 17,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%i,%i,%i,%i,%i,%i"
+    },
+    {
+        "vaddr": 4220672,
+        "paddr": 26368,
+        "ordinal": 65,
+        "size": 12,
+        "length": 11,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%i.%i.%i.%i"
+    },
+    {
+        "vaddr": 4220684,
+        "paddr": 26380,
+        "ordinal": 66,
+        "size": 40,
+        "length": 39,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Error opening passive data connection.\\n"
+    },
+    {
+        "vaddr": 4220727,
+        "paddr": 26423,
+        "ordinal": 67,
+        "size": 26,
+        "length": 25,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Error writing command %s\\n"
+    },
+    {
+        "vaddr": 4220753,
+        "paddr": 26449,
+        "ordinal": 68,
+        "size": 18,
+        "length": 17,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Connection gone.\\n"
+    },
+    {
+        "vaddr": 4220771,
+        "paddr": 26467,
+        "ordinal": 69,
+        "size": 35,
+        "length": 34,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Unable to connect to server %s:%i\\n"
+    },
+    {
+        "vaddr": 4220806,
+        "paddr": 26502,
+        "ordinal": 70,
+        "size": 8,
+        "length": 7,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "USER %s"
+    },
+    {
+        "vaddr": 4220814,
+        "paddr": 26510,
+        "ordinal": 71,
+        "size": 7,
+        "length": 6,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "TYPE I"
+    },
+    {
+        "vaddr": 4220821,
+        "paddr": 26517,
+        "ordinal": 72,
+        "size": 8,
+        "length": 7,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "PASS %s"
+    },
+    {
+        "vaddr": 4220829,
+        "paddr": 26525,
+        "ordinal": 73,
+        "size": 7,
+        "length": 6,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "CWD %s"
+    },
+    {
+        "vaddr": 4220836,
+        "paddr": 26532,
+        "ordinal": 74,
+        "size": 30,
+        "length": 29,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Can't change directory to %s\\n"
+    },
+    {
+        "vaddr": 4220866,
+        "paddr": 26562,
+        "ordinal": 75,
+        "size": 5,
+        "length": 4,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "PASV"
+    },
+    {
+        "vaddr": 4220871,
+        "paddr": 26567,
+        "ordinal": 76,
+        "size": 8,
+        "length": 7,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "SIZE %s"
+    },
+    {
+        "vaddr": 4220879,
+        "paddr": 26575,
+        "ordinal": 77,
+        "size": 9,
+        "length": 8,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%*i %lld"
+    },
+    {
+        "vaddr": 4220888,
+        "paddr": 26584,
+        "ordinal": 78,
+        "size": 17,
+        "length": 16,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "File not found.\\n"
+    },
+    {
+        "vaddr": 4220905,
+        "paddr": 26601,
+        "ordinal": 79,
+        "size": 8,
+        "length": 7,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "LIST %s"
+    },
+    {
+        "vaddr": 4220913,
+        "paddr": 26609,
+        "ordinal": 80,
+        "size": 32,
+        "length": 31,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Multiple matches for this URL.\\n"
+    },
+    {
+        "vaddr": 4220948,
+        "paddr": 26644,
+        "ordinal": 81,
+        "size": 38,
+        "length": 37,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%*s %*i %*s %*s %*i %*s %*i %*s %100s"
+    },
+    {
+        "vaddr": 4220992,
+        "paddr": 26688,
+        "ordinal": 82,
+        "size": 39,
+        "length": 38,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%*s %*i %*s %*s %lld %*s %*i %*s %100s"
+    },
+    {
+        "vaddr": 4221031,
+        "paddr": 26727,
+        "ordinal": 83,
+        "size": 35,
+        "length": 34,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%*s %*i %lld %*i %*s %*i %*i %100s"
+    },
+    {
+        "vaddr": 4221066,
+        "paddr": 26762,
+        "ordinal": 84,
+        "size": 6,
+        "length": 5,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%s:%i"
+    },
+    {
+        "vaddr": 4221072,
+        "paddr": 26768,
+        "ordinal": 85,
+        "size": 26,
+        "length": 25,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Invalid proxy string: %s\\n"
+    },
+    {
+        "vaddr": 4221098,
+        "paddr": 26794,
+        "ordinal": 86,
+        "size": 6,
+        "length": 5,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%s:%s"
+    },
+    {
+        "vaddr": 4221104,
+        "paddr": 26800,
+        "ordinal": 87,
+        "size": 5,
+        "length": 4,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "http"
+    },
+    {
+        "vaddr": 4221109,
+        "paddr": 26805,
+        "ordinal": 88,
+        "size": 23,
+        "length": 22,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "GET %s://%s%s HTTP/1.0"
+    },
+    {
+        "vaddr": 4221132,
+        "paddr": 26828,
+        "ordinal": 89,
+        "size": 16,
+        "length": 15,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "GET %s HTTP/1.0"
+    },
+    {
+        "vaddr": 4221148,
+        "paddr": 26844,
+        "ordinal": 90,
+        "size": 9,
+        "length": 8,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Host: %s"
+    },
+    {
+        "vaddr": 4221157,
+        "paddr": 26853,
+        "ordinal": 91,
+        "size": 24,
+        "length": 23,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Authorization: Basic %s"
+    },
+    {
+        "vaddr": 4221181,
+        "paddr": 26877,
+        "ordinal": 92,
+        "size": 23,
+        "length": 22,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Range: bytes=%lld-%lld"
+    },
+    {
+        "vaddr": 4221204,
+        "paddr": 26900,
+        "ordinal": 93,
+        "size": 19,
+        "length": 18,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Range: bytes=%lld-"
+    },
+    {
+        "vaddr": 4221223,
+        "paddr": 26919,
+        "ordinal": 94,
+        "size": 8,
+        "length": 7,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%*s %3i"
+    },
+    {
+        "vaddr": 4221231,
+        "paddr": 26927,
+        "ordinal": 95,
+        "size": 5,
+        "length": 4,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%31s"
+    },
+    {
+        "vaddr": 4221236,
+        "paddr": 26932,
+        "ordinal": 96,
+        "size": 16,
+        "length": 15,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Content-Length:"
+    },
+    {
+        "vaddr": 4221260,
+        "paddr": 26956,
+        "ordinal": 97,
+        "size": 65,
+        "length": 64,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
+    },
+    {
+        "vaddr": 4221325,
+        "paddr": 27021,
+        "ordinal": 98,
+        "size": 97,
+        "length": 96,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "http://www.filesearching.com/cgi-bin/s?q=%s&w=a&l=en&t=f&e=on&m=%i&o=n&s1=%lld&s2=%lld&x=15&y=15"
+    },
+    {
+        "vaddr": 4221422,
+        "paddr": 27118,
+        "ordinal": 99,
+        "size": 16,
+        "length": 15,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "<pre class=list"
+    },
+    {
+        "vaddr": 4221438,
+        "paddr": 27134,
+        "ordinal": 100,
+        "size": 7,
+        "length": 6,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "</pre>"
+    },
+    {
+        "vaddr": 4221445,
+        "paddr": 27141,
+        "ordinal": 101,
+        "size": 9,
+        "length": 8,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "<a href="
+    },
+    {
+        "vaddr": 4221471,
+        "paddr": 27167,
+        "ordinal": 102,
+        "size": 634,
+        "length": 633,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "?Usage: axel [options] url1 [url2] [url...]\\n\\n--max-speed=x\\t\\t-s x\\tSpecify maximum speed (bytes per second)\\n--num-connections=x\\t-n x\\tSpecify maximum number of connections\\n--output=f\\t\\t-o f\\tSpecify local output file\\n--search[=x]\\t\\t-S [x]\\tSearch for mirrors and download from x servers\\n--header=x\\t\\t-H x\\tAdd header string\\n--user-agent=x\\t\\t-U x\\tSet user agent\\n--no-proxy\\t\\t-N\\tJust don't use any proxy server\\n--quiet\\t\\t\\t-q\\tLeave stdout alone\\n--verbose\\t\\t-v\\tMore status information\\n--alternate\\t\\t-a\\tAlternate progress indicator\\n--help\\t\\t\\t-h\\tThis information\\n--version\\t\\t-V\\tVersion information\\n\\nReport bugs to submit@bugs.debian.org (using reportbug)\\n"
+    },
+    {
+        "vaddr": 4222105,
+        "paddr": 27801,
+        "ordinal": 103,
+        "size": 8,
+        "length": 7,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "       "
+    },
+    {
+        "vaddr": 4222113,
+        "paddr": 27809,
+        "ordinal": 104,
+        "size": 12,
+        "length": 11,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\r[%3ld%%] ["
+    },
+    {
+        "vaddr": 4222125,
+        "paddr": 27821,
+        "ordinal": 105,
+        "size": 14,
+        "length": 13,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "] [%6.1fMB/s]"
+    },
+    {
+        "vaddr": 4222139,
+        "paddr": 27835,
+        "ordinal": 106,
+        "size": 14,
+        "length": 13,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "] [%6.1fKB/s]"
+    },
+    {
+        "vaddr": 4222153,
+        "paddr": 27849,
+        "ordinal": 107,
+        "size": 13,
+        "length": 12,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "] [%6.1fB/s]"
+    },
+    {
+        "vaddr": 4222166,
+        "paddr": 27862,
+        "ordinal": 108,
+        "size": 11,
+        "length": 10,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": " [%2dd%2d]"
+    },
+    {
+        "vaddr": 4222177,
+        "paddr": 27873,
+        "ordinal": 109,
+        "size": 12,
+        "length": 11,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": " [%2dh%02d]"
+    },
+    {
+        "vaddr": 4222189,
+        "paddr": 27885,
+        "ordinal": 110,
+        "size": 13,
+        "length": 12,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": " [%02d:%02d]"
+    },
+    {
+        "vaddr": 4222202,
+        "paddr": 27898,
+        "ordinal": 111,
+        "size": 18,
+        "length": 17,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "/usr/share/locale"
+    },
+    {
+        "vaddr": 4222220,
+        "paddr": 27916,
+        "ordinal": 112,
+        "size": 5,
+        "length": 4,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "axel"
+    },
+    {
+        "vaddr": 4222225,
+        "paddr": 27921,
+        "ordinal": 113,
+        "size": 20,
+        "length": 19,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "s:n:o:S::NqvhVaH:U:"
+    },
+    {
+        "vaddr": 4222245,
+        "paddr": 27941,
+        "ordinal": 114,
+        "size": 22,
+        "length": 21,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Axel version %s (%s)\\n"
+    },
+    {
+        "vaddr": 4222267,
+        "paddr": 27963,
+        "ordinal": 115,
+        "size": 6,
+        "length": 5,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Linux"
+    },
+    {
+        "vaddr": 4222277,
+        "paddr": 27973,
+        "ordinal": 116,
+        "size": 43,
+        "length": 42,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\nCopyright 2001-2002 Wilmer van der Gaast."
+    },
+    {
+        "vaddr": 4222320,
+        "paddr": 28016,
+        "ordinal": 117,
+        "size": 10,
+        "length": 9,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "/dev/null"
+    },
+    {
+        "vaddr": 4222330,
+        "paddr": 28026,
+        "ordinal": 118,
+        "size": 37,
+        "length": 36,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Can't redirect stdout to /dev/null.\\n"
+    },
+    {
+        "vaddr": 4222367,
+        "paddr": 28063,
+        "ordinal": 119,
+        "size": 11,
+        "length": 10,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%1024[^\\n]s"
+    },
+    {
+        "vaddr": 4222378,
+        "paddr": 28074,
+        "ordinal": 120,
+        "size": 44,
+        "length": 43,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Error when trying to read URL (Too long?).\\n"
+    },
+    {
+        "vaddr": 4222422,
+        "paddr": 28118,
+        "ordinal": 121,
+        "size": 37,
+        "length": 36,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Can't handle URLs of length over %d\\n"
+    },
+    {
+        "vaddr": 4222459,
+        "paddr": 28155,
+        "ordinal": 122,
+        "size": 27,
+        "length": 26,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Initializing download: %s\\n"
+    },
+    {
+        "vaddr": 4222486,
+        "paddr": 28182,
+        "ordinal": 123,
+        "size": 17,
+        "length": 16,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Doing search...\\n"
+    },
+    {
+        "vaddr": 4222503,
+        "paddr": 28199,
+        "ordinal": 124,
+        "size": 16,
+        "length": 15,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "File not found\\n"
+    },
+    {
+        "vaddr": 4222519,
+        "paddr": 28215,
+        "ordinal": 125,
+        "size": 42,
+        "length": 41,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Testing speeds, this can take a while...\\n"
+    },
+    {
+        "vaddr": 4222561,
+        "paddr": 28257,
+        "ordinal": 126,
+        "size": 47,
+        "length": 46,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%i usable servers found, will use these URLs:\\n"
+    },
+    {
+        "vaddr": 4222608,
+        "paddr": 28304,
+        "ordinal": 127,
+        "size": 6,
+        "length": 5,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Speed"
+    },
+    {
+        "vaddr": 4222618,
+        "paddr": 28314,
+        "ordinal": 128,
+        "size": 12,
+        "length": 11,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%-60s %15s\\n"
+    },
+    {
+        "vaddr": 4222630,
+        "paddr": 28326,
+        "ordinal": 129,
+        "size": 14,
+        "length": 13,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%-70.70s %5i\\n"
+    },
+    {
+        "vaddr": 4222644,
+        "paddr": 28340,
+        "ordinal": 130,
+        "size": 20,
+        "length": 19,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Filename too long!\\n"
+    },
+    {
+        "vaddr": 4222664,
+        "paddr": 28360,
+        "ordinal": 131,
+        "size": 31,
+        "length": 30,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "No state file, cannot resume!\\n"
+    },
+    {
+        "vaddr": 4222695,
+        "paddr": 28391,
+        "ordinal": 132,
+        "size": 66,
+        "length": 65,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "State file found, but no downloaded data. Starting from scratch.\\n"
+    },
+    {
+        "vaddr": 4222761,
+        "paddr": 28457,
+        "ordinal": 133,
+        "size": 14,
+        "length": 13,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "  [%6.1fKB/s]"
+    },
+    {
+        "vaddr": 4222775,
+        "paddr": 28471,
+        "ordinal": 134,
+        "size": 13,
+        "length": 12,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\n[%3lld%%]  "
+    },
+    {
+        "vaddr": 4222788,
+        "paddr": 28484,
+        "ordinal": 135,
+        "size": 10,
+        "length": 9,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%lld byte"
+    },
+    {
+        "vaddr": 4222798,
+        "paddr": 28494,
+        "ordinal": 136,
+        "size": 15,
+        "length": 14,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%.1f kilobytes"
+    },
+    {
+        "vaddr": 4222813,
+        "paddr": 28509,
+        "ordinal": 137,
+        "size": 15,
+        "length": 14,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%.1f megabytes"
+    },
+    {
+        "vaddr": 4222828,
+        "paddr": 28524,
+        "ordinal": 138,
+        "size": 10,
+        "length": 9,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%i second"
+    },
+    {
+        "vaddr": 4222838,
+        "paddr": 28534,
+        "ordinal": 139,
+        "size": 11,
+        "length": 10,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%i seconds"
+    },
+    {
+        "vaddr": 4222849,
+        "paddr": 28545,
+        "ordinal": 140,
+        "size": 16,
+        "length": 15,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%i:%02i seconds"
+    },
+    {
+        "vaddr": 4222865,
+        "paddr": 28561,
+        "ordinal": 141,
+        "size": 21,
+        "length": 20,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%i:%02i:%02i seconds"
+    },
+    {
+        "vaddr": 4222886,
+        "paddr": 28582,
+        "ordinal": 142,
+        "size": 35,
+        "length": 34,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\nDownloaded %s in %s. (%.2f KB/s)\\n"
+    },
+    {
+        "vaddr": 4222921,
+        "paddr": 28617,
+        "ordinal": 143,
+        "size": 10,
+        "length": 9,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "max-speed"
+    },
+    {
+        "vaddr": 4222931,
+        "paddr": 28627,
+        "ordinal": 144,
+        "size": 16,
+        "length": 15,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "num-connections"
+    },
+    {
+        "vaddr": 4222947,
+        "paddr": 28643,
+        "ordinal": 145,
+        "size": 7,
+        "length": 6,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "search"
+    },
+    {
+        "vaddr": 4222954,
+        "paddr": 28650,
+        "ordinal": 146,
+        "size": 9,
+        "length": 8,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "no-proxy"
+    },
+    {
+        "vaddr": 4222963,
+        "paddr": 28659,
+        "ordinal": 147,
+        "size": 6,
+        "length": 5,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "quiet"
+    },
+    {
+        "vaddr": 4222969,
+        "paddr": 28665,
+        "ordinal": 148,
+        "size": 5,
+        "length": 4,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "help"
+    },
+    {
+        "vaddr": 4222974,
+        "paddr": 28670,
+        "ordinal": 149,
+        "size": 8,
+        "length": 7,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "version"
+    },
+    {
+        "vaddr": 4222982,
+        "paddr": 28678,
+        "ordinal": 150,
+        "size": 10,
+        "length": 9,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "alternate"
+    },
+    {
+        "vaddr": 4222992,
+        "paddr": 28688,
+        "ordinal": 151,
+        "size": 7,
+        "length": 6,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "header"
+    },
+    {
+        "vaddr": 4222999,
+        "paddr": 28695,
+        "ordinal": 152,
+        "size": 11,
+        "length": 10,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "user-agent"
+    }
+]

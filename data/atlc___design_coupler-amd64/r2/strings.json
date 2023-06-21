@@ -1,0 +1,4046 @@
+[
+    {
+        "vaddr": 4207844,
+        "paddr": 13540,
+        "ordinal": 0,
+        "size": 5,
+        "length": 4,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "2002"
+    },
+    {
+        "vaddr": 4207849,
+        "paddr": 13545,
+        "ordinal": 1,
+        "size": 15,
+        "length": 14,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "DeQqdCL:s:Z:H:"
+    },
+    {
+        "vaddr": 4207864,
+        "paddr": 13560,
+        "ordinal": 2,
+        "size": 28,
+        "length": 27,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "design_coupler 12 144 146\\n\\n"
+    },
+    {
+        "vaddr": 4207892,
+        "paddr": 13588,
+        "ordinal": 3,
+        "size": 20,
+        "length": 19,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "design_coupler -e\\n\\n"
+    },
+    {
+        "vaddr": 4207912,
+        "paddr": 13608,
+        "ordinal": 4,
+        "size": 22,
+        "length": 21,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "If you want a coupler"
+    },
+    {
+        "vaddr": 4207934,
+        "paddr": 13630,
+        "ordinal": 5,
+        "size": 13,
+        "length": 12,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Exiting ...\\n"
+    },
+    {
+        "vaddr": 4207947,
+        "paddr": 13643,
+        "ordinal": 6,
+        "size": 17,
+        "length": 16,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\n*****ERROR****\\n"
+    },
+    {
+        "vaddr": 4207964,
+        "paddr": 13660,
+        "ordinal": 7,
+        "size": 27,
+        "length": 26,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "H =%.4f w = %.4f s = %.4f\\n"
+    },
+    {
+        "vaddr": 4207991,
+        "paddr": 13687,
+        "ordinal": 8,
+        "size": 14,
+        "length": 13,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "****NOTE ****"
+    },
+    {
+        "vaddr": 4208005,
+        "paddr": 13701,
+        "ordinal": 9,
+        "size": 15,
+        "length": 14,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "****NOTE 2****"
+    },
+    {
+        "vaddr": 4208024,
+        "paddr": 13720,
+        "ordinal": 10,
+        "size": 54,
+        "length": 53,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\nThe coupled power must be less than the input power."
+    },
+    {
+        "vaddr": 4208080,
+        "paddr": 13776,
+        "ordinal": 11,
+        "size": 52,
+        "length": 51,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": " But please enter a\\n*positive* number in dB for the"
+    },
+    {
+        "vaddr": 4208136,
+        "paddr": 13832,
+        "ordinal": 12,
+        "size": 54,
+        "length": 53,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": " first command line parameter. If you want a \\ncoupler"
+    },
+    {
+        "vaddr": 4208192,
+        "paddr": 13888,
+        "ordinal": 13,
+        "size": 53,
+        "length": 52,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": " with a coupled port that is 12 dB down on the input"
+    },
+    {
+        "vaddr": 4208248,
+        "paddr": 13944,
+        "ordinal": 14,
+        "size": 47,
+        "length": 46,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": " power, covering\\n144-146 MHz, enter this as:\\n\\n"
+    },
+    {
+        "vaddr": 4208296,
+        "paddr": 13992,
+        "ordinal": 15,
+        "size": 51,
+        "length": 50,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "If you want the physical dimensions of the coupler"
+    },
+    {
+        "vaddr": 4208352,
+        "paddr": 14048,
+        "ordinal": 16,
+        "size": 52,
+        "length": 51,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": " designed for you, add the\\n-d option on the command"
+    },
+    {
+        "vaddr": 4208408,
+        "paddr": 14104,
+        "ordinal": 17,
+        "size": 51,
+        "length": 50,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": " line, like this:\\n\\ndesign_coupler -q -12 144 146\\n\\n"
+    },
+    {
+        "vaddr": 4208464,
+        "paddr": 14160,
+        "ordinal": 18,
+        "size": 47,
+        "length": 46,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "If you run design_coupler with no command line"
+    },
+    {
+        "vaddr": 4208512,
+        "paddr": 14208,
+        "ordinal": 19,
+        "size": 41,
+        "length": 40,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": " arguments, like this:\\n\\ndesign_coupler\\n\\n"
+    },
+    {
+        "vaddr": 4208560,
+        "paddr": 14256,
+        "ordinal": 20,
+        "size": 49,
+        "length": 48,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "then design_coupler will print some information,"
+    },
+    {
+        "vaddr": 4208616,
+        "paddr": 14312,
+        "ordinal": 21,
+        "size": 56,
+        "length": 55,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "  showing *all* the options. \\nIf you run design_coupler"
+    },
+    {
+        "vaddr": 4208672,
+        "paddr": 14368,
+        "ordinal": 22,
+        "size": 33,
+        "length": 32,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": " with the -e option like this:\\n\\n"
+    },
+    {
+        "vaddr": 4208712,
+        "paddr": 14408,
+        "ordinal": 23,
+        "size": 54,
+        "length": 53,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "lots of examples will be shown of the correct usage.\\n"
+    },
+    {
+        "vaddr": 4208768,
+        "paddr": 14464,
+        "ordinal": 24,
+        "size": 52,
+        "length": 51,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "The second command line argumentent you gave, which"
+    },
+    {
+        "vaddr": 4208824,
+        "paddr": 14520,
+        "ordinal": 25,
+        "size": 51,
+        "length": 50,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": " is for the *minimum*\\noperating frequenncy in MHz,"
+    },
+    {
+        "vaddr": 4208880,
+        "paddr": 14576,
+        "ordinal": 26,
+        "size": 48,
+        "length": 47,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": " is less than the third argument, which is the\\n"
+    },
+    {
+        "vaddr": 4208928,
+        "paddr": 14624,
+        "ordinal": 27,
+        "size": 40,
+        "length": 39,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "*maximum* operating frequency in MHz.\\n\\n"
+    },
+    {
+        "vaddr": 4208968,
+        "paddr": 14664,
+        "ordinal": 28,
+        "size": 54,
+        "length": 53,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": " with a coupled port that is 12 dB down on the input\\n"
+    },
+    {
+        "vaddr": 4209024,
+        "paddr": 14720,
+        "ordinal": 29,
+        "size": 46,
+        "length": 45,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "power, covering 144-146 MHz, enter this as:\\n\\n"
+    },
+    {
+        "vaddr": 4209072,
+        "paddr": 14768,
+        "ordinal": 30,
+        "size": 50,
+        "length": 49,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": " line, like this:\\n\\ndesign_coupler -d 12 144 146\\n\\n"
+    },
+    {
+        "vaddr": 4209128,
+        "paddr": 14824,
+        "ordinal": 31,
+        "size": 58,
+        "length": 57,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "If you run design_coupler with no command line arguments,"
+    },
+    {
+        "vaddr": 4209192,
+        "paddr": 14888,
+        "ordinal": 32,
+        "size": 50,
+        "length": 49,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": " then design_coupler\\nwill print some information,"
+    },
+    {
+        "vaddr": 4209248,
+        "paddr": 14944,
+        "ordinal": 33,
+        "size": 54,
+        "length": 53,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": " showing *all* the options. If you run\\ndesign_coupler"
+    },
+    {
+        "vaddr": 4209304,
+        "paddr": 15000,
+        "ordinal": 34,
+        "size": 79,
+        "length": 78,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Sorry, you can't make a %6.3f dB coupler with a coupled line of %7.4f m long.\\n"
+    },
+    {
+        "vaddr": 4209384,
+        "paddr": 15080,
+        "ordinal": 35,
+        "size": 77,
+        "length": 76,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Either couple off a smaller fraction of the main power to the coupled port,\\n"
+    },
+    {
+        "vaddr": 4209464,
+        "paddr": 15160,
+        "ordinal": 36,
+        "size": 63,
+        "length": 62,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "or make the line closer to an odd multiple of a quarter wave.\\n"
+    },
+    {
+        "vaddr": 4209528,
+        "paddr": 15224,
+        "ordinal": 37,
+        "size": 66,
+        "length": 65,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Odd mulitples of a quarter wave are: %.4f, %.4f, %.4f, %.4f .. m\\n"
+    },
+    {
+        "vaddr": 4209600,
+        "paddr": 15296,
+        "ordinal": 38,
+        "size": 58,
+        "length": 57,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\nFor a %.3f dB %.3f Ohm coupler with a length of %.4f m,\\n"
+    },
+    {
+        "vaddr": 4209664,
+        "paddr": 15360,
+        "ordinal": 39,
+        "size": 62,
+        "length": 61,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "you need to have an odd-mode impedance Zodd of %.3f Ohms and\\n"
+    },
+    {
+        "vaddr": 4209728,
+        "paddr": 15424,
+        "ordinal": 40,
+        "size": 44,
+        "length": 43,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "an even mode impedance Zeven of %.3f Ohms\\n\\n"
+    },
+    {
+        "vaddr": 4209776,
+        "paddr": 15472,
+        "ordinal": 41,
+        "size": 73,
+        "length": 72,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%.3f dB down <-- ************************** ---> %3.3f Ohm termination\\n\\n"
+    },
+    {
+        "vaddr": 4209856,
+        "paddr": 15552,
+        "ordinal": 42,
+        "size": 75,
+        "length": 74,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Drive this port --> ************************** ---> %3.3f Ohm termination\\n"
+    },
+    {
+        "vaddr": 4209936,
+        "paddr": 15632,
+        "ordinal": 43,
+        "size": 45,
+        "length": 44,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "                    <------- %8.4f m ----->\\n"
+    },
+    {
+        "vaddr": 4209984,
+        "paddr": 15680,
+        "ordinal": 44,
+        "size": 73,
+        "length": 72,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\nDrive Port 1, coupler out of port 2 and terminate the other ports in Zo"
+    },
+    {
+        "vaddr": 4210064,
+        "paddr": 15760,
+        "ordinal": 45,
+        "size": 56,
+        "length": 55,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Such a coupler will have the response indicated below.\\n"
+    },
+    {
+        "vaddr": 4210120,
+        "paddr": 15816,
+        "ordinal": 46,
+        "size": 58,
+        "length": 57,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "f = %7.3f MHz   coupling is %.3f dB down on the main arm\\n"
+    },
+    {
+        "vaddr": 4210184,
+        "paddr": 15880,
+        "ordinal": 47,
+        "size": 73,
+        "length": 72,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "You may try to find a coupler with these dimensions using the -d option\\n"
+    },
+    {
+        "vaddr": 4210264,
+        "paddr": 15960,
+        "ordinal": 48,
+        "size": 76,
+        "length": 75,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Currently the -d option is not that fast, as it uses a brain-dead algorithm"
+    },
+    {
+        "vaddr": 4210344,
+        "paddr": 16040,
+        "ordinal": 49,
+        "size": 52,
+        "length": 51,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Hopefully one day the algorithm will be speeded up."
+    },
+    {
+        "vaddr": 4210400,
+        "paddr": 16096,
+        "ordinal": 50,
+        "size": 55,
+        "length": 54,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Please be patient - this will take a few minutes or so"
+    },
+    {
+        "vaddr": 4210456,
+        "paddr": 16152,
+        "ordinal": 51,
+        "size": 66,
+        "length": 65,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "w = %.4f s = %.4f which gives Zo = %.4f Zodd = %.4f Zeven = %.4f\\n"
+    },
+    {
+        "vaddr": 4210528,
+        "paddr": 16224,
+        "ordinal": 52,
+        "size": 81,
+        "length": 80,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "|-----------^------------------------------------------------------------------|"
+    },
+    {
+        "vaddr": 4210616,
+        "paddr": 16312,
+        "ordinal": 53,
+        "size": 81,
+        "length": 80,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "|           |                                                                  |"
+    },
+    {
+        "vaddr": 4210704,
+        "paddr": 16400,
+        "ordinal": 54,
+        "size": 81,
+        "length": 80,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "|           |              <---w---><-----s----><---w-->                       |"
+    },
+    {
+        "vaddr": 4210792,
+        "paddr": 16488,
+        "ordinal": 55,
+        "size": 81,
+        "length": 80,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "|           H              ---------            --------                       |"
+    },
+    {
+        "vaddr": 4210880,
+        "paddr": 16576,
+        "ordinal": 56,
+        "size": 81,
+        "length": 80,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "|           |   Er=1.0 (air)                                                   |"
+    },
+    {
+        "vaddr": 4210968,
+        "paddr": 16664,
+        "ordinal": 57,
+        "size": 80,
+        "length": 79,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "------------v------------------------------------------------------------------"
+    },
+    {
+        "vaddr": 4211048,
+        "paddr": 16744,
+        "ordinal": 58,
+        "size": 80,
+        "length": 79,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "<-----------------------------------------W----------------------------------->"
+    },
+    {
+        "vaddr": 4211128,
+        "paddr": 16824,
+        "ordinal": 59,
+        "size": 56,
+        "length": 55,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "W must be *at least* %.4f, but larger does not matter.\\n"
+    },
+    {
+        "vaddr": 4211184,
+        "paddr": 16880,
+        "ordinal": 60,
+        "size": 63,
+        "length": 62,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "These dimensions give Zo = %.4f Zodd = %.4f Zeven = %.4f Ohms\\n"
+    },
+    {
+        "vaddr": 4211248,
+        "paddr": 16944,
+        "ordinal": 61,
+        "size": 78,
+        "length": 77,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Although H is shown as 1.0, it can be 1 mm, 1 cm or even 1 m. It is important"
+    },
+    {
+        "vaddr": 4211328,
+        "paddr": 17024,
+        "ordinal": 62,
+        "size": 118,
+        "length": 117,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "that w is %.4f times whatever H is, and that s is %.4f times whatever H is, but the absolute numbers are irrelavant.\\n"
+    },
+    {
+        "vaddr": 4211448,
+        "paddr": 17144,
+        "ordinal": 63,
+        "size": 74,
+        "length": 73,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "If you know the height H of your enclosure, use the -H option to indicate"
+    },
+    {
+        "vaddr": 4211528,
+        "paddr": 17224,
+        "ordinal": 64,
+        "size": 81,
+        "length": 80,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "its value. This will ensure all the dimensions are scaled automatically for you."
+    },
+    {
+        "vaddr": 4211616,
+        "paddr": 17312,
+        "ordinal": 65,
+        "size": 76,
+        "length": 75,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "The length *must* be %.4f m if you use these dimensions for W, H, w and s.\\n"
+    },
+    {
+        "vaddr": 4211696,
+        "paddr": 17392,
+        "ordinal": 66,
+        "size": 109,
+        "length": 108,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "If %.4f m is inconvenient, change it with the -L option and recalculate\\n to get new values of W, H, w and s\\n"
+    },
+    {
+        "vaddr": 4211808,
+        "paddr": 17504,
+        "ordinal": 67,
+        "size": 33,
+        "length": 32,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "See: http://atlc.sourceforge.net"
+    },
+    {
+        "vaddr": 4211848,
+        "paddr": 17544,
+        "ordinal": 68,
+        "size": 47,
+        "length": 46,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "See: http://atlc.sourceforge.net/couplers.html"
+    },
+    {
+        "vaddr": 4211896,
+        "paddr": 17592,
+        "ordinal": 69,
+        "size": 114,
+        "length": 113,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\nYou may force the length to be any value you want using the -L option - it does\\nnot have to be %.4f metres long\\n"
+    },
+    {
+        "vaddr": 4212471,
+        "paddr": 18167,
+        "ordinal": 70,
+        "size": 10,
+        "length": 7,
+        "section": ".rodata",
+        "type": "utf8",
+        "string": "?\ua3209Y>)F",
+        "blocks": [
+            "Basic Latin",
+            "Yi Syllables"
+        ]
+    },
+    {
+        "vaddr": 4212592,
+        "paddr": 18288,
+        "ordinal": 71,
+        "size": 105,
+        "length": 104,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\nUsage: design_coupler [-d] [-e] [-q] [-s fstep] [-C] [-D] [-H height] [-L length] [-Z Zo] CF fmin fmax\\n"
+    },
+    {
+        "vaddr": 4212704,
+        "paddr": 18400,
+        "ordinal": 72,
+        "size": 72,
+        "length": 71,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "     CF          is the coupling factor required in dB [10 log(P1/P2)]\\n"
+    },
+    {
+        "vaddr": 4212776,
+        "paddr": 18472,
+        "ordinal": 73,
+        "size": 49,
+        "length": 48,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "     fmin        is the minimum frequency (MHz)\\n"
+    },
+    {
+        "vaddr": 4212832,
+        "paddr": 18528,
+        "ordinal": 74,
+        "size": 49,
+        "length": 48,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "     fman        is the maximum frequency (MHz)\\n"
+    },
+    {
+        "vaddr": 4212888,
+        "paddr": 18584,
+        "ordinal": 75,
+        "size": 67,
+        "length": 66,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "      -d           Calculate physical dimensions (takes a while).\\n"
+    },
+    {
+        "vaddr": 4212960,
+        "paddr": 18656,
+        "ordinal": 76,
+        "size": 52,
+        "length": 51,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "      -e           Give lots of examples of usage.\\n"
+    },
+    {
+        "vaddr": 4213016,
+        "paddr": 18712,
+        "ordinal": 77,
+        "size": 59,
+        "length": 58,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "      -q           Run in quite mode, giving less output.\\n"
+    },
+    {
+        "vaddr": 4213080,
+        "paddr": 18776,
+        "ordinal": 78,
+        "size": 60,
+        "length": 59,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "      -s fstep     Set the analysis frequency step in MHz.\\n"
+    },
+    {
+        "vaddr": 4213144,
+        "paddr": 18840,
+        "ordinal": 79,
+        "size": 77,
+        "length": 76,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "      -C           Print Copyright, Licencing and Distribution information.\\n"
+    },
+    {
+        "vaddr": 4213224,
+        "paddr": 18920,
+        "ordinal": 80,
+        "size": 96,
+        "length": 95,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "      -D           Calculate physical dimensions to high accuracy (takes a *very* long while).\\n"
+    },
+    {
+        "vaddr": 4213320,
+        "paddr": 19016,
+        "ordinal": 81,
+        "size": 77,
+        "length": 76,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "      -H height    to set the height of the enclosure (defaults to 1 unit).\\n"
+    },
+    {
+        "vaddr": 4213400,
+        "paddr": 19096,
+        "ordinal": 82,
+        "size": 73,
+        "length": 72,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "      -L length    to set the coupler length (m). Defaults to lambda/4.\\n"
+    },
+    {
+        "vaddr": 4213480,
+        "paddr": 19176,
+        "ordinal": 83,
+        "size": 75,
+        "length": 74,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "      -Q           Run in very quite mode, giving just one line of output\\n"
+    },
+    {
+        "vaddr": 4213560,
+        "paddr": 19256,
+        "ordinal": 84,
+        "size": 66,
+        "length": 65,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "      -Z Zo        Set the design impedance (default is 50 Ohms)\\n"
+    },
+    {
+        "vaddr": 4213632,
+        "paddr": 19328,
+        "ordinal": 85,
+        "size": 83,
+        "length": 82,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "coupled port 2 ************************************************ reflected port 3\\n\\n"
+    },
+    {
+        "vaddr": 4213720,
+        "paddr": 19416,
+        "ordinal": 86,
+        "size": 79,
+        "length": 78,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "input port 1   ************************************************ output port 4\\n"
+    },
+    {
+        "vaddr": 4213800,
+        "paddr": 19496,
+        "ordinal": 87,
+        "size": 65,
+        "length": 64,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "               <--------------------L------------------------->\\n"
+    },
+    {
+        "vaddr": 4213872,
+        "paddr": 19568,
+        "ordinal": 88,
+        "size": 77,
+        "length": 76,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Drive Port 1. The main power comes out from port 4. A fraction (set by the \\n"
+    },
+    {
+        "vaddr": 4213952,
+        "paddr": 19648,
+        "ordinal": 89,
+        "size": 75,
+        "length": 74,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "coupling factor) of the forward power comes from port 2. A fraction of the"
+    },
+    {
+        "vaddr": 4214032,
+        "paddr": 19728,
+        "ordinal": 90,
+        "size": 75,
+        "length": 74,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "reflected power comes from port 3. All ports must present an impedance Zo."
+    },
+    {
+        "vaddr": 4214107,
+        "paddr": 19803,
+        "ordinal": 91,
+        "size": 6,
+        "length": 5,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "4.6.1"
+    },
+    {
+        "vaddr": 4214113,
+        "paddr": 19809,
+        "ordinal": 92,
+        "size": 12,
+        "length": 11,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Version %s\\n"
+    },
+    {
+        "vaddr": 4214125,
+        "paddr": 19821,
+        "ordinal": 93,
+        "size": 9,
+        "length": 8,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "where: \\n"
+    },
+    {
+        "vaddr": 4214134,
+        "paddr": 19830,
+        "ordinal": 94,
+        "size": 14,
+        "length": 13,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Options are:\\n"
+    },
+    {
+        "vaddr": 4214148,
+        "paddr": 19844,
+        "ordinal": 95,
+        "size": 21,
+        "length": 20,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": ": illegal option -- "
+    },
+    {
+        "vaddr": 4214176,
+        "paddr": 19872,
+        "ordinal": 96,
+        "size": 34,
+        "length": 33,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": ": option requires an argument -- "
+    },
+    {
+        "vaddr": 4214216,
+        "paddr": 19912,
+        "ordinal": 97,
+        "size": 50,
+        "length": 49,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Copyright (C) %s. Dr. David Kirkby, PhD (G8WRB).\\n"
+    },
+    {
+        "vaddr": 4214272,
+        "paddr": 19968,
+        "ordinal": 98,
+        "size": 48,
+        "length": 47,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Dr. David Kirkby, e-mail drkirkby at gmail.com "
+    },
+    {
+        "vaddr": 4214320,
+        "paddr": 20016,
+        "ordinal": 99,
+        "size": 64,
+        "length": 63,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Stokes Hall Lodge, Burnham Road, Althorne, Essex, CM3 6DT, UK.\\n"
+    },
+    {
+        "vaddr": 4214384,
+        "paddr": 20080,
+        "ordinal": 100,
+        "size": 62,
+        "length": 61,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "This program is free software; you can redistribute it and/or"
+    },
+    {
+        "vaddr": 4214448,
+        "paddr": 20144,
+        "ordinal": 101,
+        "size": 60,
+        "length": 59,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "modify it under the terms of the GNU General Public License"
+    },
+    {
+        "vaddr": 4214512,
+        "paddr": 20208,
+        "ordinal": 102,
+        "size": 71,
+        "length": 70,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "as published by the Free Software Foundation; either package_version 2"
+    },
+    {
+        "vaddr": 4214584,
+        "paddr": 20280,
+        "ordinal": 103,
+        "size": 64,
+        "length": 63,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "of the License, or (at your option) any later package_version.\\n"
+    },
+    {
+        "vaddr": 4214648,
+        "paddr": 20344,
+        "ordinal": 104,
+        "size": 64,
+        "length": 63,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "This program is distributed in the hope that it will be useful,"
+    },
+    {
+        "vaddr": 4214712,
+        "paddr": 20408,
+        "ordinal": 105,
+        "size": 63,
+        "length": 62,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "but WITHOUT ANY WARRANTY; without even the implied warranty of"
+    },
+    {
+        "vaddr": 4214776,
+        "paddr": 20472,
+        "ordinal": 106,
+        "size": 62,
+        "length": 61,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the"
+    },
+    {
+        "vaddr": 4214840,
+        "paddr": 20536,
+        "ordinal": 107,
+        "size": 62,
+        "length": 61,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "GNU General Public License, printed below, for more details.\\n"
+    },
+    {
+        "vaddr": 4214904,
+        "paddr": 20600,
+        "ordinal": 108,
+        "size": 44,
+        "length": 43,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "                 GNU GENERAL PUBLIC LICENSE"
+    },
+    {
+        "vaddr": 4214952,
+        "paddr": 20648,
+        "ordinal": 109,
+        "size": 50,
+        "length": 49,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "                    Package_version 2, June 1991\\n"
+    },
+    {
+        "vaddr": 4215008,
+        "paddr": 20704,
+        "ordinal": 110,
+        "size": 57,
+        "length": 56,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": " Copyright (C) 1989, 1991 Free Software Foundation, Inc."
+    },
+    {
+        "vaddr": 4215072,
+        "paddr": 20768,
+        "ordinal": 111,
+        "size": 79,
+        "length": 78,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "                       59 Temple Place, Suite 330, Boston, MA  02111-1307  USA"
+    },
+    {
+        "vaddr": 4215152,
+        "paddr": 20848,
+        "ordinal": 112,
+        "size": 62,
+        "length": 61,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": " Everyone is permitted to copy and distribute verbatim copies"
+    },
+    {
+        "vaddr": 4215216,
+        "paddr": 20912,
+        "ordinal": 113,
+        "size": 60,
+        "length": 59,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": " of this license document, but changing it is not allowed.\\n"
+    },
+    {
+        "vaddr": 4215280,
+        "paddr": 20976,
+        "ordinal": 114,
+        "size": 34,
+        "length": 33,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "                         Preamble"
+    },
+    {
+        "vaddr": 4215320,
+        "paddr": 21016,
+        "ordinal": 115,
+        "size": 65,
+        "length": 64,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "   The licenses for most software are designed to take away your"
+    },
+    {
+        "vaddr": 4215392,
+        "paddr": 21088,
+        "ordinal": 116,
+        "size": 69,
+        "length": 68,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "freedom to share and change it.  By contrast, the GNU General Public"
+    },
+    {
+        "vaddr": 4215464,
+        "paddr": 21160,
+        "ordinal": 117,
+        "size": 71,
+        "length": 70,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "License is intended to guarantee your freedom to share and change free"
+    },
+    {
+        "vaddr": 4215536,
+        "paddr": 21232,
+        "ordinal": 118,
+        "size": 69,
+        "length": 68,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "software--to make sure the software is free for all its users.  This"
+    },
+    {
+        "vaddr": 4215608,
+        "paddr": 21304,
+        "ordinal": 119,
+        "size": 60,
+        "length": 59,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "General Public License applies to most of the Free Software"
+    },
+    {
+        "vaddr": 4215672,
+        "paddr": 21368,
+        "ordinal": 120,
+        "size": 71,
+        "length": 70,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Foundation's software and to any other program whose authors commit to"
+    },
+    {
+        "vaddr": 4215744,
+        "paddr": 21440,
+        "ordinal": 121,
+        "size": 71,
+        "length": 70,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "using it.  (Some other Free Software Foundation software is covered by"
+    },
+    {
+        "vaddr": 4215816,
+        "paddr": 21512,
+        "ordinal": 122,
+        "size": 70,
+        "length": 69,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "the GNU Library General Public License instead.)  You can apply it to"
+    },
+    {
+        "vaddr": 4215888,
+        "paddr": 21584,
+        "ordinal": 123,
+        "size": 67,
+        "length": 66,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "  When we speak of free software, we are referring to freedom, not"
+    },
+    {
+        "vaddr": 4215960,
+        "paddr": 21656,
+        "ordinal": 124,
+        "size": 71,
+        "length": 70,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "price.  Our General Public Licenses are designed to make sure that you"
+    },
+    {
+        "vaddr": 4216032,
+        "paddr": 21728,
+        "ordinal": 125,
+        "size": 71,
+        "length": 70,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "have the freedom to distribute copies of free software (and charge for"
+    },
+    {
+        "vaddr": 4216104,
+        "paddr": 21800,
+        "ordinal": 126,
+        "size": 70,
+        "length": 69,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "this service if you wish), that you receive source code or can get it"
+    },
+    {
+        "vaddr": 4216176,
+        "paddr": 21872,
+        "ordinal": 127,
+        "size": 69,
+        "length": 68,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "if you want it, that you can change the software or use pieces of it"
+    },
+    {
+        "vaddr": 4216248,
+        "paddr": 21944,
+        "ordinal": 128,
+        "size": 66,
+        "length": 65,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "in new free programs; and that you know you can do these things.\\n"
+    },
+    {
+        "vaddr": 4216320,
+        "paddr": 22016,
+        "ordinal": 129,
+        "size": 67,
+        "length": 66,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "  To protect your rights, we need to make restrictions that forbid"
+    },
+    {
+        "vaddr": 4216392,
+        "paddr": 22088,
+        "ordinal": 130,
+        "size": 71,
+        "length": 70,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "anyone to deny you these rights or to ask you to surrender the rights."
+    },
+    {
+        "vaddr": 4216464,
+        "paddr": 22160,
+        "ordinal": 131,
+        "size": 72,
+        "length": 71,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "These restrictions translate to certain responsibilities for you if you"
+    },
+    {
+        "vaddr": 4216536,
+        "paddr": 22232,
+        "ordinal": 132,
+        "size": 57,
+        "length": 56,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "distribute copies of the software, or if you modify it.\\n"
+    },
+    {
+        "vaddr": 4216600,
+        "paddr": 22296,
+        "ordinal": 133,
+        "size": 67,
+        "length": 66,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "  For example, if you distribute copies of such a program, whether"
+    },
+    {
+        "vaddr": 4216672,
+        "paddr": 22368,
+        "ordinal": 134,
+        "size": 70,
+        "length": 69,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "gratis or for a fee, you must give the recipients all the rights that"
+    },
+    {
+        "vaddr": 4216744,
+        "paddr": 22440,
+        "ordinal": 135,
+        "size": 69,
+        "length": 68,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "you have.  You must make sure that they, too, receive or can get the"
+    },
+    {
+        "vaddr": 4216816,
+        "paddr": 22512,
+        "ordinal": 136,
+        "size": 68,
+        "length": 67,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "source code.  And you must show them these terms so they know their"
+    },
+    {
+        "vaddr": 4216888,
+        "paddr": 22584,
+        "ordinal": 137,
+        "size": 73,
+        "length": 72,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "  We protect your rights with two steps: (1) copyright the software, and"
+    },
+    {
+        "vaddr": 4216968,
+        "paddr": 22664,
+        "ordinal": 138,
+        "size": 69,
+        "length": 68,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "(2) offer you this license which gives you legal permission to copy,"
+    },
+    {
+        "vaddr": 4217040,
+        "paddr": 22736,
+        "ordinal": 139,
+        "size": 39,
+        "length": 38,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "distribute and/or modify the software."
+    },
+    {
+        "vaddr": 4217080,
+        "paddr": 22776,
+        "ordinal": 140,
+        "size": 71,
+        "length": 70,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "  Also, for each author's protection and ours, we want to make certain"
+    },
+    {
+        "vaddr": 4217152,
+        "paddr": 22848,
+        "ordinal": 141,
+        "size": 66,
+        "length": 65,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "that everyone understands that there is no warranty for this free"
+    },
+    {
+        "vaddr": 4217224,
+        "paddr": 22920,
+        "ordinal": 142,
+        "size": 73,
+        "length": 72,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "software.  If the software is modified by someone else and passed on, we"
+    },
+    {
+        "vaddr": 4217304,
+        "paddr": 23000,
+        "ordinal": 143,
+        "size": 72,
+        "length": 71,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "want its recipients to know that what they have is not the original, so"
+    },
+    {
+        "vaddr": 4217376,
+        "paddr": 23072,
+        "ordinal": 144,
+        "size": 72,
+        "length": 71,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "that any problems introduced by others will not reflect on the original"
+    },
+    {
+        "vaddr": 4217448,
+        "paddr": 23144,
+        "ordinal": 145,
+        "size": 65,
+        "length": 64,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "  Finally, any free program is threatened constantly by software"
+    },
+    {
+        "vaddr": 4217520,
+        "paddr": 23216,
+        "ordinal": 146,
+        "size": 68,
+        "length": 67,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "patents.  We wish to avoid the danger that redistributors of a free"
+    },
+    {
+        "vaddr": 4217592,
+        "paddr": 23288,
+        "ordinal": 147,
+        "size": 71,
+        "length": 70,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "program will individually obtain patent licenses, in effect making the"
+    },
+    {
+        "vaddr": 4217664,
+        "paddr": 23360,
+        "ordinal": 148,
+        "size": 70,
+        "length": 69,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "program proprietary.  To prevent this, we have made it clear that any"
+    },
+    {
+        "vaddr": 4217736,
+        "paddr": 23432,
+        "ordinal": 149,
+        "size": 72,
+        "length": 71,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "patent must be licensed for everyone's free use or not licensed at all."
+    },
+    {
+        "vaddr": 4217808,
+        "paddr": 23504,
+        "ordinal": 150,
+        "size": 65,
+        "length": 64,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "  The precise terms and conditions for copying, distribution and"
+    },
+    {
+        "vaddr": 4217880,
+        "paddr": 23576,
+        "ordinal": 151,
+        "size": 33,
+        "length": 32,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t\\t    GNU GENERAL PUBLIC LICENSE"
+    },
+    {
+        "vaddr": 4217920,
+        "paddr": 23616,
+        "ordinal": 152,
+        "size": 67,
+        "length": 66,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION"
+    },
+    {
+        "vaddr": 4217992,
+        "paddr": 23688,
+        "ordinal": 153,
+        "size": 70,
+        "length": 69,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "  0. This License applies to any program or other work which contains"
+    },
+    {
+        "vaddr": 4218064,
+        "paddr": 23760,
+        "ordinal": 154,
+        "size": 69,
+        "length": 68,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "a notice placed by the copyright holder saying it may be distributed"
+    },
+    {
+        "vaddr": 4218136,
+        "paddr": 23832,
+        "ordinal": 155,
+        "size": 71,
+        "length": 70,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "under the terms of this General Public License.  The \"Program\", below,"
+    },
+    {
+        "vaddr": 4218208,
+        "paddr": 23904,
+        "ordinal": 156,
+        "size": 70,
+        "length": 69,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "refers to any such program or work, and a \"work based on the Program\""
+    },
+    {
+        "vaddr": 4218280,
+        "paddr": 23976,
+        "ordinal": 157,
+        "size": 69,
+        "length": 68,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "means either the Program or any derivative work under copyright law:"
+    },
+    {
+        "vaddr": 4218352,
+        "paddr": 24048,
+        "ordinal": 158,
+        "size": 66,
+        "length": 65,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "that is to say, a work containing the Program or a portion of it,"
+    },
+    {
+        "vaddr": 4218424,
+        "paddr": 24120,
+        "ordinal": 159,
+        "size": 69,
+        "length": 68,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "either verbatim or with modifications and/or translated into another"
+    },
+    {
+        "vaddr": 4218496,
+        "paddr": 24192,
+        "ordinal": 160,
+        "size": 71,
+        "length": 70,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "language.  (Hereinafter, translation is included without limitation in"
+    },
+    {
+        "vaddr": 4218568,
+        "paddr": 24264,
+        "ordinal": 161,
+        "size": 64,
+        "length": 63,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "the term \"modification\".)  Each licensee is addressed as \"you\"."
+    },
+    {
+        "vaddr": 4218632,
+        "paddr": 24328,
+        "ordinal": 162,
+        "size": 69,
+        "length": 68,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Activities other than copying, distribution and modification are not"
+    },
+    {
+        "vaddr": 4218704,
+        "paddr": 24400,
+        "ordinal": 163,
+        "size": 65,
+        "length": 64,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "covered by this License; they are outside its scope.  The act of"
+    },
+    {
+        "vaddr": 4218776,
+        "paddr": 24472,
+        "ordinal": 164,
+        "size": 71,
+        "length": 70,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "running the Program is not restricted, and the output from the Program"
+    },
+    {
+        "vaddr": 4218848,
+        "paddr": 24544,
+        "ordinal": 165,
+        "size": 63,
+        "length": 62,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "is covered only if its contents constitute a work based on the"
+    },
+    {
+        "vaddr": 4218912,
+        "paddr": 24608,
+        "ordinal": 166,
+        "size": 66,
+        "length": 65,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Program (independent of having been made by running the Program)."
+    },
+    {
+        "vaddr": 4218984,
+        "paddr": 24680,
+        "ordinal": 167,
+        "size": 55,
+        "length": 54,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Whether that is true depends on what the Program does."
+    },
+    {
+        "vaddr": 4219040,
+        "paddr": 24736,
+        "ordinal": 168,
+        "size": 66,
+        "length": 65,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "  1. You may copy and distribute verbatim copies of the Program's"
+    },
+    {
+        "vaddr": 4219112,
+        "paddr": 24808,
+        "ordinal": 169,
+        "size": 64,
+        "length": 63,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "source code as you receive it, in any medium, provided that you"
+    },
+    {
+        "vaddr": 4219176,
+        "paddr": 24872,
+        "ordinal": 170,
+        "size": 68,
+        "length": 67,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "conspicuously and appropriately publish on each copy an appropriate"
+    },
+    {
+        "vaddr": 4219248,
+        "paddr": 24944,
+        "ordinal": 171,
+        "size": 65,
+        "length": 64,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "copyright notice and disclaimer of warranty; keep intact all the"
+    },
+    {
+        "vaddr": 4219320,
+        "paddr": 25016,
+        "ordinal": 172,
+        "size": 71,
+        "length": 70,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "notices that refer to this License and to the absence of any warranty;"
+    },
+    {
+        "vaddr": 4219392,
+        "paddr": 25088,
+        "ordinal": 173,
+        "size": 68,
+        "length": 67,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "and give any other recipients of the Program a copy of this License"
+    },
+    {
+        "vaddr": 4219464,
+        "paddr": 25160,
+        "ordinal": 174,
+        "size": 70,
+        "length": 69,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "You may charge a fee for the physical act of transferring a copy, and"
+    },
+    {
+        "vaddr": 4219536,
+        "paddr": 25232,
+        "ordinal": 175,
+        "size": 72,
+        "length": 71,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "you may at your option offer warranty protection in exchange for a fee."
+    },
+    {
+        "vaddr": 4219608,
+        "paddr": 25304,
+        "ordinal": 176,
+        "size": 70,
+        "length": 69,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "  2. You may modify your copy or copies of the Program or any portion"
+    },
+    {
+        "vaddr": 4219680,
+        "paddr": 25376,
+        "ordinal": 177,
+        "size": 62,
+        "length": 61,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "of it, thus forming a work based on the Program, and copy and"
+    },
+    {
+        "vaddr": 4219744,
+        "paddr": 25440,
+        "ordinal": 178,
+        "size": 67,
+        "length": 66,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "distribute such modifications or work under the terms of Section 1"
+    },
+    {
+        "vaddr": 4219816,
+        "paddr": 25512,
+        "ordinal": 179,
+        "size": 60,
+        "length": 59,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "above, provided that you also meet all of these conditions:"
+    },
+    {
+        "vaddr": 4219880,
+        "paddr": 25576,
+        "ordinal": 180,
+        "size": 68,
+        "length": 67,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "    a) You must cause the modified files to carry prominent notices"
+    },
+    {
+        "vaddr": 4219952,
+        "paddr": 25648,
+        "ordinal": 181,
+        "size": 67,
+        "length": 66,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "    stating that you changed the files and the date of any change."
+    },
+    {
+        "vaddr": 4220024,
+        "paddr": 25720,
+        "ordinal": 182,
+        "size": 71,
+        "length": 70,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "    b) You must cause any work that you distribute or publish, that in"
+    },
+    {
+        "vaddr": 4220096,
+        "paddr": 25792,
+        "ordinal": 183,
+        "size": 68,
+        "length": 67,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "    whole or in part contains or is derived from the Program or any"
+    },
+    {
+        "vaddr": 4220168,
+        "paddr": 25864,
+        "ordinal": 184,
+        "size": 70,
+        "length": 69,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "    part thereof, to be licensed as a whole at no charge to all third"
+    },
+    {
+        "vaddr": 4220240,
+        "paddr": 25936,
+        "ordinal": 185,
+        "size": 45,
+        "length": 44,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "    parties under the terms of this License."
+    },
+    {
+        "vaddr": 4220288,
+        "paddr": 25984,
+        "ordinal": 186,
+        "size": 69,
+        "length": 68,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "    c) If the modified program normally reads commands interactively"
+    },
+    {
+        "vaddr": 4220360,
+        "paddr": 26056,
+        "ordinal": 187,
+        "size": 63,
+        "length": 62,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "    when run, you must cause it, when started running for such"
+    },
+    {
+        "vaddr": 4220424,
+        "paddr": 26120,
+        "ordinal": 188,
+        "size": 69,
+        "length": 68,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "    interactive use in the most ordinary way, to print or display an"
+    },
+    {
+        "vaddr": 4220496,
+        "paddr": 26192,
+        "ordinal": 189,
+        "size": 65,
+        "length": 64,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "    announcement including an appropriate copyright notice and a"
+    },
+    {
+        "vaddr": 4220568,
+        "paddr": 26264,
+        "ordinal": 190,
+        "size": 71,
+        "length": 70,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "    notice that there is no warranty (or else, saying that you provide"
+    },
+    {
+        "vaddr": 4220640,
+        "paddr": 26336,
+        "ordinal": 191,
+        "size": 66,
+        "length": 65,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "    a warranty) and that users may redistribute the program under"
+    },
+    {
+        "vaddr": 4220712,
+        "paddr": 26408,
+        "ordinal": 192,
+        "size": 70,
+        "length": 69,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "    these conditions, and telling the user how to view a copy of this"
+    },
+    {
+        "vaddr": 4220784,
+        "paddr": 26480,
+        "ordinal": 193,
+        "size": 67,
+        "length": 66,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "    License.  (Exception: if the Program itself is interactive but"
+    },
+    {
+        "vaddr": 4220856,
+        "paddr": 26552,
+        "ordinal": 194,
+        "size": 69,
+        "length": 68,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "    does not normally print such an announcement, your work based on"
+    },
+    {
+        "vaddr": 4220928,
+        "paddr": 26624,
+        "ordinal": 195,
+        "size": 59,
+        "length": 58,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "    the Program is not required to print an announcement.)"
+    },
+    {
+        "vaddr": 4220992,
+        "paddr": 26688,
+        "ordinal": 196,
+        "size": 62,
+        "length": 61,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "These requirements apply to the modified work as a whole.  If"
+    },
+    {
+        "vaddr": 4221056,
+        "paddr": 26752,
+        "ordinal": 197,
+        "size": 69,
+        "length": 68,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "identifiable sections of that work are not derived from the Program,"
+    },
+    {
+        "vaddr": 4221128,
+        "paddr": 26824,
+        "ordinal": 198,
+        "size": 67,
+        "length": 66,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "and can be reasonably considered independent and separate works in"
+    },
+    {
+        "vaddr": 4221200,
+        "paddr": 26896,
+        "ordinal": 199,
+        "size": 68,
+        "length": 67,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "themselves, then this License, and its terms, do not apply to those"
+    },
+    {
+        "vaddr": 4221272,
+        "paddr": 26968,
+        "ordinal": 200,
+        "size": 67,
+        "length": 66,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "sections when you distribute them as separate works.  But when you"
+    },
+    {
+        "vaddr": 4221344,
+        "paddr": 27040,
+        "ordinal": 201,
+        "size": 70,
+        "length": 69,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "distribute the same sections as part of a whole which is a work based"
+    },
+    {
+        "vaddr": 4221416,
+        "paddr": 27112,
+        "ordinal": 202,
+        "size": 70,
+        "length": 69,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "on the Program, the distribution of the whole must be on the terms of"
+    },
+    {
+        "vaddr": 4221488,
+        "paddr": 27184,
+        "ordinal": 203,
+        "size": 66,
+        "length": 65,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "this License, whose permissions for other licensees extend to the"
+    },
+    {
+        "vaddr": 4221560,
+        "paddr": 27256,
+        "ordinal": 204,
+        "size": 74,
+        "length": 73,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "entire whole, and thus to each and every part regardless of who wrote it."
+    },
+    {
+        "vaddr": 4221640,
+        "paddr": 27336,
+        "ordinal": 205,
+        "size": 70,
+        "length": 69,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Thus, it is not the intent of this section to claim rights or contest"
+    },
+    {
+        "vaddr": 4221712,
+        "paddr": 27408,
+        "ordinal": 206,
+        "size": 70,
+        "length": 69,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "your rights to work written entirely by you; rather, the intent is to"
+    },
+    {
+        "vaddr": 4221784,
+        "paddr": 27480,
+        "ordinal": 207,
+        "size": 64,
+        "length": 63,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "exercise the right to control the distribution of derivative or"
+    },
+    {
+        "vaddr": 4221848,
+        "paddr": 27544,
+        "ordinal": 208,
+        "size": 39,
+        "length": 38,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "collective works based on the Program."
+    },
+    {
+        "vaddr": 4221888,
+        "paddr": 27584,
+        "ordinal": 209,
+        "size": 71,
+        "length": 70,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "In addition, mere aggregation of another work not based on the Program"
+    },
+    {
+        "vaddr": 4221960,
+        "paddr": 27656,
+        "ordinal": 210,
+        "size": 70,
+        "length": 69,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "with the Program (or with a work based on the Program) on a volume of"
+    },
+    {
+        "vaddr": 4222032,
+        "paddr": 27728,
+        "ordinal": 211,
+        "size": 69,
+        "length": 68,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "a storage or distribution medium does not bring the other work under"
+    },
+    {
+        "vaddr": 4222104,
+        "paddr": 27800,
+        "ordinal": 212,
+        "size": 69,
+        "length": 68,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "  3. You may copy and distribute the Program (or a work based on it,"
+    },
+    {
+        "vaddr": 4222176,
+        "paddr": 27872,
+        "ordinal": 213,
+        "size": 70,
+        "length": 69,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "under Section 2) in object code or executable form under the terms of"
+    },
+    {
+        "vaddr": 4222248,
+        "paddr": 27944,
+        "ordinal": 214,
+        "size": 71,
+        "length": 70,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Sections 1 and 2 above provided that you also do one of the following:"
+    },
+    {
+        "vaddr": 4222320,
+        "paddr": 28016,
+        "ordinal": 215,
+        "size": 69,
+        "length": 68,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "    a) Accompany it with the complete corresponding machine-readable"
+    },
+    {
+        "vaddr": 4222392,
+        "paddr": 28088,
+        "ordinal": 216,
+        "size": 71,
+        "length": 70,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "    source code, which must be distributed under the terms of Sections"
+    },
+    {
+        "vaddr": 4222464,
+        "paddr": 28160,
+        "ordinal": 217,
+        "size": 77,
+        "length": 76,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "    1 and 2 above on a medium customarily used for software interchange; or,"
+    },
+    {
+        "vaddr": 4222544,
+        "paddr": 28240,
+        "ordinal": 218,
+        "size": 67,
+        "length": 66,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "    b) Accompany it with a written offer, valid for at least three"
+    },
+    {
+        "vaddr": 4222616,
+        "paddr": 28312,
+        "ordinal": 219,
+        "size": 67,
+        "length": 66,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "    years, to give any third party, for a charge no more than your"
+    },
+    {
+        "vaddr": 4222688,
+        "paddr": 28384,
+        "ordinal": 220,
+        "size": 66,
+        "length": 65,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "    cost of physically performing source distribution, a complete"
+    },
+    {
+        "vaddr": 4222760,
+        "paddr": 28456,
+        "ordinal": 221,
+        "size": 66,
+        "length": 65,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "    machine-readable copy of the corresponding source code, to be"
+    },
+    {
+        "vaddr": 4222832,
+        "paddr": 28528,
+        "ordinal": 222,
+        "size": 70,
+        "length": 69,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "    distributed under the terms of Sections 1 and 2 above on a medium"
+    },
+    {
+        "vaddr": 4222904,
+        "paddr": 28600,
+        "ordinal": 223,
+        "size": 51,
+        "length": 50,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "    customarily used for software interchange; or,"
+    },
+    {
+        "vaddr": 4222960,
+        "paddr": 28656,
+        "ordinal": 224,
+        "size": 70,
+        "length": 69,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "    c) Accompany it with the information you received as to the offer"
+    },
+    {
+        "vaddr": 4223032,
+        "paddr": 28728,
+        "ordinal": 225,
+        "size": 67,
+        "length": 66,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "    to distribute corresponding source code.  (This alternative is"
+    },
+    {
+        "vaddr": 4223104,
+        "paddr": 28800,
+        "ordinal": 226,
+        "size": 64,
+        "length": 63,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "    allowed only for noncommercial distribution and only if you"
+    },
+    {
+        "vaddr": 4223168,
+        "paddr": 28864,
+        "ordinal": 227,
+        "size": 69,
+        "length": 68,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "    received the program in object code or executable form with such"
+    },
+    {
+        "vaddr": 4223240,
+        "paddr": 28936,
+        "ordinal": 228,
+        "size": 50,
+        "length": 49,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "    an offer, in accord with Subsection b above.)"
+    },
+    {
+        "vaddr": 4223296,
+        "paddr": 28992,
+        "ordinal": 229,
+        "size": 68,
+        "length": 67,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "The source code for a work means the preferred form of the work for"
+    },
+    {
+        "vaddr": 4223368,
+        "paddr": 29064,
+        "ordinal": 230,
+        "size": 69,
+        "length": 68,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "making modifications to it.  For an executable work, complete source"
+    },
+    {
+        "vaddr": 4223440,
+        "paddr": 29136,
+        "ordinal": 231,
+        "size": 69,
+        "length": 68,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "code means all the source code for all modules it contains, plus any"
+    },
+    {
+        "vaddr": 4223512,
+        "paddr": 29208,
+        "ordinal": 232,
+        "size": 64,
+        "length": 63,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "associated interface definition files, plus the scripts used to"
+    },
+    {
+        "vaddr": 4223576,
+        "paddr": 29272,
+        "ordinal": 233,
+        "size": 71,
+        "length": 70,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "control compilation and installation of the executable.  However, as a"
+    },
+    {
+        "vaddr": 4223648,
+        "paddr": 29344,
+        "ordinal": 234,
+        "size": 64,
+        "length": 63,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "special exception, the source code distributed need not include"
+    },
+    {
+        "vaddr": 4223712,
+        "paddr": 29408,
+        "ordinal": 235,
+        "size": 66,
+        "length": 65,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "anything that is normally distributed (in either source or binary"
+    },
+    {
+        "vaddr": 4223784,
+        "paddr": 29480,
+        "ordinal": 236,
+        "size": 69,
+        "length": 68,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "form) with the major components (compiler, kernel, and so on) of the"
+    },
+    {
+        "vaddr": 4223856,
+        "paddr": 29552,
+        "ordinal": 237,
+        "size": 69,
+        "length": 68,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "operating system on which the executable runs, unless that component"
+    },
+    {
+        "vaddr": 4223928,
+        "paddr": 29624,
+        "ordinal": 238,
+        "size": 35,
+        "length": 34,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "itself accompanies the executable."
+    },
+    {
+        "vaddr": 4223968,
+        "paddr": 29664,
+        "ordinal": 239,
+        "size": 65,
+        "length": 64,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "If distribution of executable or object code is made by offering"
+    },
+    {
+        "vaddr": 4224040,
+        "paddr": 29736,
+        "ordinal": 240,
+        "size": 65,
+        "length": 64,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "access to copy from a designated place, then offering equivalent"
+    },
+    {
+        "vaddr": 4224112,
+        "paddr": 29808,
+        "ordinal": 241,
+        "size": 61,
+        "length": 60,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "access to copy the source code from the same place counts as"
+    },
+    {
+        "vaddr": 4224176,
+        "paddr": 29872,
+        "ordinal": 242,
+        "size": 67,
+        "length": 66,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "distribution of the source code, even though third parties are not"
+    },
+    {
+        "vaddr": 4224248,
+        "paddr": 29944,
+        "ordinal": 243,
+        "size": 57,
+        "length": 56,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "compelled to copy the source along with the object code."
+    },
+    {
+        "vaddr": 4224312,
+        "paddr": 30008,
+        "ordinal": 244,
+        "size": 69,
+        "length": 68,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "  4. You may not copy, modify, sublicense, or distribute the Program"
+    },
+    {
+        "vaddr": 4224384,
+        "paddr": 30080,
+        "ordinal": 245,
+        "size": 62,
+        "length": 61,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "except as expressly provided under this License.  Any attempt"
+    },
+    {
+        "vaddr": 4224448,
+        "paddr": 30144,
+        "ordinal": 246,
+        "size": 67,
+        "length": 66,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "otherwise to copy, modify, sublicense or distribute the Program is"
+    },
+    {
+        "vaddr": 4224520,
+        "paddr": 30216,
+        "ordinal": 247,
+        "size": 71,
+        "length": 70,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "void, and will automatically terminate your rights under this License."
+    },
+    {
+        "vaddr": 4224592,
+        "paddr": 30288,
+        "ordinal": 248,
+        "size": 69,
+        "length": 68,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "However, parties who have received copies, or rights, from you under"
+    },
+    {
+        "vaddr": 4224664,
+        "paddr": 30360,
+        "ordinal": 249,
+        "size": 69,
+        "length": 68,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "this License will not have their licenses terminated so long as such"
+    },
+    {
+        "vaddr": 4224736,
+        "paddr": 30432,
+        "ordinal": 250,
+        "size": 35,
+        "length": 34,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "parties remain in full compliance."
+    },
+    {
+        "vaddr": 4224776,
+        "paddr": 30472,
+        "ordinal": 251,
+        "size": 69,
+        "length": 68,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "  5. You are not required to accept this License, since you have not"
+    },
+    {
+        "vaddr": 4224848,
+        "paddr": 30544,
+        "ordinal": 252,
+        "size": 69,
+        "length": 68,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "signed it.  However, nothing else grants you permission to modify or"
+    },
+    {
+        "vaddr": 4224920,
+        "paddr": 30616,
+        "ordinal": 253,
+        "size": 67,
+        "length": 66,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "distribute the Program or its derivative works.  These actions are"
+    },
+    {
+        "vaddr": 4224992,
+        "paddr": 30688,
+        "ordinal": 254,
+        "size": 68,
+        "length": 67,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "prohibited by law if you do not accept this License.  Therefore, by"
+    },
+    {
+        "vaddr": 4225064,
+        "paddr": 30760,
+        "ordinal": 255,
+        "size": 64,
+        "length": 63,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "modifying or distributing the Program (or any work based on the"
+    },
+    {
+        "vaddr": 4225128,
+        "paddr": 30824,
+        "ordinal": 256,
+        "size": 69,
+        "length": 68,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Program), you indicate your acceptance of this License to do so, and"
+    },
+    {
+        "vaddr": 4225200,
+        "paddr": 30896,
+        "ordinal": 257,
+        "size": 68,
+        "length": 67,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "all its terms and conditions for copying, distributing or modifying"
+    },
+    {
+        "vaddr": 4225272,
+        "paddr": 30968,
+        "ordinal": 258,
+        "size": 34,
+        "length": 33,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "the Program or works based on it."
+    },
+    {
+        "vaddr": 4225312,
+        "paddr": 31008,
+        "ordinal": 259,
+        "size": 70,
+        "length": 69,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "  6. Each time you redistribute the Program (or any work based on the"
+    },
+    {
+        "vaddr": 4225384,
+        "paddr": 31080,
+        "ordinal": 260,
+        "size": 66,
+        "length": 65,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Program), the recipient automatically receives a license from the"
+    },
+    {
+        "vaddr": 4225456,
+        "paddr": 31152,
+        "ordinal": 261,
+        "size": 71,
+        "length": 70,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "original licensor to copy, distribute or modify the Program subject to"
+    },
+    {
+        "vaddr": 4225528,
+        "paddr": 31224,
+        "ordinal": 262,
+        "size": 60,
+        "length": 59,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "these terms and conditions.  You may not impose any further"
+    },
+    {
+        "vaddr": 4225592,
+        "paddr": 31288,
+        "ordinal": 263,
+        "size": 71,
+        "length": 70,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "restrictions on the recipients' exercise of the rights granted herein."
+    },
+    {
+        "vaddr": 4225664,
+        "paddr": 31360,
+        "ordinal": 264,
+        "size": 69,
+        "length": 68,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "You are not responsible for enforcing compliance by third parties to"
+    },
+    {
+        "vaddr": 4225736,
+        "paddr": 31432,
+        "ordinal": 265,
+        "size": 70,
+        "length": 69,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "  7. If, as a consequence of a court judgment or allegation of patent"
+    },
+    {
+        "vaddr": 4225808,
+        "paddr": 31504,
+        "ordinal": 266,
+        "size": 69,
+        "length": 68,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "infringement or for any other reason (not limited to patent issues),"
+    },
+    {
+        "vaddr": 4225880,
+        "paddr": 31576,
+        "ordinal": 267,
+        "size": 68,
+        "length": 67,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "conditions are imposed on you (whether by court order, agreement or"
+    },
+    {
+        "vaddr": 4225952,
+        "paddr": 31648,
+        "ordinal": 268,
+        "size": 71,
+        "length": 70,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "otherwise) that contradict the conditions of this License, they do not"
+    },
+    {
+        "vaddr": 4226024,
+        "paddr": 31720,
+        "ordinal": 269,
+        "size": 63,
+        "length": 62,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "excuse you from the conditions of this License.  If you cannot"
+    },
+    {
+        "vaddr": 4226088,
+        "paddr": 31784,
+        "ordinal": 270,
+        "size": 71,
+        "length": 70,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "distribute so as to satisfy simultaneously your obligations under this"
+    },
+    {
+        "vaddr": 4226160,
+        "paddr": 31856,
+        "ordinal": 271,
+        "size": 71,
+        "length": 70,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "License and any other pertinent obligations, then as a consequence you"
+    },
+    {
+        "vaddr": 4226232,
+        "paddr": 31928,
+        "ordinal": 272,
+        "size": 65,
+        "length": 64,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "may not distribute the Program at all.  For example, if a patent"
+    },
+    {
+        "vaddr": 4226304,
+        "paddr": 32000,
+        "ordinal": 273,
+        "size": 71,
+        "length": 70,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "license would not permit royalty-free redistribution of the Program by"
+    },
+    {
+        "vaddr": 4226376,
+        "paddr": 32072,
+        "ordinal": 274,
+        "size": 70,
+        "length": 69,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "all those who receive copies directly or indirectly through you, then"
+    },
+    {
+        "vaddr": 4226448,
+        "paddr": 32144,
+        "ordinal": 275,
+        "size": 68,
+        "length": 67,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "the only way you could satisfy both it and this License would be to"
+    },
+    {
+        "vaddr": 4226520,
+        "paddr": 32216,
+        "ordinal": 276,
+        "size": 51,
+        "length": 50,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "refrain entirely from distribution of the Program."
+    },
+    {
+        "vaddr": 4226576,
+        "paddr": 32272,
+        "ordinal": 277,
+        "size": 70,
+        "length": 69,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "If any portion of this section is held invalid or unenforceable under"
+    },
+    {
+        "vaddr": 4226648,
+        "paddr": 32344,
+        "ordinal": 278,
+        "size": 71,
+        "length": 70,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "any particular circumstance, the balance of the section is intended to"
+    },
+    {
+        "vaddr": 4226720,
+        "paddr": 32416,
+        "ordinal": 279,
+        "size": 63,
+        "length": 62,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "apply and the section as a whole is intended to apply in other"
+    },
+    {
+        "vaddr": 4226784,
+        "paddr": 32480,
+        "ordinal": 280,
+        "size": 68,
+        "length": 67,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "It is not the purpose of this section to induce you to infringe any"
+    },
+    {
+        "vaddr": 4226856,
+        "paddr": 32552,
+        "ordinal": 281,
+        "size": 69,
+        "length": 68,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "patents or other property right claims or to contest validity of any"
+    },
+    {
+        "vaddr": 4226928,
+        "paddr": 32624,
+        "ordinal": 282,
+        "size": 65,
+        "length": 64,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "such claims; this section has the sole purpose of protecting the"
+    },
+    {
+        "vaddr": 4227000,
+        "paddr": 32696,
+        "ordinal": 283,
+        "size": 61,
+        "length": 60,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "integrity of the free software distribution system, which is"
+    },
+    {
+        "vaddr": 4227064,
+        "paddr": 32760,
+        "ordinal": 284,
+        "size": 64,
+        "length": 63,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "implemented by public license practices.  Many people have made"
+    },
+    {
+        "vaddr": 4227128,
+        "paddr": 32824,
+        "ordinal": 285,
+        "size": 65,
+        "length": 64,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "generous contributions to the wide range of software distributed"
+    },
+    {
+        "vaddr": 4227200,
+        "paddr": 32896,
+        "ordinal": 286,
+        "size": 66,
+        "length": 65,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "through that system in reliance on consistent application of that"
+    },
+    {
+        "vaddr": 4227272,
+        "paddr": 32968,
+        "ordinal": 287,
+        "size": 71,
+        "length": 70,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "system; it is up to the author/donor to decide if he or she is willing"
+    },
+    {
+        "vaddr": 4227344,
+        "paddr": 33040,
+        "ordinal": 288,
+        "size": 70,
+        "length": 69,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "to distribute software through any other system and a licensee cannot"
+    },
+    {
+        "vaddr": 4227416,
+        "paddr": 33112,
+        "ordinal": 289,
+        "size": 70,
+        "length": 69,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "This section is intended to make thoroughly clear what is believed to"
+    },
+    {
+        "vaddr": 4227488,
+        "paddr": 33184,
+        "ordinal": 290,
+        "size": 46,
+        "length": 45,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "be a consequence of the rest of this License."
+    },
+    {
+        "vaddr": 4227536,
+        "paddr": 33232,
+        "ordinal": 291,
+        "size": 68,
+        "length": 67,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "  8. If the distribution and/or use of the Program is restricted in"
+    },
+    {
+        "vaddr": 4227608,
+        "paddr": 33304,
+        "ordinal": 292,
+        "size": 70,
+        "length": 69,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "certain countries either by patents or by copyrighted interfaces, the"
+    },
+    {
+        "vaddr": 4227680,
+        "paddr": 33376,
+        "ordinal": 293,
+        "size": 68,
+        "length": 67,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "original copyright holder who places the Program under this License"
+    },
+    {
+        "vaddr": 4227752,
+        "paddr": 33448,
+        "ordinal": 294,
+        "size": 67,
+        "length": 66,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "may add an explicit geographical distribution limitation excluding"
+    },
+    {
+        "vaddr": 4227824,
+        "paddr": 33520,
+        "ordinal": 295,
+        "size": 68,
+        "length": 67,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "those countries, so that distribution is permitted only in or among"
+    },
+    {
+        "vaddr": 4227896,
+        "paddr": 33592,
+        "ordinal": 296,
+        "size": 70,
+        "length": 69,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "countries not thus excluded.  In such case, this License incorporates"
+    },
+    {
+        "vaddr": 4227968,
+        "paddr": 33664,
+        "ordinal": 297,
+        "size": 58,
+        "length": 57,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "the limitation as if written in the body of this License."
+    },
+    {
+        "vaddr": 4228032,
+        "paddr": 33728,
+        "ordinal": 298,
+        "size": 74,
+        "length": 73,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "  9. The Free Software Foundation may publish revised and/or new versions"
+    },
+    {
+        "vaddr": 4228112,
+        "paddr": 33808,
+        "ordinal": 299,
+        "size": 73,
+        "length": 72,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "of the General Public License from time to time.  Such new versions will"
+    },
+    {
+        "vaddr": 4228192,
+        "paddr": 33888,
+        "ordinal": 300,
+        "size": 81,
+        "length": 80,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "be similar in spirit to the present package_version, but may differ in detail to"
+    },
+    {
+        "vaddr": 4228280,
+        "paddr": 33976,
+        "ordinal": 301,
+        "size": 34,
+        "length": 33,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "address new problems or concerns."
+    },
+    {
+        "vaddr": 4228320,
+        "paddr": 34016,
+        "ordinal": 302,
+        "size": 87,
+        "length": 86,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Each package_version is given a distinguishing package_version number.  If the Program"
+    },
+    {
+        "vaddr": 4228408,
+        "paddr": 34104,
+        "ordinal": 303,
+        "size": 80,
+        "length": 79,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "specifies a package_version number of this License which applies to it and \"any"
+    },
+    {
+        "vaddr": 4228488,
+        "paddr": 34184,
+        "ordinal": 304,
+        "size": 82,
+        "length": 81,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "later package_version\", you have the option of following the terms and conditions"
+    },
+    {
+        "vaddr": 4228576,
+        "paddr": 34272,
+        "ordinal": 305,
+        "size": 85,
+        "length": 84,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "either of that package_version or of any later package_version published by the Free"
+    },
+    {
+        "vaddr": 4228664,
+        "paddr": 34360,
+        "ordinal": 306,
+        "size": 82,
+        "length": 81,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Software Foundation.  If the Program does not specify a package_version number of"
+    },
+    {
+        "vaddr": 4228752,
+        "paddr": 34448,
+        "ordinal": 307,
+        "size": 85,
+        "length": 84,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "this License, you may choose any package_version ever published by the Free Software"
+    },
+    {
+        "vaddr": 4228840,
+        "paddr": 34536,
+        "ordinal": 308,
+        "size": 70,
+        "length": 69,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "  10. If you wish to incorporate parts of the Program into other free"
+    },
+    {
+        "vaddr": 4228912,
+        "paddr": 34608,
+        "ordinal": 309,
+        "size": 74,
+        "length": 73,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "programs whose distribution conditions are different, write to the author"
+    },
+    {
+        "vaddr": 4228992,
+        "paddr": 34688,
+        "ordinal": 310,
+        "size": 70,
+        "length": 69,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "to ask for permission.  For software which is copyrighted by the Free"
+    },
+    {
+        "vaddr": 4229064,
+        "paddr": 34760,
+        "ordinal": 311,
+        "size": 73,
+        "length": 72,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Software Foundation, write to the Free Software Foundation; we sometimes"
+    },
+    {
+        "vaddr": 4229144,
+        "paddr": 34840,
+        "ordinal": 312,
+        "size": 72,
+        "length": 71,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "make exceptions for this.  Our decision will be guided by the two goals"
+    },
+    {
+        "vaddr": 4229216,
+        "paddr": 34912,
+        "ordinal": 313,
+        "size": 74,
+        "length": 73,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "of preserving the free status of all derivatives of our free software and"
+    },
+    {
+        "vaddr": 4229296,
+        "paddr": 34992,
+        "ordinal": 314,
+        "size": 58,
+        "length": 57,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "of promoting the sharing and reuse of software generally."
+    },
+    {
+        "vaddr": 4229360,
+        "paddr": 35056,
+        "ordinal": 315,
+        "size": 75,
+        "length": 74,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "  11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY"
+    },
+    {
+        "vaddr": 4229440,
+        "paddr": 35136,
+        "ordinal": 316,
+        "size": 73,
+        "length": 72,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW.  EXCEPT WHEN"
+    },
+    {
+        "vaddr": 4229520,
+        "paddr": 35216,
+        "ordinal": 317,
+        "size": 71,
+        "length": 70,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES"
+    },
+    {
+        "vaddr": 4229592,
+        "paddr": 35288,
+        "ordinal": 318,
+        "size": 75,
+        "length": 74,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "PROVIDE THE PROGRAM \"AS IS\" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED"
+    },
+    {
+        "vaddr": 4229672,
+        "paddr": 35368,
+        "ordinal": 319,
+        "size": 69,
+        "length": 68,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF"
+    },
+    {
+        "vaddr": 4229744,
+        "paddr": 35440,
+        "ordinal": 320,
+        "size": 74,
+        "length": 73,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  THE ENTIRE RISK AS"
+    },
+    {
+        "vaddr": 4229824,
+        "paddr": 35520,
+        "ordinal": 321,
+        "size": 71,
+        "length": 70,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  SHOULD THE"
+    },
+    {
+        "vaddr": 4229896,
+        "paddr": 35592,
+        "ordinal": 322,
+        "size": 73,
+        "length": 72,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING,"
+    },
+    {
+        "vaddr": 4229976,
+        "paddr": 35672,
+        "ordinal": 323,
+        "size": 76,
+        "length": 75,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "  12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING"
+    },
+    {
+        "vaddr": 4230056,
+        "paddr": 35752,
+        "ordinal": 324,
+        "size": 68,
+        "length": 67,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR"
+    },
+    {
+        "vaddr": 4230128,
+        "paddr": 35824,
+        "ordinal": 325,
+        "size": 75,
+        "length": 74,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES,"
+    },
+    {
+        "vaddr": 4230208,
+        "paddr": 35904,
+        "ordinal": 326,
+        "size": 76,
+        "length": 75,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING"
+    },
+    {
+        "vaddr": 4230288,
+        "paddr": 35984,
+        "ordinal": 327,
+        "size": 74,
+        "length": 73,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED"
+    },
+    {
+        "vaddr": 4230368,
+        "paddr": 36064,
+        "ordinal": 328,
+        "size": 73,
+        "length": 72,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY"
+    },
+    {
+        "vaddr": 4230448,
+        "paddr": 36144,
+        "ordinal": 329,
+        "size": 75,
+        "length": 74,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER"
+    },
+    {
+        "vaddr": 4230528,
+        "paddr": 36224,
+        "ordinal": 330,
+        "size": 70,
+        "length": 69,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE"
+    },
+    {
+        "vaddr": 4230600,
+        "paddr": 36296,
+        "ordinal": 331,
+        "size": 35,
+        "length": 34,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t\\t     END OF TERMS AND CONDITIONS"
+    },
+    {
+        "vaddr": 4230635,
+        "paddr": 36331,
+        "ordinal": 332,
+        "size": 21,
+        "length": 20,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "your programs, too.\\n"
+    },
+    {
+        "vaddr": 4230656,
+        "paddr": 36352,
+        "ordinal": 333,
+        "size": 8,
+        "length": 7,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "rights."
+    },
+    {
+        "vaddr": 4230664,
+        "paddr": 36360,
+        "ordinal": 334,
+        "size": 22,
+        "length": 21,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "authors' reputations."
+    },
+    {
+        "vaddr": 4230686,
+        "paddr": 36382,
+        "ordinal": 335,
+        "size": 21,
+        "length": 20,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "modification follow."
+    },
+    {
+        "vaddr": 4230709,
+        "paddr": 36405,
+        "ordinal": 336,
+        "size": 24,
+        "length": 23,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "along with the Program."
+    },
+    {
+        "vaddr": 4230733,
+        "paddr": 36429,
+        "ordinal": 337,
+        "size": 27,
+        "length": 26,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "the scope of this License."
+    },
+    {
+        "vaddr": 4230760,
+        "paddr": 36456,
+        "ordinal": 338,
+        "size": 15,
+        "length": 14,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "circumstances."
+    },
+    {
+        "vaddr": 4230775,
+        "paddr": 36471,
+        "ordinal": 339,
+        "size": 20,
+        "length": 19,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "impose that choice."
+    },
+    {
+        "vaddr": 4230795,
+        "paddr": 36491,
+        "ordinal": 340,
+        "size": 12,
+        "length": 11,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Foundation."
+    },
+    {
+        "vaddr": 4230807,
+        "paddr": 36503,
+        "ordinal": 341,
+        "size": 19,
+        "length": 18,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t\\t\\t    NO WARRANTY"
+    },
+    {
+        "vaddr": 4230826,
+        "paddr": 36522,
+        "ordinal": 342,
+        "size": 22,
+        "length": 21,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "REPAIR OR CORRECTION."
+    },
+    {
+        "vaddr": 4230848,
+        "paddr": 36544,
+        "ordinal": 343,
+        "size": 29,
+        "length": 28,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "POSSIBILITY OF SUCH DAMAGES."
+    },
+    {
+        "vaddr": 4230886,
+        "paddr": 36582,
+        "ordinal": 344,
+        "size": 53,
+        "length": 52,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "W@Here are a examples of how to use 'design_coupler'"
+    },
+    {
+        "vaddr": 4230944,
+        "paddr": 36640,
+        "ordinal": 345,
+        "size": 73,
+        "length": 72,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "In the examples, the %c sign is used in front of anything you must type\\n"
+    },
+    {
+        "vaddr": 4231024,
+        "paddr": 36720,
+        "ordinal": 346,
+        "size": 78,
+        "length": 77,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "which is what you will probably see when using the csh or tcsh as a shell. It"
+    },
+    {
+        "vaddr": 4231104,
+        "paddr": 36800,
+        "ordinal": 347,
+        "size": 60,
+        "length": 59,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "would probably be a $ sign if using the sh or bash shell. \\n"
+    },
+    {
+        "vaddr": 4231168,
+        "paddr": 36864,
+        "ordinal": 348,
+        "size": 76,
+        "length": 75,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "To find the odd and even mode impedances and frequency response of a 50 Ohm"
+    },
+    {
+        "vaddr": 4231248,
+        "paddr": 36944,
+        "ordinal": 349,
+        "size": 73,
+        "length": 72,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "coupler, covering 130 to 170 MHz, with a coupling coefficient of 30 dB:\\n"
+    },
+    {
+        "vaddr": 4231328,
+        "paddr": 37024,
+        "ordinal": 350,
+        "size": 31,
+        "length": 30,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%c design_coupler 30 130 170\\n\\n"
+    },
+    {
+        "vaddr": 4231360,
+        "paddr": 37056,
+        "ordinal": 351,
+        "size": 82,
+        "length": 81,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Note the frequency response is symmetrical about the centre frequency at 0.192 dB"
+    },
+    {
+        "vaddr": 4231448,
+        "paddr": 37144,
+        "ordinal": 352,
+        "size": 80,
+        "length": 79,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "below that wanted. You may wish to redesign this for a coupling coefficient of "
+    },
+    {
+        "vaddr": 4231528,
+        "paddr": 37224,
+        "ordinal": 353,
+        "size": 84,
+        "length": 83,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "about 29.9 dB, so the maximum deviation from the ideal 30.0 dB never exceeds 0.1 dB"
+    },
+    {
+        "vaddr": 4231616,
+        "paddr": 37312,
+        "ordinal": 354,
+        "size": 69,
+        "length": 68,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Note the length suggested is 0.5 m (nearly 20\") is a quarter wave at"
+    },
+    {
+        "vaddr": 4231688,
+        "paddr": 37384,
+        "ordinal": 355,
+        "size": 72,
+        "length": 71,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "the centre frequency of 150 MHz. You might find this a bit too long, so"
+    },
+    {
+        "vaddr": 4231760,
+        "paddr": 37456,
+        "ordinal": 356,
+        "size": 35,
+        "length": 34,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "let's specify a length of 0.25 m.\\n"
+    },
+    {
+        "vaddr": 4231800,
+        "paddr": 37496,
+        "ordinal": 357,
+        "size": 39,
+        "length": 38,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%c design_coupler -L 0.25 30 130 170\\n\\n"
+    },
+    {
+        "vaddr": 4231840,
+        "paddr": 37536,
+        "ordinal": 358,
+        "size": 78,
+        "length": 77,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "What you may notice is that while the coupling to the coupled port is exactly"
+    },
+    {
+        "vaddr": 4231920,
+        "paddr": 37616,
+        "ordinal": 359,
+        "size": 69,
+        "length": 68,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "30 dB below the input power at the centre frequency (150 MHz) it is "
+    },
+    {
+        "vaddr": 4231992,
+        "paddr": 37688,
+        "ordinal": 360,
+        "size": 76,
+        "length": 75,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "no longer symmetrical about the centre frequency. Also, deviations from the"
+    },
+    {
+        "vaddr": 4232072,
+        "paddr": 37768,
+        "ordinal": 361,
+        "size": 66,
+        "length": 65,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "ideal 30 dB are now much larger, with a maximum error of 1.012 dB"
+    },
+    {
+        "vaddr": 4232144,
+        "paddr": 37840,
+        "ordinal": 362,
+        "size": 79,
+        "length": 78,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Unlike the case when the length is the default quarter wave, there is not much"
+    },
+    {
+        "vaddr": 4232224,
+        "paddr": 37920,
+        "ordinal": 363,
+        "size": 71,
+        "length": 70,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "you can do about this, since the deviations occur in both directions.\\n"
+    },
+    {
+        "vaddr": 4232296,
+        "paddr": 37992,
+        "ordinal": 364,
+        "size": 80,
+        "length": 79,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Now assume you are reasonably happy with the response when the length is 250 mm"
+    },
+    {
+        "vaddr": 4232376,
+        "paddr": 38072,
+        "ordinal": 365,
+        "size": 80,
+        "length": 79,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "but would like to see the response at every 2.5 MHz. This can be done using the"
+    },
+    {
+        "vaddr": 4232456,
+        "paddr": 38152,
+        "ordinal": 366,
+        "size": 46,
+        "length": 45,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%c design_coupler -L 0.25 -s 2.5 30 130 170\\n\\n"
+    },
+    {
+        "vaddr": 4232504,
+        "paddr": 38200,
+        "ordinal": 367,
+        "size": 74,
+        "length": 73,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Assuming the performance is acceptable, the dimensions of the coupler can"
+    },
+    {
+        "vaddr": 4232584,
+        "paddr": 38280,
+        "ordinal": 368,
+        "size": 81,
+        "length": 80,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "be determined by adding the -d option. This will design a coupler that must look"
+    },
+    {
+        "vaddr": 4232672,
+        "paddr": 38368,
+        "ordinal": 369,
+        "size": 77,
+        "length": 76,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "like the structure below. The two inner conductors, which are spaced equally"
+    },
+    {
+        "vaddr": 4232752,
+        "paddr": 38448,
+        "ordinal": 370,
+        "size": 76,
+        "length": 75,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "between the top and bottom edges of the outer conductor, must be very thin."
+    },
+    {
+        "vaddr": 4232832,
+        "paddr": 38528,
+        "ordinal": 371,
+        "size": 71,
+        "length": 70,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "These are placed along the length of a box of width W, height H and of"
+    },
+    {
+        "vaddr": 4232904,
+        "paddr": 38600,
+        "ordinal": 372,
+        "size": 65,
+        "length": 64,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "a length L determined by the user, which in this case is 250 mm."
+    },
+    {
+        "vaddr": 4232976,
+        "paddr": 38672,
+        "ordinal": 373,
+        "size": 52,
+        "length": 51,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "The program reports: H = 1.0, ; w = 1.44 ; s = 0.44"
+    },
+    {
+        "vaddr": 4233032,
+        "paddr": 38728,
+        "ordinal": 374,
+        "size": 76,
+        "length": 75,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "The height of the box H must be small compared to the length L, (perhaps no"
+    },
+    {
+        "vaddr": 4233112,
+        "paddr": 38808,
+        "ordinal": 375,
+        "size": 81,
+        "length": 80,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "more than 7%c of the length), or 17.5 mm in this case, with a length of 250 mm,\\n"
+    },
+    {
+        "vaddr": 4233200,
+        "paddr": 38896,
+        "ordinal": 376,
+        "size": 77,
+        "length": 76,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "otherwise fringing effects will be significant. The width of the structure W"
+    },
+    {
+        "vaddr": 4233280,
+        "paddr": 38976,
+        "ordinal": 377,
+        "size": 80,
+        "length": 79,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "should be as large as possible. The program suggests making this 5*H+2*w+s. The"
+    },
+    {
+        "vaddr": 4233360,
+        "paddr": 39056,
+        "ordinal": 378,
+        "size": 77,
+        "length": 76,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "7%c and 5*H+2*w+s are educated guesses, rather than exact figures. There is\\n"
+    },
+    {
+        "vaddr": 4233440,
+        "paddr": 39136,
+        "ordinal": 379,
+        "size": 76,
+        "length": 75,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "no problem in making the width  larger than 5*H+2*w+s. The length L must be"
+    },
+    {
+        "vaddr": 4233520,
+        "paddr": 39216,
+        "ordinal": 380,
+        "size": 71,
+        "length": 70,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "kept at 250 mm. The RATIO of the dimensions H, w and s (but not L or W"
+    },
+    {
+        "vaddr": 4233592,
+        "paddr": 39288,
+        "ordinal": 381,
+        "size": 69,
+        "length": 68,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "must be kept constant. W just needs to be sufficiently large - it is"
+    },
+    {
+        "vaddr": 4233664,
+        "paddr": 39360,
+        "ordinal": 382,
+        "size": 75,
+        "length": 74,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "If you happened to have some 15 mm square brass available, then using that"
+    },
+    {
+        "vaddr": 4233744,
+        "paddr": 39440,
+        "ordinal": 383,
+        "size": 64,
+        "length": 63,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "for the side-walls would require that H becomes 15*1.0 = 15 mm,"
+    },
+    {
+        "vaddr": 4233808,
+        "paddr": 39504,
+        "ordinal": 384,
+        "size": 49,
+        "length": 48,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "w = 15*1.44 = 21.6 mm  and s = 15*0.44 = 6.6 mm\\n"
+    },
+    {
+        "vaddr": 4233864,
+        "paddr": 39560,
+        "ordinal": 385,
+        "size": 74,
+        "length": 73,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "There is no need to compute the above scaling with a calculator, as using"
+    },
+    {
+        "vaddr": 4233944,
+        "paddr": 39640,
+        "ordinal": 386,
+        "size": 79,
+        "length": 78,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "The -H option allows one to specify the height H. The program then reports the"
+    },
+    {
+        "vaddr": 4234024,
+        "paddr": 39720,
+        "ordinal": 387,
+        "size": 79,
+        "length": 78,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "exact dimensions for the length L, height H, w, s and suggests a minimum width"
+    },
+    {
+        "vaddr": 4234104,
+        "paddr": 39800,
+        "ordinal": 388,
+        "size": 72,
+        "length": 71,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "                   30 dB coupler +1.02 dB / -0.78 dB for 130 to 170 MHz"
+    },
+    {
+        "vaddr": 4234176,
+        "paddr": 39872,
+        "ordinal": 389,
+        "size": 76,
+        "length": 75,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "                   Length L = 250 mm, height H = 15 mm, stripline spacing s"
+    },
+    {
+        "vaddr": 4234256,
+        "paddr": 39952,
+        "ordinal": 390,
+        "size": 76,
+        "length": 75,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "                   = 6.6 mm, stripline width w = 21.6 mm, width W >= 124 mm"
+    },
+    {
+        "vaddr": 4234336,
+        "paddr": 40032,
+        "ordinal": 391,
+        "size": 70,
+        "length": 69,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "By default, design_coupler prints a lot of information to the screen."
+    },
+    {
+        "vaddr": 4234408,
+        "paddr": 40104,
+        "ordinal": 392,
+        "size": 73,
+        "length": 72,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "This can be reduced by the -q option or reduced to only one line with -Q"
+    },
+    {
+        "vaddr": 4234488,
+        "paddr": 40184,
+        "ordinal": 393,
+        "size": 74,
+        "length": 73,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Other options include -Z to change the impedance from the default 50 Ohms"
+    },
+    {
+        "vaddr": 4234568,
+        "paddr": 40264,
+        "ordinal": 394,
+        "size": 74,
+        "length": 73,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "and -C to see the fully copyright, Licensing and distribution information"
+    },
+    {
+        "vaddr": 4234642,
+        "paddr": 40338,
+        "ordinal": 395,
+        "size": 30,
+        "length": 29,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "-s option to design_coupler.\\n"
+    },
+    {
+        "vaddr": 4234672,
+        "paddr": 40368,
+        "ordinal": 396,
+        "size": 15,
+        "length": 14,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "uncritical.  \\n"
+    },
+    {
+        "vaddr": 4234687,
+        "paddr": 40383,
+        "ordinal": 397,
+        "size": 8,
+        "length": 7,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "for W.\\n"
+    },
+    {
+        "vaddr": 4234695,
+        "paddr": 40391,
+        "ordinal": 398,
+        "size": 20,
+        "length": 19,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "In summary we have:"
+    },
+    {
+        "vaddr": 4234720,
+        "paddr": 40416,
+        "ordinal": 399,
+        "size": 35,
+        "length": 34,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "domain error in gsl_sf_ellint_RF_e"
+    },
+    {
+        "vaddr": 4234760,
+        "paddr": 40456,
+        "ordinal": 400,
+        "size": 31,
+        "length": 30,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "domain error in gsl_sf_Kcomp_e"
+    },
+    {
+        "vaddr": 4234796,
+        "paddr": 40492,
+        "ordinal": 401,
+        "size": 5,
+        "length": 4,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "MbP?"
+    },
+    {
+        "vaddr": 4234839,
+        "paddr": 40535,
+        "ordinal": 402,
+        "size": 8,
+        "length": 7,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "@UUUUUU"
+    },
+    {
+        "vaddr": 4234911,
+        "paddr": 40607,
+        "ordinal": 403,
+        "size": 6,
+        "length": 5,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "?K{s\\v"
+    }
+]

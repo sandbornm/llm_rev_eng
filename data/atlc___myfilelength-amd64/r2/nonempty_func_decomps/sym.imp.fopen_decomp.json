@@ -1,0 +1,1 @@
+"{\"annotations\":[{\"start\":56,\"end\":56,\"offset\":4195824,\"type\":\"offset\"},{\"start\":105,\"end\":105,\"offset\":4195824,\"type\":\"offset\"}],\"code\":\"int sym.imp.fopen (int esi, int edx) {\\n    loc_0x4005f0:\\n        // CALL XREF from dbg.main @ 0x40061f(x)\\n        goto loc_qword [reloc.fopen] // [0x600b78:8]=0x4005f6\\n         // (break)\\n}\\n\"}\n"

@@ -1,0 +1,298 @@
+[
+    {
+        "name": "",
+        "size": 0,
+        "vsize": 0,
+        "perm": "----",
+        "paddr": 0,
+        "vaddr": 0
+    },
+    {
+        "name": ".interp",
+        "size": 28,
+        "vsize": 28,
+        "perm": "-r--",
+        "paddr": 512,
+        "vaddr": 4194816
+    },
+    {
+        "name": ".note.ABI-tag",
+        "size": 32,
+        "vsize": 32,
+        "perm": "-r--",
+        "paddr": 540,
+        "vaddr": 4194844
+    },
+    {
+        "name": ".note.gnu.build-id",
+        "size": 36,
+        "vsize": 36,
+        "perm": "-r--",
+        "paddr": 572,
+        "vaddr": 4194876
+    },
+    {
+        "name": ".gnu.hash",
+        "size": 36,
+        "vsize": 36,
+        "perm": "-r--",
+        "paddr": 608,
+        "vaddr": 4194912
+    },
+    {
+        "name": ".dynsym",
+        "size": 528,
+        "vsize": 528,
+        "perm": "-r--",
+        "paddr": 648,
+        "vaddr": 4194952
+    },
+    {
+        "name": ".dynstr",
+        "size": 229,
+        "vsize": 229,
+        "perm": "-r--",
+        "paddr": 1176,
+        "vaddr": 4195480
+    },
+    {
+        "name": ".gnu.version",
+        "size": 44,
+        "vsize": 44,
+        "perm": "-r--",
+        "paddr": 1406,
+        "vaddr": 4195710
+    },
+    {
+        "name": ".gnu.version_r",
+        "size": 64,
+        "vsize": 64,
+        "perm": "-r--",
+        "paddr": 1456,
+        "vaddr": 4195760
+    },
+    {
+        "name": ".rela.dyn",
+        "size": 48,
+        "vsize": 48,
+        "perm": "-r--",
+        "paddr": 1520,
+        "vaddr": 4195824
+    },
+    {
+        "name": ".rela.plt",
+        "size": 408,
+        "vsize": 408,
+        "perm": "-r--",
+        "paddr": 1568,
+        "vaddr": 4195872
+    },
+    {
+        "name": ".init",
+        "size": 26,
+        "vsize": 26,
+        "perm": "-r-x",
+        "paddr": 1976,
+        "vaddr": 4196280
+    },
+    {
+        "name": ".plt",
+        "size": 288,
+        "vsize": 288,
+        "perm": "-r-x",
+        "paddr": 2016,
+        "vaddr": 4196320
+    },
+    {
+        "name": ".text",
+        "size": 11218,
+        "vsize": 11218,
+        "perm": "-r-x",
+        "paddr": 2304,
+        "vaddr": 4196608
+    },
+    {
+        "name": ".fini",
+        "size": 9,
+        "vsize": 9,
+        "perm": "-r-x",
+        "paddr": 13524,
+        "vaddr": 4207828
+    },
+    {
+        "name": ".rodata",
+        "size": 27096,
+        "vsize": 27096,
+        "perm": "-r--",
+        "paddr": 13536,
+        "vaddr": 4207840
+    },
+    {
+        "name": ".eh_frame_hdr",
+        "size": 156,
+        "vsize": 156,
+        "perm": "-r--",
+        "paddr": 40632,
+        "vaddr": 4234936
+    },
+    {
+        "name": ".eh_frame",
+        "size": 796,
+        "vsize": 796,
+        "perm": "-r--",
+        "paddr": 40792,
+        "vaddr": 4235096
+    },
+    {
+        "name": ".init_array",
+        "size": 8,
+        "vsize": 8,
+        "perm": "-rw-",
+        "paddr": 41592,
+        "vaddr": 6333048
+    },
+    {
+        "name": ".fini_array",
+        "size": 8,
+        "vsize": 8,
+        "perm": "-rw-",
+        "paddr": 41600,
+        "vaddr": 6333056
+    },
+    {
+        "name": ".jcr",
+        "size": 8,
+        "vsize": 8,
+        "perm": "-rw-",
+        "paddr": 41608,
+        "vaddr": 6333064
+    },
+    {
+        "name": ".dynamic",
+        "size": 480,
+        "vsize": 480,
+        "perm": "-rw-",
+        "paddr": 41616,
+        "vaddr": 6333072
+    },
+    {
+        "name": ".got",
+        "size": 8,
+        "vsize": 8,
+        "perm": "-rw-",
+        "paddr": 42096,
+        "vaddr": 6333552
+    },
+    {
+        "name": ".got.plt",
+        "size": 160,
+        "vsize": 160,
+        "perm": "-rw-",
+        "paddr": 42104,
+        "vaddr": 6333560
+    },
+    {
+        "name": ".data",
+        "size": 32,
+        "vsize": 32,
+        "perm": "-rw-",
+        "paddr": 42264,
+        "vaddr": 6333720
+    },
+    {
+        "name": ".bss",
+        "size": 0,
+        "vsize": 56,
+        "perm": "-rw-",
+        "paddr": 42296,
+        "vaddr": 6333760
+    },
+    {
+        "name": ".comment",
+        "size": 64,
+        "vsize": 64,
+        "perm": "----",
+        "paddr": 42296,
+        "vaddr": 0
+    },
+    {
+        "name": ".debug_aranges",
+        "size": 384,
+        "vsize": 384,
+        "perm": "----",
+        "paddr": 42360,
+        "vaddr": 0
+    },
+    {
+        "name": ".debug_info",
+        "size": 26291,
+        "vsize": 26291,
+        "perm": "----",
+        "paddr": 42744,
+        "vaddr": 0
+    },
+    {
+        "name": ".debug_abbrev",
+        "size": 3408,
+        "vsize": 3408,
+        "perm": "----",
+        "paddr": 69035,
+        "vaddr": 0
+    },
+    {
+        "name": ".debug_line",
+        "size": 3327,
+        "vsize": 3327,
+        "perm": "----",
+        "paddr": 72443,
+        "vaddr": 0
+    },
+    {
+        "name": ".debug_str",
+        "size": 1620,
+        "vsize": 1620,
+        "perm": "----",
+        "paddr": 75770,
+        "vaddr": 0
+    },
+    {
+        "name": ".debug_loc",
+        "size": 11379,
+        "vsize": 11379,
+        "perm": "----",
+        "paddr": 77390,
+        "vaddr": 0
+    },
+    {
+        "name": ".debug_ranges",
+        "size": 560,
+        "vsize": 560,
+        "perm": "----",
+        "paddr": 88769,
+        "vaddr": 0
+    },
+    {
+        "name": ".shstrtab",
+        "size": 353,
+        "vsize": 353,
+        "perm": "----",
+        "paddr": 89329,
+        "vaddr": 0
+    },
+    {
+        "name": ".symtab",
+        "size": 2736,
+        "vsize": 2736,
+        "perm": "----",
+        "paddr": 89688,
+        "vaddr": 0
+    },
+    {
+        "name": ".strtab",
+        "size": 1336,
+        "vsize": 1336,
+        "perm": "----",
+        "paddr": 92424,
+        "vaddr": 0
+    }
+]

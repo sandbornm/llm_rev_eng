@@ -1,0 +1,1 @@
+"{\"annotations\":[{\"start\":66,\"end\":66,\"offset\":4200112,\"type\":\"offset\"},{\"start\":87,\"end\":87,\"offset\":4200112,\"type\":\"offset\"}],\"code\":\"int sym.imp.__isoc99_sscanf (int esi, int edx) {\\n    loc_0x4016b0:\\n        // XREFS(30)\\n        goto loc_qword [reloc.__isoc99_sscanf] // [0x608388:8]=0x4016b6\\n         // (break)\\n}\\n\"}\n"

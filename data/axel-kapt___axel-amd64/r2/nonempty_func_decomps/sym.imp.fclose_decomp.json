@@ -1,0 +1,1 @@
+"{\"annotations\":[{\"start\":57,\"end\":57,\"offset\":4199648,\"type\":\"offset\"},{\"start\":115,\"end\":115,\"offset\":4199648,\"type\":\"offset\"}],\"code\":\"int sym.imp.fclose (int esi, int edx) {\\n    loc_0x4014e0:\\n        // CALL XREF from sym.conf_loadfile @ 0x403cba(x)\\n        goto loc_qword [reloc.fclose] // [0x6082a0:8]=0x4014e6\\n         // (break)\\n}\\n\"}\n"

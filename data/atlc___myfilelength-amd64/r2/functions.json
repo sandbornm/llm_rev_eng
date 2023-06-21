@@ -1,0 +1,1046 @@
+[
+    {
+        "offset": 4195945,
+        "name": "entry0",
+        "size": 41,
+        "is-pure": "false",
+        "realsz": 41,
+        "noreturn": false,
+        "stackframe": 8,
+        "calltype": "amd64",
+        "cost": 13,
+        "cc": 1,
+        "bits": 64,
+        "type": "fcn",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 11,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "entry0 (func rtld_fini, void *stack_end);",
+        "minbound": 4195945,
+        "maxbound": 4195986,
+        "callrefs": [
+            {
+                "addr": 4196320,
+                "type": "DATA",
+                "at": 4195960
+            },
+            {
+                "addr": 4196208,
+                "type": "DATA",
+                "at": 4195967
+            },
+            {
+                "addr": 4195856,
+                "type": "DATA",
+                "at": 4195974
+            }
+        ],
+        "datarefs": [
+            4196320,
+            4196208,
+            4195856
+        ],
+        "indegree": 0,
+        "outdegree": 1,
+        "nlocals": 0,
+        "nargs": 2,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [
+            {
+                "name": "rtld_fini",
+                "kind": "reg",
+                "type": "func",
+                "ref": "rdx"
+            },
+            {
+                "name": "stack_end",
+                "kind": "reg",
+                "type": "void *",
+                "ref": "xmm0"
+            }
+        ],
+        "difftype": "new"
+    },
+    {
+        "offset": 4195760,
+        "name": "sym.imp.__libc_start_main",
+        "size": 6,
+        "is-pure": "true",
+        "realsz": 6,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 3,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 1,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "int sym.imp.__libc_start_main (func main, int argc, char **ubp_av, func init, func fini, func rtld_fini, void *stack_end);",
+        "minbound": 4195760,
+        "maxbound": 4195766,
+        "callrefs": [
+            {
+                "addr": 6294360,
+                "type": "CODE",
+                "at": 4195760
+            }
+        ],
+        "datarefs": [],
+        "codexrefs": [
+            {
+                "addr": 4195981,
+                "type": "CALL",
+                "at": 4195760
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 1,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4196000,
+        "name": "sym.deregister_tm_clones",
+        "size": 50,
+        "is-pure": "false",
+        "realsz": 41,
+        "noreturn": false,
+        "stackframe": 8,
+        "calltype": "amd64",
+        "cost": 19,
+        "cc": 4,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 4,
+        "is-lineal": false,
+        "ninstrs": 14,
+        "edges": 4,
+        "ebbs": 2,
+        "signature": "sym.deregister_tm_clones ();",
+        "minbound": 4196000,
+        "maxbound": 4196050,
+        "callrefs": [
+            {
+                "addr": 6294431,
+                "type": "DATA",
+                "at": 4196000
+            },
+            {
+                "addr": 6294424,
+                "type": "DATA",
+                "at": 4196006
+            },
+            {
+                "addr": 4196048,
+                "type": "CODE",
+                "at": 4196019
+            },
+            {
+                "addr": 4196048,
+                "type": "CODE",
+                "at": 4196029
+            },
+            {
+                "addr": 6294424,
+                "type": "DATA",
+                "at": 4196032
+            }
+        ],
+        "datarefs": [
+            6294431,
+            6294424,
+            6294424
+        ],
+        "codexrefs": [
+            {
+                "addr": 4196141,
+                "type": "CALL",
+                "at": 4196000
+            },
+            {
+                "addr": 4196019,
+                "type": "CODE",
+                "at": 4196048
+            },
+            {
+                "addr": 4196029,
+                "type": "CODE",
+                "at": 4196048
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 3,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4196064,
+        "name": "sym.register_tm_clones",
+        "size": 58,
+        "is-pure": "false",
+        "realsz": 55,
+        "noreturn": false,
+        "stackframe": 8,
+        "calltype": "amd64",
+        "cost": 23,
+        "cc": 4,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 4,
+        "is-lineal": false,
+        "ninstrs": 18,
+        "edges": 4,
+        "ebbs": 2,
+        "signature": "sym.register_tm_clones ();",
+        "minbound": 4196064,
+        "maxbound": 4196122,
+        "callrefs": [
+            {
+                "addr": 6294424,
+                "type": "DATA",
+                "at": 4196064
+            },
+            {
+                "addr": 6294424,
+                "type": "DATA",
+                "at": 4196070
+            },
+            {
+                "addr": 4196120,
+                "type": "CODE",
+                "at": 4196097
+            },
+            {
+                "addr": 4196120,
+                "type": "CODE",
+                "at": 4196107
+            },
+            {
+                "addr": 6294424,
+                "type": "DATA",
+                "at": 4196110
+            }
+        ],
+        "datarefs": [
+            6294424,
+            6294424,
+            6294424
+        ],
+        "codexrefs": [
+            {
+                "addr": 4196171,
+                "type": "CODE",
+                "at": 4196064
+            },
+            {
+                "addr": 4196193,
+                "type": "CODE",
+                "at": 4196064
+            },
+            {
+                "addr": 4196097,
+                "type": "CODE",
+                "at": 4196120
+            },
+            {
+                "addr": 4196107,
+                "type": "CODE",
+                "at": 4196120
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 4,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4196128,
+        "name": "sym.__do_global_dtors_aux",
+        "size": 28,
+        "is-pure": "false",
+        "realsz": 28,
+        "noreturn": false,
+        "stackframe": 8,
+        "calltype": "amd64",
+        "cost": 13,
+        "cc": 2,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 3,
+        "is-lineal": true,
+        "ninstrs": 8,
+        "edges": 3,
+        "ebbs": 1,
+        "signature": "sym.__do_global_dtors_aux ();",
+        "minbound": 4196128,
+        "maxbound": 4196156,
+        "callrefs": [
+            {
+                "addr": 6294424,
+                "type": "DATA",
+                "at": 4196128
+            },
+            {
+                "addr": 4196154,
+                "type": "CODE",
+                "at": 4196135
+            },
+            {
+                "addr": 6294424,
+                "type": "DATA",
+                "at": 4196147
+            }
+        ],
+        "datarefs": [
+            6294424,
+            6294424
+        ],
+        "codexrefs": [
+            {
+                "addr": 4196135,
+                "type": "CODE",
+                "at": 4196154
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 1,
+        "outdegree": 1,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4196160,
+        "name": "entry.init0",
+        "size": 38,
+        "is-pure": "false",
+        "realsz": 35,
+        "noreturn": false,
+        "stackframe": 8,
+        "calltype": "amd64",
+        "cost": 18,
+        "cc": 2,
+        "bits": 64,
+        "type": "fcn",
+        "nbbs": 4,
+        "is-lineal": false,
+        "ninstrs": 12,
+        "edges": 6,
+        "ebbs": 0,
+        "signature": "entry.init0 ();",
+        "minbound": 4196160,
+        "maxbound": 4196198,
+        "callrefs": [
+            {
+                "addr": 6293824,
+                "type": "DATA",
+                "at": 4196160
+            },
+            {
+                "addr": 4196176,
+                "type": "CODE",
+                "at": 4196169
+            },
+            {
+                "addr": 4196064,
+                "type": "CODE",
+                "at": 4196171
+            },
+            {
+                "addr": 4196171,
+                "type": "CODE",
+                "at": 4196184
+            },
+            {
+                "addr": 4196064,
+                "type": "CODE",
+                "at": 4196193
+            }
+        ],
+        "datarefs": [
+            6293824
+        ],
+        "codexrefs": [
+            {
+                "addr": 4196184,
+                "type": "CODE",
+                "at": 4196171
+            },
+            {
+                "addr": 4196169,
+                "type": "CODE",
+                "at": 4196176
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 2,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4196320,
+        "name": "sym.__libc_csu_fini",
+        "size": 2,
+        "is-pure": "true",
+        "realsz": 2,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 3,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 1,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "sym.__libc_csu_fini ();",
+        "minbound": 4196320,
+        "maxbound": 4196322,
+        "codexrefs": [],
+        "dataxrefs": [
+            4195960
+        ],
+        "indegree": 0,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4196324,
+        "name": "sym._fini",
+        "size": 9,
+        "is-pure": "true",
+        "realsz": 9,
+        "noreturn": false,
+        "stackframe": 8,
+        "calltype": "amd64",
+        "cost": 5,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 3,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "sym._fini ();",
+        "minbound": 4196324,
+        "maxbound": 4196333,
+        "indegree": 0,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4196208,
+        "name": "sym.__libc_csu_init",
+        "size": 101,
+        "is-pure": "false",
+        "realsz": 101,
+        "noreturn": false,
+        "stackframe": 56,
+        "calltype": "amd64",
+        "cost": 43,
+        "cc": 3,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 4,
+        "is-lineal": true,
+        "ninstrs": 34,
+        "edges": 5,
+        "ebbs": 1,
+        "signature": "sym.__libc_csu_init (int64_t arg1, int64_t arg2, int64_t arg3);",
+        "minbound": 4196208,
+        "maxbound": 4196309,
+        "callrefs": [
+            {
+                "addr": 6293808,
+                "type": "DATA",
+                "at": 4196225
+            },
+            {
+                "addr": 6293816,
+                "type": "DATA",
+                "at": 4196233
+            },
+            {
+                "addr": 4196294,
+                "type": "CODE",
+                "at": 4196262
+            },
+            {
+                "addr": 4196272,
+                "type": "CODE",
+                "at": 4196292
+            }
+        ],
+        "datarefs": [
+            6293808,
+            6293816
+        ],
+        "codexrefs": [
+            {
+                "addr": 4196292,
+                "type": "CODE",
+                "at": 4196272
+            },
+            {
+                "addr": 4196262,
+                "type": "CODE",
+                "at": 4196294
+            }
+        ],
+        "dataxrefs": [
+            4195967
+        ],
+        "indegree": 2,
+        "outdegree": 1,
+        "nlocals": 0,
+        "nargs": 3,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [
+            {
+                "name": "arg1",
+                "kind": "reg",
+                "type": "int64_t",
+                "ref": "rdi"
+            },
+            {
+                "name": "arg2",
+                "kind": "reg",
+                "type": "int64_t",
+                "ref": "rsi"
+            },
+            {
+                "name": "arg3",
+                "kind": "reg",
+                "type": "int64_t",
+                "ref": "rdx"
+            }
+        ],
+        "difftype": "new"
+    },
+    {
+        "offset": 4195856,
+        "name": "dbg.main",
+        "size": 89,
+        "is-pure": "false",
+        "realsz": 89,
+        "noreturn": false,
+        "stackframe": 8,
+        "calltype": "amd64",
+        "cost": 42,
+        "cc": 4,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 4,
+        "is-lineal": true,
+        "ninstrs": 26,
+        "edges": 4,
+        "ebbs": 2,
+        "signature": "int dbg.main (uint32_t argc, char **filename);",
+        "minbound": 4195856,
+        "maxbound": 4195945,
+        "callrefs": [
+            {
+                "addr": 4195925,
+                "type": "CODE",
+                "at": 4195860
+            },
+            {
+                "addr": 4196343,
+                "type": "DATA",
+                "at": 4195866
+            },
+            {
+                "addr": 4195925,
+                "type": "CODE",
+                "at": 4195882
+            },
+            {
+                "addr": 4196346,
+                "type": "DATA",
+                "at": 4195907
+            },
+            {
+                "addr": 4196340,
+                "type": "DATA",
+                "at": 4195925
+            }
+        ],
+        "datarefs": [
+            4196343,
+            4196346,
+            4196340
+        ],
+        "codexrefs": [
+            {
+                "addr": 4195860,
+                "type": "CODE",
+                "at": 4195925
+            },
+            {
+                "addr": 4195882,
+                "type": "CODE",
+                "at": 4195925
+            }
+        ],
+        "dataxrefs": [
+            4195974
+        ],
+        "indegree": 2,
+        "outdegree": 6,
+        "nlocals": 4,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [
+            {
+                "name": "argc",
+                "kind": "reg",
+                "type": "int",
+                "ref": "rdi"
+            },
+            {
+                "name": "fp",
+                "kind": "reg",
+                "type": "FILE *",
+                "ref": "rbx"
+            },
+            {
+                "name": "length",
+                "kind": "reg",
+                "type": "int",
+                "ref": "rax"
+            },
+            {
+                "name": "argv",
+                "kind": "reg",
+                "type": "char **",
+                "ref": "rsi"
+            }
+        ],
+        "difftype": "new"
+    },
+    {
+        "offset": 4195824,
+        "name": "sym.imp.fopen",
+        "size": 6,
+        "is-pure": "true",
+        "realsz": 6,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 3,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 1,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "file*sym.imp.fopen (const char *filename, const char *mode);",
+        "minbound": 4195824,
+        "maxbound": 4195830,
+        "callrefs": [
+            {
+                "addr": 6294392,
+                "type": "CODE",
+                "at": 4195824
+            }
+        ],
+        "datarefs": [],
+        "codexrefs": [
+            {
+                "addr": 4195871,
+                "type": "CALL",
+                "at": 4195824
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 1,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4195808,
+        "name": "sym.imp.fseek",
+        "size": 6,
+        "is-pure": "true",
+        "realsz": 6,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 3,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 1,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "int sym.imp.fseek (FILE *stream, long offset, int whence);",
+        "minbound": 4195808,
+        "maxbound": 4195814,
+        "callrefs": [
+            {
+                "addr": 6294384,
+                "type": "CODE",
+                "at": 4195808
+            }
+        ],
+        "datarefs": [],
+        "codexrefs": [
+            {
+                "addr": 4195894,
+                "type": "CALL",
+                "at": 4195808
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 1,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4195776,
+        "name": "sym.imp.ftell",
+        "size": 6,
+        "is-pure": "true",
+        "realsz": 6,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 3,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 1,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "long sym.imp.ftell (FILE *stream);",
+        "minbound": 4195776,
+        "maxbound": 4195782,
+        "callrefs": [
+            {
+                "addr": 6294368,
+                "type": "CODE",
+                "at": 4195776
+            }
+        ],
+        "datarefs": [],
+        "codexrefs": [
+            {
+                "addr": 4195902,
+                "type": "CALL",
+                "at": 4195776
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 1,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4195744,
+        "name": "sym.imp.printf",
+        "size": 6,
+        "is-pure": "true",
+        "realsz": 6,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 3,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 1,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "int sym.imp.printf (const char *format);",
+        "minbound": 4195744,
+        "maxbound": 4195750,
+        "callrefs": [
+            {
+                "addr": 6294352,
+                "type": "CODE",
+                "at": 4195744
+            }
+        ],
+        "datarefs": [],
+        "codexrefs": [
+            {
+                "addr": 4195916,
+                "type": "CALL",
+                "at": 4195744
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 1,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4195728,
+        "name": "sym.imp.puts",
+        "size": 6,
+        "is-pure": "true",
+        "realsz": 6,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 3,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 1,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "int sym.imp.puts (const char *s);",
+        "minbound": 4195728,
+        "maxbound": 4195734,
+        "callrefs": [
+            {
+                "addr": 6294344,
+                "type": "CODE",
+                "at": 4195728
+            }
+        ],
+        "datarefs": [],
+        "codexrefs": [
+            {
+                "addr": 4195930,
+                "type": "CALL",
+                "at": 4195728
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 1,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4195840,
+        "name": "sym.imp.exit",
+        "size": 6,
+        "is-pure": "true",
+        "realsz": 6,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 3,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 1,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "void sym.imp.exit (int status);",
+        "minbound": 4195840,
+        "maxbound": 4195846,
+        "callrefs": [
+            {
+                "addr": 6294400,
+                "type": "CODE",
+                "at": 4195840
+            }
+        ],
+        "datarefs": [],
+        "codexrefs": [
+            {
+                "addr": 4195940,
+                "type": "CALL",
+                "at": 4195840
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 1,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4195680,
+        "name": "sym._init",
+        "size": 26,
+        "is-pure": "false",
+        "realsz": 26,
+        "noreturn": false,
+        "stackframe": 8,
+        "calltype": "amd64",
+        "cost": 12,
+        "cc": 2,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 3,
+        "is-lineal": true,
+        "ninstrs": 7,
+        "edges": 3,
+        "ebbs": 1,
+        "signature": "sym._init ();",
+        "minbound": 4195680,
+        "maxbound": 4195706,
+        "callrefs": [
+            {
+                "addr": 6294312,
+                "type": "DATA",
+                "at": 4195684
+            },
+            {
+                "addr": 4195701,
+                "type": "CODE",
+                "at": 4195694
+            }
+        ],
+        "datarefs": [
+            6294312
+        ],
+        "codexrefs": [
+            {
+                "addr": 4196254,
+                "type": "CALL",
+                "at": 4195680
+            },
+            {
+                "addr": 4195694,
+                "type": "CODE",
+                "at": 4195701
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 2,
+        "outdegree": 1,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4195792,
+        "name": "loc.imp.__gmon_start__",
+        "size": 6,
+        "is-pure": "true",
+        "realsz": 6,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 3,
+        "cc": 1,
+        "bits": 64,
+        "type": "fcn",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 1,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "loc.imp.__gmon_start__ ();",
+        "minbound": 4195792,
+        "maxbound": 4195798,
+        "callrefs": [
+            {
+                "addr": 6294376,
+                "type": "CODE",
+                "at": 4195792
+            }
+        ],
+        "datarefs": [],
+        "codexrefs": [
+            {
+                "addr": 4195696,
+                "type": "CALL",
+                "at": 4195792
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 1,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    }
+]

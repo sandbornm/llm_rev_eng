@@ -1,0 +1,1 @@
+"{\"annotations\":[{\"start\":55,\"end\":55,\"offset\":4195728,\"type\":\"offset\"},{\"start\":104,\"end\":104,\"offset\":4195728,\"type\":\"offset\"}],\"code\":\"int sym.imp.puts (int esi, int edx) {\\n    loc_0x400590:\\n        // CALL XREF from dbg.main @ 0x40065a(x)\\n        goto loc_qword [reloc.puts] // [0x600b48:8]=0x400596\\n         // (break)\\n}\\n\"}\n"

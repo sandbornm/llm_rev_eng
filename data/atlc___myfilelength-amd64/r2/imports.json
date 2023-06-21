@@ -1,0 +1,79 @@
+[
+    {
+        "ordinal": 1,
+        "bind": "WEAK",
+        "type": "NOTYPE",
+        "name": "_ITM_deregisterTMCloneTable",
+        "plt": 0
+    },
+    {
+        "ordinal": 2,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "puts",
+        "plt": 4195728
+    },
+    {
+        "ordinal": 3,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "printf",
+        "plt": 4195744
+    },
+    {
+        "ordinal": 4,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "__libc_start_main",
+        "plt": 4195760
+    },
+    {
+        "ordinal": 5,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "ftell",
+        "plt": 4195776
+    },
+    {
+        "ordinal": 6,
+        "bind": "WEAK",
+        "type": "NOTYPE",
+        "name": "__gmon_start__",
+        "plt": 4195792
+    },
+    {
+        "ordinal": 7,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "fseek",
+        "plt": 4195808
+    },
+    {
+        "ordinal": 8,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "fopen",
+        "plt": 4195824
+    },
+    {
+        "ordinal": 9,
+        "bind": "WEAK",
+        "type": "NOTYPE",
+        "name": "_Jv_RegisterClasses",
+        "plt": 0
+    },
+    {
+        "ordinal": 10,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "exit",
+        "plt": 4195840
+    },
+    {
+        "ordinal": 11,
+        "bind": "WEAK",
+        "type": "NOTYPE",
+        "name": "_ITM_registerTMCloneTable",
+        "plt": 0
+    }
+]

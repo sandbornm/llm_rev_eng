@@ -19,14 +19,16 @@ echo $(file "$binary_path")
 
 # basic info
 file "$binary_path" > "$data_dir/$binary_name.file_info"
-objdump -d "$binary_path" > "$data_dir/$binary_name.objdump"
-objdump -h "$binary_path" > "$data_dir/$binary_name.sections"
-strings "$binary_path" > "$data_dir/$binary_name.strings"
-nm -g -C "$binary_path" | awk '$2=="T" || $2=="U" {print substr($0, index($0,$3))}' > "$data_dir/$binary_name.functions"
+# objdump -d "$binary_path" > "$data_dir/$binary_name.objdump"
+# objdump -h "$binary_path" > "$data_dir/$binary_name.sections"
+# strings "$binary_path" > "$data_dir/$binary_name.strings"
+# nm -g -C "$binary_path" | awk '$2=="T" || $2=="U" {print substr($0, index($0,$3))}' > "$data_dir/$binary_name.functions"
 
 echo "Basic info saved to $data_dir"
 
 r2_dir="$data_dir/r2"
+
+echo "r2_dir: $r2_dir"
 mkdir -p $r2_dir
 
 # run r2 base script

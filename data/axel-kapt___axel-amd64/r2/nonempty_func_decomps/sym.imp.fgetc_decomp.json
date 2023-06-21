@@ -1,0 +1,1 @@
+"{\"annotations\":[{\"start\":56,\"end\":56,\"offset\":4199872,\"type\":\"offset\"},{\"start\":114,\"end\":114,\"offset\":4199872,\"type\":\"offset\"}],\"code\":\"int sym.imp.fgetc (int esi, int edx) {\\n    loc_0x4015c0:\\n        // CALL XREF from sym.conf_loadfile @ 0x403807(x)\\n        goto loc_qword [reloc.fgetc] // [0x608310:8]=0x4015c6\\n         // (break)\\n}\\n\"}\n"

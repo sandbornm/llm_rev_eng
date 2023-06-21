@@ -1,0 +1,1252 @@
+[
+    {
+        "vaddr": 4204488,
+        "paddr": 10184,
+        "ordinal": 0,
+        "size": 61,
+        "length": 60,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Filter to convert binary numbers to textual representation.\\n"
+    },
+    {
+        "vaddr": 4204552,
+        "paddr": 10248,
+        "ordinal": 1,
+        "size": 52,
+        "length": 51,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t-b <base>       set base for integer conversions:\\n"
+    },
+    {
+        "vaddr": 4204608,
+        "paddr": 10304,
+        "ordinal": 2,
+        "size": 40,
+        "length": 39,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t                b(inary)        or  2\\n"
+    },
+    {
+        "vaddr": 4204648,
+        "paddr": 10344,
+        "ordinal": 3,
+        "size": 40,
+        "length": 39,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t                d(ecimal)       or 10\\n"
+    },
+    {
+        "vaddr": 4204688,
+        "paddr": 10384,
+        "ordinal": 4,
+        "size": 40,
+        "length": 39,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t                h(exadecimal)   or 16\\n"
+    },
+    {
+        "vaddr": 4204728,
+        "paddr": 10424,
+        "ordinal": 5,
+        "size": 40,
+        "length": 39,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t                o(ctal)         or  8\\n"
+    },
+    {
+        "vaddr": 4204768,
+        "paddr": 10464,
+        "ordinal": 6,
+        "size": 40,
+        "length": 39,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t-d              delimit as per locale\\n"
+    },
+    {
+        "vaddr": 4204808,
+        "paddr": 10504,
+        "ordinal": 7,
+        "size": 47,
+        "length": 46,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t-D              do not delimit as per locale\\n"
+    },
+    {
+        "vaddr": 4204856,
+        "paddr": 10552,
+        "ordinal": 8,
+        "size": 56,
+        "length": 55,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t-e              use exponential (scientific) notation\\n"
+    },
+    {
+        "vaddr": 4204912,
+        "paddr": 10608,
+        "ordinal": 9,
+        "size": 42,
+        "length": 41,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t-h              print this help message\\n"
+    },
+    {
+        "vaddr": 4204960,
+        "paddr": 10656,
+        "ordinal": 10,
+        "size": 33,
+        "length": 32,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t-L <locale>     set the locale\\n"
+    },
+    {
+        "vaddr": 4205000,
+        "paddr": 10696,
+        "ordinal": 11,
+        "size": 49,
+        "length": 48,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t-l              add a linefeed after each 0x0A\\n"
+    },
+    {
+        "vaddr": 4205056,
+        "paddr": 10752,
+        "ordinal": 12,
+        "size": 55,
+        "length": 54,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t-n <number>     number of items per line [default 1]\\n"
+    },
+    {
+        "vaddr": 4205112,
+        "paddr": 10808,
+        "ordinal": 13,
+        "size": 48,
+        "length": 47,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t-o <offset>     byte offset at which to start\\n"
+    },
+    {
+        "vaddr": 4205160,
+        "paddr": 10856,
+        "ordinal": 14,
+        "size": 55,
+        "length": 54,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t-s              print sizes of types on this machine\\n"
+    },
+    {
+        "vaddr": 4205216,
+        "paddr": 10912,
+        "ordinal": 15,
+        "size": 60,
+        "length": 59,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t-t <type>       specify type of input. The default is uc.\\n"
+    },
+    {
+        "vaddr": 4205280,
+        "paddr": 10976,
+        "ordinal": 16,
+        "size": 35,
+        "length": 34,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t                q  [long double]\\n"
+    },
+    {
+        "vaddr": 4205320,
+        "paddr": 11016,
+        "ordinal": 17,
+        "size": 35,
+        "length": 34,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t                sc [signed char]\\n"
+    },
+    {
+        "vaddr": 4205360,
+        "paddr": 11056,
+        "ordinal": 18,
+        "size": 36,
+        "length": 35,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t                ss [signed short]\\n"
+    },
+    {
+        "vaddr": 4205400,
+        "paddr": 11096,
+        "ordinal": 19,
+        "size": 34,
+        "length": 33,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t                si [signed int]\\n"
+    },
+    {
+        "vaddr": 4205440,
+        "paddr": 11136,
+        "ordinal": 20,
+        "size": 35,
+        "length": 34,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t                sl [signed long]\\n"
+    },
+    {
+        "vaddr": 4205480,
+        "paddr": 11176,
+        "ordinal": 21,
+        "size": 40,
+        "length": 39,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t                sq [signed long long]\\n"
+    },
+    {
+        "vaddr": 4205520,
+        "paddr": 11216,
+        "ordinal": 22,
+        "size": 37,
+        "length": 36,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t                uc [unsigned char]\\n"
+    },
+    {
+        "vaddr": 4205560,
+        "paddr": 11256,
+        "ordinal": 23,
+        "size": 38,
+        "length": 37,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t                us [unsigned short]\\n"
+    },
+    {
+        "vaddr": 4205600,
+        "paddr": 11296,
+        "ordinal": 24,
+        "size": 36,
+        "length": 35,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t                ui [unsigned int]\\n"
+    },
+    {
+        "vaddr": 4205640,
+        "paddr": 11336,
+        "ordinal": 25,
+        "size": 37,
+        "length": 36,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t                ul [unsigned long]\\n"
+    },
+    {
+        "vaddr": 4205680,
+        "paddr": 11376,
+        "ordinal": 26,
+        "size": 42,
+        "length": 41,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t                uq [unsigned long long]\\n"
+    },
+    {
+        "vaddr": 4205728,
+        "paddr": 11424,
+        "ordinal": 27,
+        "size": 50,
+        "length": 49,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t-X              print explanation of exit codes\\n"
+    },
+    {
+        "vaddr": 4205784,
+        "paddr": 11480,
+        "ordinal": 28,
+        "size": 56,
+        "length": 55,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t-x              do not mark hex output with prefix 0x\\n"
+    },
+    {
+        "vaddr": 4205840,
+        "paddr": 11536,
+        "ordinal": 29,
+        "size": 43,
+        "length": 42,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t-v              identify program version\\n"
+    },
+    {
+        "vaddr": 4205888,
+        "paddr": 11584,
+        "ordinal": 30,
+        "size": 38,
+        "length": 37,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t-w <width>      minimum field width\\n"
+    },
+    {
+        "vaddr": 4205928,
+        "paddr": 11624,
+        "ordinal": 31,
+        "size": 36,
+        "length": 35,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t-z              zero pad integers\\n"
+    },
+    {
+        "vaddr": 4205968,
+        "paddr": 11664,
+        "ordinal": 32,
+        "size": 43,
+        "length": 42,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t-Z              do not zero pad integers\\n"
+    },
+    {
+        "vaddr": 4206016,
+        "paddr": 11712,
+        "ordinal": 33,
+        "size": 38,
+        "length": 37,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Copyright 2005-2008 William J. Poser\\n"
+    },
+    {
+        "vaddr": 4206056,
+        "paddr": 11752,
+        "ordinal": 34,
+        "size": 182,
+        "length": 181,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "This program is free software; you can redistribute\\nit and/or modify it under the terms of version 3 of\\nthe GNU General Public License as published by the\\nFree Software Foundation.\\n"
+    },
+    {
+        "vaddr": 4206240,
+        "paddr": 11936,
+        "ordinal": 35,
+        "size": 41,
+        "length": 40,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Report bugs to: billposer@alum.mit.edu.\\n"
+    },
+    {
+        "vaddr": 4206288,
+        "paddr": 11984,
+        "ordinal": 36,
+        "size": 33,
+        "length": 32,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "The locale %s is not available.\\n"
+    },
+    {
+        "vaddr": 4206328,
+        "paddr": 12024,
+        "ordinal": 37,
+        "size": 57,
+        "length": 56,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%s: base of %s falls outside of the representable range\\n"
+    },
+    {
+        "vaddr": 4206392,
+        "paddr": 12088,
+        "ordinal": 38,
+        "size": 33,
+        "length": 32,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%s: unrecognized output type %c\\n"
+    },
+    {
+        "vaddr": 4206432,
+        "paddr": 12128,
+        "ordinal": 39,
+        "size": 42,
+        "length": 41,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%s: output type %s does not specify size\\n"
+    },
+    {
+        "vaddr": 4206480,
+        "paddr": 12176,
+        "ordinal": 40,
+        "size": 33,
+        "length": 32,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%s: unrecognized output size %c\\n"
+    },
+    {
+        "vaddr": 4206520,
+        "paddr": 12216,
+        "ordinal": 41,
+        "size": 41,
+        "length": 40,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%s: missing argument to option flag %c.\\n"
+    },
+    {
+        "vaddr": 4206568,
+        "paddr": 12264,
+        "ordinal": 42,
+        "size": 65,
+        "length": 64,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Base of %d not permitted. Possible bases are: 2, 8, 10, and 16.\\n"
+    },
+    {
+        "vaddr": 4206640,
+        "paddr": 12336,
+        "ordinal": 43,
+        "size": 52,
+        "length": 51,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Floating point numbers must be printed in decimal.\\n"
+    },
+    {
+        "vaddr": 4206696,
+        "paddr": 12392,
+        "ordinal": 44,
+        "size": 56,
+        "length": 55,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%s: impermissible combination of output type and size \\n"
+    },
+    {
+        "vaddr": 4206752,
+        "paddr": 12448,
+        "ordinal": 45,
+        "size": 59,
+        "length": 58,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Signed integers may be printed only in decimal or binary.\\n"
+    },
+    {
+        "vaddr": 4206816,
+        "paddr": 12512,
+        "ordinal": 46,
+        "size": 40,
+        "length": 39,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Field width of %d does not make sense.\\n"
+    },
+    {
+        "vaddr": 4206856,
+        "paddr": 12552,
+        "ordinal": 47,
+        "size": 38,
+        "length": 37,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Precision of %d does not make sense.\\n"
+    },
+    {
+        "vaddr": 4206896,
+        "paddr": 12592,
+        "ordinal": 48,
+        "size": 40,
+        "length": 39,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Byte offset of %d does not make sense.\\n"
+    },
+    {
+        "vaddr": 4206936,
+        "paddr": 12632,
+        "ordinal": 49,
+        "size": 43,
+        "length": 42,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Items per line of %d does not make sense.\\n"
+    },
+    {
+        "vaddr": 4206984,
+        "paddr": 12680,
+        "ordinal": 50,
+        "size": 32,
+        "length": 31,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Field width of %d is excessive\\n"
+    },
+    {
+        "vaddr": 4207016,
+        "paddr": 12712,
+        "ordinal": 51,
+        "size": 58,
+        "length": 57,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Warning: -e flag has no effect with integral data types.\\n"
+    },
+    {
+        "vaddr": 4207080,
+        "paddr": 12776,
+        "ordinal": 52,
+        "size": 46,
+        "length": 45,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Failed to allocate storage for input buffer.\\n"
+    },
+    {
+        "vaddr": 4207128,
+        "paddr": 12824,
+        "ordinal": 53,
+        "size": 41,
+        "length": 40,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Byte offset exceeds size of input file.\\n"
+    },
+    {
+        "vaddr": 4207169,
+        "paddr": 12865,
+        "ordinal": 54,
+        "size": 19,
+        "length": 18,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Usage: %s [flags]\\n"
+    },
+    {
+        "vaddr": 4207188,
+        "paddr": 12884,
+        "ordinal": 55,
+        "size": 10,
+        "length": 9,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Options:\\n"
+    },
+    {
+        "vaddr": 4207198,
+        "paddr": 12894,
+        "ordinal": 56,
+        "size": 17,
+        "length": 16,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t-p <precision>\\n"
+    },
+    {
+        "vaddr": 4207215,
+        "paddr": 12911,
+        "ordinal": 57,
+        "size": 29,
+        "length": 28,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t                d [double]\\n"
+    },
+    {
+        "vaddr": 4207244,
+        "paddr": 12940,
+        "ordinal": 58,
+        "size": 29,
+        "length": 28,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t                f  [float]\\n"
+    },
+    {
+        "vaddr": 4207273,
+        "paddr": 12969,
+        "ordinal": 59,
+        "size": 29,
+        "length": 28,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t-V              be verbose\\n"
+    },
+    {
+        "vaddr": 4207302,
+        "paddr": 12998,
+        "ordinal": 60,
+        "size": 8,
+        "length": 7,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%s %s \\n"
+    },
+    {
+        "vaddr": 4207310,
+        "paddr": 13006,
+        "ordinal": 61,
+        "size": 14,
+        "length": 13,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Compiled %s.\\n"
+    },
+    {
+        "vaddr": 4207324,
+        "paddr": 13020,
+        "ordinal": 62,
+        "size": 13,
+        "length": 12,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "/usr//locale"
+    },
+    {
+        "vaddr": 4207337,
+        "paddr": 13033,
+        "ordinal": 63,
+        "size": 13,
+        "length": 12,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "ascii2binary"
+    },
+    {
+        "vaddr": 4207350,
+        "paddr": 13046,
+        "ordinal": 64,
+        "size": 30,
+        "length": 29,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%s: base of %s is ill-formed\\n"
+    },
+    {
+        "vaddr": 4207380,
+        "paddr": 13076,
+        "ordinal": 65,
+        "size": 28,
+        "length": 27,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%s: invalid option flag %c\\n"
+    },
+    {
+        "vaddr": 4207408,
+        "paddr": 13104,
+        "ordinal": 66,
+        "size": 28,
+        "length": 27,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": ":b:DdehlL:n:o:p:st:Vvw:XxZz"
+    },
+    {
+        "vaddr": 4207436,
+        "paddr": 13132,
+        "ordinal": 67,
+        "size": 30,
+        "length": 29,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Precision of %d is excessive\\n"
+    },
+    {
+        "vaddr": 4207470,
+        "paddr": 13166,
+        "ordinal": 68,
+        "size": 12,
+        "length": 11,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "format: %s\\n"
+    },
+    {
+        "vaddr": 4207482,
+        "paddr": 13178,
+        "ordinal": 69,
+        "size": 23,
+        "length": 22,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%s: converted 1 token\\n"
+    },
+    {
+        "vaddr": 4207505,
+        "paddr": 13201,
+        "ordinal": 70,
+        "size": 25,
+        "length": 24,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "%s: converted %d tokens\\n"
+    },
+    {
+        "vaddr": 4207530,
+        "paddr": 13226,
+        "ordinal": 71,
+        "size": 22,
+        "length": 21,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Error reading input.\\n"
+    },
+    {
+        "vaddr": 4207552,
+        "paddr": 13248,
+        "ordinal": 72,
+        "size": 5,
+        "length": 4,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "base"
+    },
+    {
+        "vaddr": 4207557,
+        "paddr": 13253,
+        "ordinal": 73,
+        "size": 15,
+        "length": 14,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "do-not-delimit"
+    },
+    {
+        "vaddr": 4207572,
+        "paddr": 13268,
+        "ordinal": 74,
+        "size": 12,
+        "length": 11,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "exponential"
+    },
+    {
+        "vaddr": 4207584,
+        "paddr": 13280,
+        "ordinal": 75,
+        "size": 5,
+        "length": 4,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "help"
+    },
+    {
+        "vaddr": 4207589,
+        "paddr": 13285,
+        "ordinal": 76,
+        "size": 9,
+        "length": 8,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "linefeed"
+    },
+    {
+        "vaddr": 4207598,
+        "paddr": 13294,
+        "ordinal": 77,
+        "size": 7,
+        "length": 6,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "number"
+    },
+    {
+        "vaddr": 4207605,
+        "paddr": 13301,
+        "ordinal": 78,
+        "size": 7,
+        "length": 6,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "offset"
+    },
+    {
+        "vaddr": 4207612,
+        "paddr": 13308,
+        "ordinal": 79,
+        "size": 10,
+        "length": 9,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "precision"
+    },
+    {
+        "vaddr": 4207622,
+        "paddr": 13318,
+        "ordinal": 80,
+        "size": 6,
+        "length": 5,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "sizes"
+    },
+    {
+        "vaddr": 4207628,
+        "paddr": 13324,
+        "ordinal": 81,
+        "size": 5,
+        "length": 4,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "type"
+    },
+    {
+        "vaddr": 4207633,
+        "paddr": 13329,
+        "ordinal": 82,
+        "size": 8,
+        "length": 7,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "verbose"
+    },
+    {
+        "vaddr": 4207641,
+        "paddr": 13337,
+        "ordinal": 83,
+        "size": 8,
+        "length": 7,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "version"
+    },
+    {
+        "vaddr": 4207649,
+        "paddr": 13345,
+        "ordinal": 84,
+        "size": 6,
+        "length": 5,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "width"
+    },
+    {
+        "vaddr": 4207655,
+        "paddr": 13351,
+        "ordinal": 85,
+        "size": 19,
+        "length": 18,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "explain-exit-codes"
+    },
+    {
+        "vaddr": 4207674,
+        "paddr": 13370,
+        "ordinal": 86,
+        "size": 12,
+        "length": 11,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "no-hex-mark"
+    },
+    {
+        "vaddr": 4207686,
+        "paddr": 13382,
+        "ordinal": 87,
+        "size": 25,
+        "length": 24,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "do-not-zero-pad-integers"
+    },
+    {
+        "vaddr": 4208360,
+        "paddr": 14056,
+        "ordinal": 88,
+        "size": 51,
+        "length": 50,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "This machine is little-endian. (1234 byte order).\\n"
+    },
+    {
+        "vaddr": 4208416,
+        "paddr": 14112,
+        "ordinal": 89,
+        "size": 77,
+        "length": 76,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "That is, the most significant byte is stored in the highest memory address.\\n"
+    },
+    {
+        "vaddr": 4208496,
+        "paddr": 14192,
+        "ordinal": 90,
+        "size": 48,
+        "length": 47,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "This machine is big-endian. (4321 byte order).\\n"
+    },
+    {
+        "vaddr": 4208544,
+        "paddr": 14240,
+        "ordinal": 91,
+        "size": 76,
+        "length": 75,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "That is, the most significant byte is stored in the lowest memory address.\\n"
+    },
+    {
+        "vaddr": 4208624,
+        "paddr": 14320,
+        "ordinal": 92,
+        "size": 76,
+        "length": 75,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "This machine is PDP-endian and so is probably a PDP-11. (3412 byte order).\\n"
+    },
+    {
+        "vaddr": 4208704,
+        "paddr": 14400,
+        "ordinal": 93,
+        "size": 83,
+        "length": 82,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "In 4-byte integers, the first two bytes are more significant than the second two.\\n"
+    },
+    {
+        "vaddr": 4208792,
+        "paddr": 14488,
+        "ordinal": 94,
+        "size": 64,
+        "length": 63,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "but within each pair, the second byte is the more significant.\\n"
+    },
+    {
+        "vaddr": 4208856,
+        "paddr": 14552,
+        "ordinal": 95,
+        "size": 73,
+        "length": 72,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "                   Bytes               Minimum                  Maximum\\n"
+    },
+    {
+        "vaddr": 4208936,
+        "paddr": 14632,
+        "ordinal": 96,
+        "size": 35,
+        "length": 34,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "char      signed      %2d %*d %*d\\n"
+    },
+    {
+        "vaddr": 4208976,
+        "paddr": 14672,
+        "ordinal": 97,
+        "size": 35,
+        "length": 34,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "          unsigned    %2d %*d %*d\\n"
+    },
+    {
+        "vaddr": 4209016,
+        "paddr": 14712,
+        "ordinal": 98,
+        "size": 35,
+        "length": 34,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "short     signed      %2d %*d %*d\\n"
+    },
+    {
+        "vaddr": 4209056,
+        "paddr": 14752,
+        "ordinal": 99,
+        "size": 35,
+        "length": 34,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "int       signed      %2d %*d %*d\\n"
+    },
+    {
+        "vaddr": 4209096,
+        "paddr": 14792,
+        "ordinal": 100,
+        "size": 35,
+        "length": 34,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "          unsigned    %2d %*d %*u\\n"
+    },
+    {
+        "vaddr": 4209136,
+        "paddr": 14832,
+        "ordinal": 101,
+        "size": 37,
+        "length": 36,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "long      signed      %2d %*ld %*ld\\n"
+    },
+    {
+        "vaddr": 4209176,
+        "paddr": 14872,
+        "ordinal": 102,
+        "size": 37,
+        "length": 36,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "          unsigned    %2d %*ld %*lu\\n"
+    },
+    {
+        "vaddr": 4209216,
+        "paddr": 14912,
+        "ordinal": 103,
+        "size": 39,
+        "length": 38,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "long long signed      %2d %*lld %*lld\\n"
+    },
+    {
+        "vaddr": 4209256,
+        "paddr": 14952,
+        "ordinal": 104,
+        "size": 39,
+        "length": 38,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "          unsigned    %2d %*llu %*llu\\n"
+    },
+    {
+        "vaddr": 4209296,
+        "paddr": 14992,
+        "ordinal": 105,
+        "size": 37,
+        "length": 36,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "wchar_t               %2d %*ld %*ld\\n"
+    },
+    {
+        "vaddr": 4209336,
+        "paddr": 15032,
+        "ordinal": 106,
+        "size": 35,
+        "length": 34,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "float                 %2d %*g %*g\\n"
+    },
+    {
+        "vaddr": 4209376,
+        "paddr": 15072,
+        "ordinal": 107,
+        "size": 35,
+        "length": 34,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "double                %2d %*g %*g\\n"
+    },
+    {
+        "vaddr": 4209416,
+        "paddr": 15112,
+        "ordinal": 108,
+        "size": 38,
+        "length": 37,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "long double           %2d %*Lg  %*Lg\\n"
+    },
+    {
+        "vaddr": 4209454,
+        "paddr": 15150,
+        "ordinal": 109,
+        "size": 23,
+        "length": 22,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "Unknown byte-ordering\\n"
+    },
+    {
+        "vaddr": 4209477,
+        "paddr": 15173,
+        "ordinal": 110,
+        "size": 27,
+        "length": 26,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "size_t                %2d\\n"
+    },
+    {
+        "vaddr": 4209504,
+        "paddr": 15200,
+        "ordinal": 111,
+        "size": 27,
+        "length": 26,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "u_int8_t              %2d\\n"
+    },
+    {
+        "vaddr": 4209531,
+        "paddr": 15227,
+        "ordinal": 112,
+        "size": 27,
+        "length": 26,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "u_int16_t             %2d\\n"
+    },
+    {
+        "vaddr": 4209558,
+        "paddr": 15254,
+        "ordinal": 113,
+        "size": 27,
+        "length": 26,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "u_int32_t             %2d\\n"
+    },
+    {
+        "vaddr": 4209585,
+        "paddr": 15281,
+        "ordinal": 114,
+        "size": 27,
+        "length": 26,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "u_int64_t             %2d\\n"
+    },
+    {
+        "vaddr": 4209648,
+        "paddr": 15344,
+        "ordinal": 115,
+        "size": 33,
+        "length": 32,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "The codes returned on exit are:\\n"
+    },
+    {
+        "vaddr": 4209688,
+        "paddr": 15384,
+        "ordinal": 116,
+        "size": 12,
+        "length": 11,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t0 Success\\n"
+    },
+    {
+        "vaddr": 4209700,
+        "paddr": 15396,
+        "ordinal": 117,
+        "size": 9,
+        "length": 8,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t1 Info\\n"
+    },
+    {
+        "vaddr": 4209709,
+        "paddr": 15405,
+        "ordinal": 118,
+        "size": 17,
+        "length": 16,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t2 System Error\\n"
+    },
+    {
+        "vaddr": 4209726,
+        "paddr": 15422,
+        "ordinal": 119,
+        "size": 23,
+        "length": 22,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t3 Command Line Error\\n"
+    },
+    {
+        "vaddr": 4209749,
+        "paddr": 15445,
+        "ordinal": 120,
+        "size": 16,
+        "length": 15,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t4 Range Error\\n"
+    },
+    {
+        "vaddr": 4209765,
+        "paddr": 15461,
+        "ordinal": 121,
+        "size": 16,
+        "length": 15,
+        "section": ".rodata",
+        "type": "ascii",
+        "string": "\\t5 Input Error\\n"
+    },
+    {
+        "vaddr": 6309248,
+        "paddr": 17792,
+        "ordinal": 0,
+        "size": 21,
+        "length": 20,
+        "section": ".data",
+        "type": "ascii",
+        "string": "Sep 21 2019 20:07:16"
+    },
+    {
+        "vaddr": 6309269,
+        "paddr": 17813,
+        "ordinal": 1,
+        "size": 5,
+        "length": 4,
+        "section": ".data",
+        "type": "ascii",
+        "string": "2.14"
+    },
+    {
+        "vaddr": 6309274,
+        "paddr": 17818,
+        "ordinal": 2,
+        "size": 13,
+        "length": 12,
+        "section": ".data",
+        "type": "ascii",
+        "string": "binary2ascii"
+    }
+]
