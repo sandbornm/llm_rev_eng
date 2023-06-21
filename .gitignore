@@ -18,3 +18,5 @@ radare_scripts/
 allstar_targets/
 analysis_json/
 eval_plan
+
+__pycache__/*.pyc

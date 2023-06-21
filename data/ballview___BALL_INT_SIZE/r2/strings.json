@@ -1,0 +1,12 @@
+[
+    {
+        "vaddr": 6295616,
+        "paddr": 4160,
+        "ordinal": 0,
+        "size": 31,
+        "length": 30,
+        "section": ".data",
+        "type": "ascii",
+        "string": "INFO:size[00004] key[__x86_64]"
+    }
+]

@@ -1,0 +1,142 @@
+[
+    {
+        "ordinal": 1,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "putchar",
+        "plt": 4196336
+    },
+    {
+        "ordinal": 2,
+        "bind": "WEAK",
+        "type": "NOTYPE",
+        "name": "_ITM_deregisterTMCloneTable",
+        "plt": 0
+    },
+    {
+        "ordinal": 3,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "puts",
+        "plt": 4196352
+    },
+    {
+        "ordinal": 4,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "strtod",
+        "plt": 4196368
+    },
+    {
+        "ordinal": 5,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "strlen",
+        "plt": 4196384
+    },
+    {
+        "ordinal": 6,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "strchr",
+        "plt": 4196400
+    },
+    {
+        "ordinal": 7,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "printf",
+        "plt": 4196416
+    },
+    {
+        "ordinal": 8,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "pow",
+        "plt": 4196432
+    },
+    {
+        "ordinal": 9,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "log",
+        "plt": 4196448
+    },
+    {
+        "ordinal": 10,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "__libc_start_main",
+        "plt": 4196464
+    },
+    {
+        "ordinal": 11,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "log10",
+        "plt": 4196480
+    },
+    {
+        "ordinal": 12,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "fprintf",
+        "plt": 4196496
+    },
+    {
+        "ordinal": 13,
+        "bind": "WEAK",
+        "type": "NOTYPE",
+        "name": "__gmon_start__",
+        "plt": 4196512
+    },
+    {
+        "ordinal": 14,
+        "bind": "WEAK",
+        "type": "NOTYPE",
+        "name": "_Jv_RegisterClasses",
+        "plt": 0
+    },
+    {
+        "ordinal": 15,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "sin",
+        "plt": 4196528
+    },
+    {
+        "ordinal": 16,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "tanh",
+        "plt": 4196544
+    },
+    {
+        "ordinal": 17,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "exit",
+        "plt": 4196560
+    },
+    {
+        "ordinal": 18,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "fwrite",
+        "plt": 4196576
+    },
+    {
+        "ordinal": 19,
+        "bind": "WEAK",
+        "type": "NOTYPE",
+        "name": "_ITM_registerTMCloneTable",
+        "plt": 0
+    },
+    {
+        "ordinal": 20,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "sqrt",
+        "plt": 4196592
+    }
+]

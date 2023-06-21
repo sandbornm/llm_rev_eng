@@ -1,0 +1,156 @@
+[
+    {
+        "ordinal": 1,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "__errno_location",
+        "plt": 4196800
+    },
+    {
+        "ordinal": 2,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "textdomain",
+        "plt": 4196816
+    },
+    {
+        "ordinal": 3,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "bindtextdomain",
+        "plt": 4196832
+    },
+    {
+        "ordinal": 4,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "stpcpy",
+        "plt": 4196848
+    },
+    {
+        "ordinal": 5,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "dcgettext",
+        "plt": 4196864
+    },
+    {
+        "ordinal": 6,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "getopt_long",
+        "plt": 4196880
+    },
+    {
+        "ordinal": 7,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "printf",
+        "plt": 4196896
+    },
+    {
+        "ordinal": 8,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "_IO_putc",
+        "plt": 4196912
+    },
+    {
+        "ordinal": 9,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "snprintf",
+        "plt": 4196928
+    },
+    {
+        "ordinal": 10,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "fputs",
+        "plt": 4196944
+    },
+    {
+        "ordinal": 11,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "read",
+        "plt": 4196960
+    },
+    {
+        "ordinal": 12,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "__libc_start_main",
+        "plt": 4196976
+    },
+    {
+        "ordinal": 13,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "fprintf",
+        "plt": 4196992
+    },
+    {
+        "ordinal": 14,
+        "bind": "WEAK",
+        "type": "NOTYPE",
+        "name": "__gmon_start__",
+        "plt": 4197008
+    },
+    {
+        "ordinal": 15,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "strtol",
+        "plt": 4197024
+    },
+    {
+        "ordinal": 16,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "fileno",
+        "plt": 4197040
+    },
+    {
+        "ordinal": 17,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "malloc",
+        "plt": 4197056
+    },
+    {
+        "ordinal": 18,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "setlocale",
+        "plt": 4197072
+    },
+    {
+        "ordinal": 19,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "strtoul",
+        "plt": 4197088
+    },
+    {
+        "ordinal": 20,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "exit",
+        "plt": 4197104
+    },
+    {
+        "ordinal": 21,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "fwrite",
+        "plt": 4197120
+    },
+    {
+        "ordinal": 22,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "__ctype_tolower_loc",
+        "plt": 4197136
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "ordinal": 1,
+        "bind": "WEAK",
+        "type": "NOTYPE",
+        "name": "_ITM_deregisterTMCloneTable",
+        "plt": 0
+    },
+    {
+        "ordinal": 2,
+        "bind": "GLOBAL",
+        "type": "FUNC",
+        "name": "__libc_start_main",
+        "plt": 4195936
+    },
+    {
+        "ordinal": 3,
+        "bind": "WEAK",
+        "type": "NOTYPE",
+        "name": "__gmon_start__",
+        "plt": 4195952
+    },
+    {
+        "ordinal": 4,
+        "bind": "WEAK",
+        "type": "NOTYPE",
+        "name": "_Jv_RegisterClasses",
+        "plt": 0
+    },
+    {
+        "ordinal": 5,
+        "bind": "WEAK",
+        "type": "NOTYPE",
+        "name": "_ITM_registerTMCloneTable",
+        "plt": 0
+    }
+]

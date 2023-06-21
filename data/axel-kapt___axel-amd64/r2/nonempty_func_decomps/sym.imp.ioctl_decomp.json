@@ -1,0 +1,1 @@
+"{\"annotations\":[{\"start\":56,\"end\":56,\"offset\":4199840,\"type\":\"offset\"},{\"start\":110,\"end\":110,\"offset\":4199840,\"type\":\"offset\"}],\"code\":\"int sym.imp.ioctl (int esi, int edx) {\\n    loc_0x4015a0:\\n        // CALL XREF from sym.get_if_ip @ 0x405eac(x)\\n        goto loc_qword [reloc.ioctl] // [0x608300:8]=0x4015a6\\n         // (break)\\n}\\n\"}\n"

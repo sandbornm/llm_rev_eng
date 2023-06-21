@@ -1,0 +1,1 @@
+"{\"annotations\":[{\"start\":57,\"end\":57,\"offset\":4196416,\"type\":\"offset\"},{\"start\":78,\"end\":78,\"offset\":4196416,\"type\":\"offset\"}],\"code\":\"int sym.imp.printf (int esi, int edx) {\\n    loc_0x400840:\\n        // XREFS(22)\\n        goto loc_qword [reloc.printf] // [0x60a4b8:8]=0x400846 // \\\"F\\\\b@\\\"\\n         // (break)\\n}\\n\"}\n"

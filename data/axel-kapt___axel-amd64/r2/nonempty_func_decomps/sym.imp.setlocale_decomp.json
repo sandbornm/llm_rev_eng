@@ -1,0 +1,1 @@
+"{\"annotations\":[{\"start\":60,\"end\":60,\"offset\":4200144,\"type\":\"offset\"},{\"start\":105,\"end\":105,\"offset\":4200144,\"type\":\"offset\"}],\"code\":\"int sym.imp.setlocale (int esi, int edx) {\\n    loc_0x4016d0:\\n        // CALL XREF from main @ 0x40180b(x)\\n        goto loc_qword [reloc.setlocale] // [0x608398:8]=0x4016d6\\n         // (break)\\n}\\n\"}\n"

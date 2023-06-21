@@ -17,8 +17,7 @@ fi
 echo "target_dir: $target_dir"
 for target_file in `ls $target_dir`
 do
-    target_full_path=$(realpath $target_file)
-    echo "$target_full_path"
-
-    "$script_dir/setup_target.sh" "$target_full_path"
+    target_path="$target_dir/$target_file"
+    echo "target file is: $target_path"
+    "$script_dir/setup_target.sh" "$target_path"
 done

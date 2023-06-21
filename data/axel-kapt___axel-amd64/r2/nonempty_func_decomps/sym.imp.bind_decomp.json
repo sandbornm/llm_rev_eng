@@ -1,0 +1,1 @@
+"{\"annotations\":[{\"start\":55,\"end\":55,\"offset\":4200160,\"type\":\"offset\"},{\"start\":111,\"end\":111,\"offset\":4200160,\"type\":\"offset\"}],\"code\":\"int sym.imp.bind (int esi, int edx) {\\n    loc_0x4016e0:\\n        // CALL XREF from sym.tcp_connect @ 0x405e05(x)\\n        goto loc_qword [reloc.bind] // [0x6083a0:8]=0x4016e6\\n         // (break)\\n}\\n\"}\n"

@@ -13,7 +13,11 @@ class RadareHandler:
         we can obtain the necessary information to run the next command. 
         We will need a class for each supported RE tool.
     """
-    def __init__(self, target_name: str):
+    def __init__(self, target_dir: str):
+        self.target_dir = target_dir
+
+    def _set_target(self, target_name: str):
+        print(f"(handler) setting target to {target_name}")
         self.target_name = target_name
 
     def _retrieve_args(self, cmd_num, prev_cmd) -> List[str]:
@@ -29,8 +33,8 @@ class RadareHandler:
         with open(os.path.join(RESULT_DIR, self.target_name, f'{cmd_num}_{prev_cmd}.json'), 'r') as f:
             prev_result = json.load(f)
 
-        next_cmd = prev_result['next_cmd']
-        next_args = prev_result['next_args']
+        next_cmd = prev_result['response']['next_cmd']
+        next_args = prev_result['response']['next_args']
 
         args = next_args.split(' ')
 
@@ -41,12 +45,14 @@ class RadareHandler:
             #     print("get strings")
             # elif stype == "functions":
             #     print("get functions")
-            return [stype, self.get_data(stype)]
+            filled_args = "\n".join([stype, self.get_data(stype)])
 
         else:  # all other commands currently require a single function information
             func_id, code_format = args
             # get the function in the specified format
-            return [func_id, code_format, self.get_function_format(func_id, code_format)]
+            filled_args = "\n".join([func_id, code_format, self.get_function_format(func_id, code_format)])
+        
+        return filled_args
 
 
     def _get_function_disasm(self, func_id: str) -> str:
@@ -105,13 +111,17 @@ class RadareHandler:
         with open(os.path.join(DATA_DIR, self.target_name, "r2", "strings.json"), 'r') as f:
             strings_json = json.load(f)
         
-        return [entry["string"] for entry in strings_json]
+        strings_list_as_str = '\n'.join([entry["string"] for entry in strings_json])
+
+        return strings_list_as_str
 
     def _get_functions(self) -> str:
         with open(os.path.join(DATA_DIR, self.target_name, "r2", "functions.json"), 'r') as f:
             functions_json = json.load(f)
+
+        func_list_as_str = '\n'.join([entry["name"] for entry in functions_json])
         
-        return [entry["name"] for entry in functions_json]
+        return func_list_as_str
 
 
     def get_data(self, stype: str) -> str:

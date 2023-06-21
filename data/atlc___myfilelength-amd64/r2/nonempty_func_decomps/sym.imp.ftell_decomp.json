@@ -1,0 +1,1 @@
+"{\"annotations\":[{\"start\":56,\"end\":56,\"offset\":4195776,\"type\":\"offset\"},{\"start\":105,\"end\":105,\"offset\":4195776,\"type\":\"offset\"}],\"code\":\"int sym.imp.ftell (int esi, int edx) {\\n    loc_0x4005c0:\\n        // CALL XREF from dbg.main @ 0x40063e(x)\\n        goto loc_qword [reloc.ftell] // [0x600b60:8]=0x4005c6\\n         // (break)\\n}\\n\"}\n"

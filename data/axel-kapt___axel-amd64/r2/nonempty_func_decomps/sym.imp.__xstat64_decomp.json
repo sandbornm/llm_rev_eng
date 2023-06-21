@@ -1,0 +1,1 @@
+"{\"annotations\":[{\"start\":60,\"end\":60,\"offset\":4199664,\"type\":\"offset\"},{\"start\":111,\"end\":111,\"offset\":4199664,\"type\":\"offset\"}],\"code\":\"int sym.imp.__xstat64 (int esi, int edx) {\\n    loc_0x4014f0:\\n        // CODE XREF from sym.stat64 @ 0x40624b(x)\\n        goto loc_qword [reloc.__xstat64] // [0x6082a8:8]=0x4014f6\\n         // (break)\\n}\\n\"}\n"

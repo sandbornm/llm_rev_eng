@@ -1,0 +1,6978 @@
+[
+    {
+        "offset": 4200952,
+        "name": "entry0",
+        "size": 41,
+        "is-pure": "false",
+        "realsz": 41,
+        "noreturn": false,
+        "stackframe": 8,
+        "calltype": "amd64",
+        "cost": 13,
+        "cc": 1,
+        "bits": 64,
+        "type": "fcn",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 11,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "entry0 (func rtld_fini, void *stack_end);",
+        "minbound": 4200952,
+        "maxbound": 4200993,
+        "callrefs": [
+            {
+                "addr": 4204464,
+                "type": "DATA",
+                "at": 4200967
+            },
+            {
+                "addr": 4204352,
+                "type": "DATA",
+                "at": 4200974
+            },
+            {
+                "addr": 4197152,
+                "type": "DATA",
+                "at": 4200981
+            }
+        ],
+        "datarefs": [
+            4204464,
+            4204352,
+            4197152
+        ],
+        "indegree": 0,
+        "outdegree": 1,
+        "nlocals": 0,
+        "nargs": 2,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [
+            {
+                "name": "rtld_fini",
+                "kind": "reg",
+                "type": "func",
+                "ref": "rdx"
+            },
+            {
+                "name": "stack_end",
+                "kind": "reg",
+                "type": "void *",
+                "ref": "xmm0"
+            }
+        ],
+        "difftype": "new"
+    },
+    {
+        "offset": 4196976,
+        "name": "sym.imp.__libc_start_main",
+        "size": 6,
+        "is-pure": "true",
+        "realsz": 6,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 3,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 1,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "int sym.imp.__libc_start_main (func main, int argc, char **ubp_av, func init, func fini, func rtld_fini, void *stack_end);",
+        "minbound": 4196976,
+        "maxbound": 4196982,
+        "callrefs": [
+            {
+                "addr": 6308448,
+                "type": "CODE",
+                "at": 4196976
+            }
+        ],
+        "datarefs": [],
+        "codexrefs": [
+            {
+                "addr": 4200988,
+                "type": "CALL",
+                "at": 4196976
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 1,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4201008,
+        "name": "sym.deregister_tm_clones",
+        "size": 50,
+        "is-pure": "false",
+        "realsz": 41,
+        "noreturn": false,
+        "stackframe": 8,
+        "calltype": "amd64",
+        "cost": 19,
+        "cc": 4,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 4,
+        "is-lineal": false,
+        "ninstrs": 14,
+        "edges": 4,
+        "ebbs": 2,
+        "signature": "sym.deregister_tm_clones ();",
+        "minbound": 4201008,
+        "maxbound": 4201058,
+        "callrefs": [
+            {
+                "addr": 6309295,
+                "type": "DATA",
+                "at": 4201008
+            },
+            {
+                "addr": 6309288,
+                "type": "DATA",
+                "at": 4201014
+            },
+            {
+                "addr": 4201056,
+                "type": "CODE",
+                "at": 4201027
+            },
+            {
+                "addr": 4201056,
+                "type": "CODE",
+                "at": 4201037
+            },
+            {
+                "addr": 6309288,
+                "type": "DATA",
+                "at": 4201040
+            }
+        ],
+        "datarefs": [
+            6309295,
+            6309288,
+            6309288
+        ],
+        "codexrefs": [
+            {
+                "addr": 4201149,
+                "type": "CALL",
+                "at": 4201008
+            },
+            {
+                "addr": 4201027,
+                "type": "CODE",
+                "at": 4201056
+            },
+            {
+                "addr": 4201037,
+                "type": "CODE",
+                "at": 4201056
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 3,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4201072,
+        "name": "sym.register_tm_clones",
+        "size": 58,
+        "is-pure": "false",
+        "realsz": 55,
+        "noreturn": false,
+        "stackframe": 8,
+        "calltype": "amd64",
+        "cost": 23,
+        "cc": 4,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 4,
+        "is-lineal": false,
+        "ninstrs": 18,
+        "edges": 4,
+        "ebbs": 2,
+        "signature": "sym.register_tm_clones ();",
+        "minbound": 4201072,
+        "maxbound": 4201130,
+        "callrefs": [
+            {
+                "addr": 6309288,
+                "type": "DATA",
+                "at": 4201072
+            },
+            {
+                "addr": 6309288,
+                "type": "DATA",
+                "at": 4201078
+            },
+            {
+                "addr": 4201128,
+                "type": "CODE",
+                "at": 4201105
+            },
+            {
+                "addr": 4201128,
+                "type": "CODE",
+                "at": 4201115
+            },
+            {
+                "addr": 6309288,
+                "type": "DATA",
+                "at": 4201118
+            }
+        ],
+        "datarefs": [
+            6309288,
+            6309288,
+            6309288
+        ],
+        "codexrefs": [
+            {
+                "addr": 4201179,
+                "type": "CODE",
+                "at": 4201072
+            },
+            {
+                "addr": 4201201,
+                "type": "CODE",
+                "at": 4201072
+            },
+            {
+                "addr": 4201105,
+                "type": "CODE",
+                "at": 4201128
+            },
+            {
+                "addr": 4201115,
+                "type": "CODE",
+                "at": 4201128
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 4,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4201136,
+        "name": "sym.__do_global_dtors_aux",
+        "size": 28,
+        "is-pure": "false",
+        "realsz": 28,
+        "noreturn": false,
+        "stackframe": 8,
+        "calltype": "amd64",
+        "cost": 13,
+        "cc": 2,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 3,
+        "is-lineal": true,
+        "ninstrs": 8,
+        "edges": 3,
+        "ebbs": 1,
+        "signature": "sym.__do_global_dtors_aux ();",
+        "minbound": 4201136,
+        "maxbound": 4201164,
+        "callrefs": [
+            {
+                "addr": 6309360,
+                "type": "DATA",
+                "at": 4201136
+            },
+            {
+                "addr": 4201162,
+                "type": "CODE",
+                "at": 4201143
+            },
+            {
+                "addr": 6309360,
+                "type": "DATA",
+                "at": 4201155
+            }
+        ],
+        "datarefs": [
+            6309360,
+            6309360
+        ],
+        "codexrefs": [
+            {
+                "addr": 4201143,
+                "type": "CODE",
+                "at": 4201162
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 1,
+        "outdegree": 1,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4201168,
+        "name": "entry.init0",
+        "size": 38,
+        "is-pure": "false",
+        "realsz": 35,
+        "noreturn": false,
+        "stackframe": 8,
+        "calltype": "amd64",
+        "cost": 18,
+        "cc": 2,
+        "bits": 64,
+        "type": "fcn",
+        "nbbs": 4,
+        "is-lineal": false,
+        "ninstrs": 12,
+        "edges": 6,
+        "ebbs": 0,
+        "signature": "entry.init0 ();",
+        "minbound": 4201168,
+        "maxbound": 4201206,
+        "callrefs": [
+            {
+                "addr": 6307856,
+                "type": "DATA",
+                "at": 4201168
+            },
+            {
+                "addr": 4201184,
+                "type": "CODE",
+                "at": 4201177
+            },
+            {
+                "addr": 4201072,
+                "type": "CODE",
+                "at": 4201179
+            },
+            {
+                "addr": 4201179,
+                "type": "CODE",
+                "at": 4201192
+            },
+            {
+                "addr": 4201072,
+                "type": "CODE",
+                "at": 4201201
+            }
+        ],
+        "datarefs": [
+            6307856
+        ],
+        "codexrefs": [
+            {
+                "addr": 4201192,
+                "type": "CODE",
+                "at": 4201179
+            },
+            {
+                "addr": 4201177,
+                "type": "CODE",
+                "at": 4201184
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 2,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4204464,
+        "name": "sym.__libc_csu_fini",
+        "size": 2,
+        "is-pure": "true",
+        "realsz": 2,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 3,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 1,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "sym.__libc_csu_fini ();",
+        "minbound": 4204464,
+        "maxbound": 4204466,
+        "codexrefs": [],
+        "dataxrefs": [
+            4200967
+        ],
+        "indegree": 0,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4204128,
+        "name": "dbg.Get_Endianness",
+        "size": 3,
+        "is-pure": "true",
+        "realsz": 3,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 4,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 2,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "dbg.Get_Endianness ();",
+        "minbound": 4204128,
+        "maxbound": 4204131,
+        "codexrefs": [
+            {
+                "addr": 4202996,
+                "type": "CALL",
+                "at": 4204128
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 1,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4204468,
+        "name": "sym._fini",
+        "size": 9,
+        "is-pure": "true",
+        "realsz": 9,
+        "noreturn": false,
+        "stackframe": 8,
+        "calltype": "amd64",
+        "cost": 5,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 3,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "sym._fini ();",
+        "minbound": 4204468,
+        "maxbound": 4204477,
+        "indegree": 0,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4202736,
+        "name": "dbg.binfmts",
+        "size": 53,
+        "is-pure": "false",
+        "realsz": 53,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 18,
+        "cc": 2,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 3,
+        "is-lineal": true,
+        "ninstrs": 15,
+        "edges": 3,
+        "ebbs": 1,
+        "signature": "dbg.binfmts (short unsigned int n);",
+        "minbound": 4202736,
+        "maxbound": 4202789,
+        "callrefs": [
+            {
+                "addr": 6309663,
+                "type": "DATA",
+                "at": 4202736
+            },
+            {
+                "addr": 6309647,
+                "type": "DATA",
+                "at": 4202768
+            },
+            {
+                "addr": 4202744,
+                "type": "CODE",
+                "at": 4202774
+            },
+            {
+                "addr": 6309664,
+                "type": "DATA",
+                "at": 4202776
+            },
+            {
+                "addr": 6309648,
+                "type": "DATA",
+                "at": 4202783
+            }
+        ],
+        "datarefs": [
+            6309663,
+            6309647,
+            6309664,
+            6309648
+        ],
+        "codexrefs": [
+            {
+                "addr": 4200488,
+                "type": "CALL",
+                "at": 4202736
+            },
+            {
+                "addr": 4202774,
+                "type": "CODE",
+                "at": 4202744
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 2,
+        "outdegree": 0,
+        "nlocals": 1,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [
+            {
+                "name": "n",
+                "kind": "reg",
+                "type": "short unsigned int",
+                "ref": "rdi"
+            }
+        ],
+        "difftype": "new"
+    },
+    {
+        "offset": 4202928,
+        "name": "dbg.binfmtq",
+        "size": 54,
+        "is-pure": "false",
+        "realsz": 54,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 18,
+        "cc": 2,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 3,
+        "is-lineal": true,
+        "ninstrs": 15,
+        "edges": 3,
+        "ebbs": 1,
+        "signature": "dbg.binfmtq (long long unsigned int n);",
+        "minbound": 4202928,
+        "maxbound": 4202982,
+        "callrefs": [
+            {
+                "addr": 6309439,
+                "type": "DATA",
+                "at": 4202928
+            },
+            {
+                "addr": 6309375,
+                "type": "DATA",
+                "at": 4202961
+            },
+            {
+                "addr": 4202936,
+                "type": "CODE",
+                "at": 4202967
+            },
+            {
+                "addr": 6309440,
+                "type": "DATA",
+                "at": 4202969
+            },
+            {
+                "addr": 6309376,
+                "type": "DATA",
+                "at": 4202976
+            }
+        ],
+        "datarefs": [
+            6309439,
+            6309375,
+            6309440,
+            6309376
+        ],
+        "codexrefs": [
+            {
+                "addr": 4200363,
+                "type": "CALL",
+                "at": 4202928
+            },
+            {
+                "addr": 4202967,
+                "type": "CODE",
+                "at": 4202936
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 2,
+        "outdegree": 0,
+        "nlocals": 1,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [
+            {
+                "name": "n",
+                "kind": "reg",
+                "type": "long long unsigned int",
+                "ref": "rdi"
+            }
+        ],
+        "difftype": "new"
+    },
+    {
+        "offset": 4202800,
+        "name": "dbg.binfmti",
+        "size": 51,
+        "is-pure": "false",
+        "realsz": 51,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 18,
+        "cc": 2,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 3,
+        "is-lineal": true,
+        "ninstrs": 15,
+        "edges": 3,
+        "ebbs": 1,
+        "signature": "dbg.binfmti (unsigned int n);",
+        "minbound": 4202800,
+        "maxbound": 4202851,
+        "callrefs": [
+            {
+                "addr": 6309631,
+                "type": "DATA",
+                "at": 4202800
+            },
+            {
+                "addr": 6309599,
+                "type": "DATA",
+                "at": 4202830
+            },
+            {
+                "addr": 4202808,
+                "type": "CODE",
+                "at": 4202836
+            },
+            {
+                "addr": 6309632,
+                "type": "DATA",
+                "at": 4202838
+            },
+            {
+                "addr": 6309600,
+                "type": "DATA",
+                "at": 4202845
+            }
+        ],
+        "datarefs": [
+            6309631,
+            6309599,
+            6309632,
+            6309600
+        ],
+        "codexrefs": [
+            {
+                "addr": 4200635,
+                "type": "CALL",
+                "at": 4202800
+            },
+            {
+                "addr": 4202836,
+                "type": "CODE",
+                "at": 4202808
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 2,
+        "outdegree": 0,
+        "nlocals": 1,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [
+            {
+                "name": "n",
+                "kind": "reg",
+                "type": "unsigned int",
+                "ref": "rdi"
+            }
+        ],
+        "difftype": "new"
+    },
+    {
+        "offset": 4202672,
+        "name": "dbg.binfmtc",
+        "size": 52,
+        "is-pure": "false",
+        "realsz": 52,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 18,
+        "cc": 2,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 3,
+        "is-lineal": true,
+        "ninstrs": 15,
+        "edges": 3,
+        "ebbs": 1,
+        "signature": "dbg.binfmtc (unsigned char n);",
+        "minbound": 4202672,
+        "maxbound": 4202724,
+        "callrefs": [
+            {
+                "addr": 6309672,
+                "type": "DATA",
+                "at": 4202672
+            },
+            {
+                "addr": 6309664,
+                "type": "DATA",
+                "at": 4202703
+            },
+            {
+                "addr": 4202680,
+                "type": "CODE",
+                "at": 4202709
+            },
+            {
+                "addr": 6309673,
+                "type": "DATA",
+                "at": 4202711
+            },
+            {
+                "addr": 6309665,
+                "type": "DATA",
+                "at": 4202718
+            }
+        ],
+        "datarefs": [
+            6309672,
+            6309664,
+            6309673,
+            6309665
+        ],
+        "codexrefs": [
+            {
+                "addr": 4200528,
+                "type": "CALL",
+                "at": 4202672
+            },
+            {
+                "addr": 4202709,
+                "type": "CODE",
+                "at": 4202680
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 2,
+        "outdegree": 0,
+        "nlocals": 1,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [
+            {
+                "name": "n",
+                "kind": "reg",
+                "type": "unsigned char",
+                "ref": "rdi"
+            }
+        ],
+        "difftype": "new"
+    },
+    {
+        "offset": 4202464,
+        "name": "dbg.Version",
+        "size": 164,
+        "is-pure": "false",
+        "realsz": 164,
+        "noreturn": false,
+        "stackframe": 8,
+        "calltype": "amd64",
+        "cost": 48,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 35,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "dbg.Version ();",
+        "minbound": 4202464,
+        "maxbound": 4202628,
+        "callrefs": [
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4202468
+            },
+            {
+                "addr": 6309269,
+                "type": "DATA",
+                "at": 4202475
+            },
+            {
+                "addr": 6309274,
+                "type": "DATA",
+                "at": 4202480
+            },
+            {
+                "addr": 4207302,
+                "type": "DATA",
+                "at": 4202485
+            },
+            {
+                "addr": 4207310,
+                "type": "DATA",
+                "at": 4202502
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4202514
+            },
+            {
+                "addr": 6309248,
+                "type": "DATA",
+                "at": 4202524
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4202536
+            },
+            {
+                "addr": 4206016,
+                "type": "DATA",
+                "at": 4202553
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4202563
+            },
+            {
+                "addr": 4206056,
+                "type": "DATA",
+                "at": 4202580
+            },
+            {
+                "addr": 4206240,
+                "type": "DATA",
+                "at": 4202590
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4202607
+            },
+            {
+                "addr": 4196992,
+                "type": "CODE",
+                "at": 4202623
+            }
+        ],
+        "datarefs": [
+            6309352,
+            6309269,
+            6309274,
+            4207302,
+            4207310,
+            6309352,
+            6309248,
+            6309352,
+            4206016,
+            6309352,
+            4206056,
+            4206240,
+            6309352
+        ],
+        "codexrefs": [
+            {
+                "addr": 4197626,
+                "type": "CALL",
+                "at": 4202464
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 1,
+        "outdegree": 6,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4196992,
+        "name": "sym.imp.fprintf",
+        "size": 6,
+        "is-pure": "true",
+        "realsz": 6,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 3,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 1,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "int sym.imp.fprintf (FILE *stream, const char *format,   ...);",
+        "minbound": 4196992,
+        "maxbound": 4196998,
+        "callrefs": [
+            {
+                "addr": 6308456,
+                "type": "CODE",
+                "at": 4196992
+            }
+        ],
+        "datarefs": [],
+        "codexrefs": [
+            {
+                "addr": 4197742,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4197810,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4198019,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4198087,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4198173,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4198270,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4198651,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4199223,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4199591,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4199634,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4200337,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4200687,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4201249,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4201288,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4201322,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4201356,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4201390,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4201424,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4201458,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4201492,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4201526,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4201560,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4201594,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4201628,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4201662,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4201696,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4201730,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4201764,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4201798,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4201832,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4201866,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4202251,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4202285,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4202319,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4202353,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4202387,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4202421,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4202459,
+                "type": "CODE",
+                "at": 4196992
+            },
+            {
+                "addr": 4202492,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4202531,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4202623,
+                "type": "CODE",
+                "at": 4196992
+            },
+            {
+                "addr": 4203356,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4203401,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4203449,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4203494,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4203542,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4203587,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4203636,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4203678,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4203727,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4203769,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4203819,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4203873,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4203927,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4203982,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4204010,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4204034,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4204058,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4204082,
+                "type": "CALL",
+                "at": 4196992
+            },
+            {
+                "addr": 4204112,
+                "type": "CODE",
+                "at": 4196992
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 60,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4196864,
+        "name": "sym.imp.dcgettext",
+        "size": 6,
+        "is-pure": "true",
+        "realsz": 6,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 3,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 1,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "sym.imp.dcgettext ();",
+        "minbound": 4196864,
+        "maxbound": 4196870,
+        "callrefs": [
+            {
+                "addr": 6308392,
+                "type": "CODE",
+                "at": 4196864
+            }
+        ],
+        "datarefs": [],
+        "codexrefs": [
+            {
+                "addr": 4197718,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4197994,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4198063,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4198153,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4198248,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4198500,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4198634,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4199206,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4199566,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4199617,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4200046,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4200086,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4200123,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4200149,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4200220,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4200443,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4200665,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4201232,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4201266,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4201305,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4201339,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4201373,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4201407,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4201441,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4201475,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4201509,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4201543,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4201577,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4201611,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4201645,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4201679,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4201713,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4201747,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4201781,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4201815,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4201849,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4202234,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4202268,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4202302,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4202336,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4202370,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4202404,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4202438,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4202509,
+                "type": "CALL",
+                "at": 4196864
+            },
+            {
+                "addr": 4202602,
+                "type": "CALL",
+                "at": 4196864
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 45,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4197120,
+        "name": "sym.imp.fwrite",
+        "size": 6,
+        "is-pure": "true",
+        "realsz": 6,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 3,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 1,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "size_t sym.imp.fwrite (const void *ptr, size_t size, size_t nitems, FILE *stream);",
+        "minbound": 4197120,
+        "maxbound": 4197126,
+        "callrefs": [
+            {
+                "addr": 6308520,
+                "type": "CODE",
+                "at": 4197120
+            }
+        ],
+        "datarefs": [],
+        "codexrefs": [
+            {
+                "addr": 4201893,
+                "type": "CALL",
+                "at": 4197120
+            },
+            {
+                "addr": 4201920,
+                "type": "CALL",
+                "at": 4197120
+            },
+            {
+                "addr": 4201947,
+                "type": "CALL",
+                "at": 4197120
+            },
+            {
+                "addr": 4201974,
+                "type": "CALL",
+                "at": 4197120
+            },
+            {
+                "addr": 4202001,
+                "type": "CALL",
+                "at": 4197120
+            },
+            {
+                "addr": 4202028,
+                "type": "CALL",
+                "at": 4197120
+            },
+            {
+                "addr": 4202055,
+                "type": "CALL",
+                "at": 4197120
+            },
+            {
+                "addr": 4202082,
+                "type": "CALL",
+                "at": 4197120
+            },
+            {
+                "addr": 4202109,
+                "type": "CALL",
+                "at": 4197120
+            },
+            {
+                "addr": 4202136,
+                "type": "CALL",
+                "at": 4197120
+            },
+            {
+                "addr": 4202163,
+                "type": "CALL",
+                "at": 4197120
+            },
+            {
+                "addr": 4202190,
+                "type": "CALL",
+                "at": 4197120
+            },
+            {
+                "addr": 4202217,
+                "type": "CALL",
+                "at": 4197120
+            },
+            {
+                "addr": 4202558,
+                "type": "CALL",
+                "at": 4197120
+            },
+            {
+                "addr": 4202585,
+                "type": "CALL",
+                "at": 4197120
+            },
+            {
+                "addr": 4203045,
+                "type": "CODE",
+                "at": 4197120
+            },
+            {
+                "addr": 4203071,
+                "type": "CALL",
+                "at": 4197120
+            },
+            {
+                "addr": 4203102,
+                "type": "CODE",
+                "at": 4197120
+            },
+            {
+                "addr": 4203127,
+                "type": "CALL",
+                "at": 4197120
+            },
+            {
+                "addr": 4203154,
+                "type": "CALL",
+                "at": 4197120
+            },
+            {
+                "addr": 4203185,
+                "type": "CODE",
+                "at": 4197120
+            },
+            {
+                "addr": 4203215,
+                "type": "CALL",
+                "at": 4197120
+            },
+            {
+                "addr": 4203246,
+                "type": "CODE",
+                "at": 4197120
+            },
+            {
+                "addr": 4203309,
+                "type": "CALL",
+                "at": 4197120
+            },
+            {
+                "addr": 4204170,
+                "type": "CALL",
+                "at": 4197120
+            },
+            {
+                "addr": 4204197,
+                "type": "CALL",
+                "at": 4197120
+            },
+            {
+                "addr": 4204224,
+                "type": "CALL",
+                "at": 4197120
+            },
+            {
+                "addr": 4204251,
+                "type": "CALL",
+                "at": 4197120
+            },
+            {
+                "addr": 4204278,
+                "type": "CALL",
+                "at": 4197120
+            },
+            {
+                "addr": 4204305,
+                "type": "CALL",
+                "at": 4197120
+            },
+            {
+                "addr": 4204336,
+                "type": "CODE",
+                "at": 4197120
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 31,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4202640,
+        "name": "sym.Compute_Field_Width",
+        "size": 19,
+        "is-pure": "true",
+        "realsz": 19,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 10,
+        "cc": 2,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 3,
+        "is-lineal": true,
+        "ninstrs": 7,
+        "edges": 3,
+        "ebbs": 1,
+        "signature": "sym.Compute_Field_Width (int64_t arg1, uint32_t arg2);",
+        "minbound": 4202640,
+        "maxbound": 4202659,
+        "callrefs": [
+            {
+                "addr": 4202657,
+                "type": "CODE",
+                "at": 4202646
+            }
+        ],
+        "datarefs": [],
+        "codexrefs": [
+            {
+                "addr": 4202646,
+                "type": "CODE",
+                "at": 4202657
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 1,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 2,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [
+            {
+                "name": "arg1",
+                "kind": "reg",
+                "type": "int64_t",
+                "ref": "rdi"
+            },
+            {
+                "name": "arg2",
+                "kind": "reg",
+                "type": "uint32_t",
+                "ref": "rsi"
+            }
+        ],
+        "difftype": "new"
+    },
+    {
+        "offset": 4201216,
+        "name": "dbg.Usage",
+        "size": 1248,
+        "is-pure": "false",
+        "realsz": 1248,
+        "noreturn": false,
+        "stackframe": 8,
+        "calltype": "amd64",
+        "cost": 405,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 276,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "dbg.Usage ();",
+        "minbound": 4201216,
+        "maxbound": 4202464,
+        "callrefs": [
+            {
+                "addr": 4204488,
+                "type": "DATA",
+                "at": 4201227
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4201237
+            },
+            {
+                "addr": 4207169,
+                "type": "DATA",
+                "at": 4201261
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4201271
+            },
+            {
+                "addr": 6309274,
+                "type": "DATA",
+                "at": 4201281
+            },
+            {
+                "addr": 4207188,
+                "type": "DATA",
+                "at": 4201300
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4201310
+            },
+            {
+                "addr": 4204552,
+                "type": "DATA",
+                "at": 4201334
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4201344
+            },
+            {
+                "addr": 4204608,
+                "type": "DATA",
+                "at": 4201368
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4201378
+            },
+            {
+                "addr": 4204648,
+                "type": "DATA",
+                "at": 4201402
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4201412
+            },
+            {
+                "addr": 4204688,
+                "type": "DATA",
+                "at": 4201436
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4201446
+            },
+            {
+                "addr": 4204728,
+                "type": "DATA",
+                "at": 4201470
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4201480
+            },
+            {
+                "addr": 4204768,
+                "type": "DATA",
+                "at": 4201504
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4201514
+            },
+            {
+                "addr": 4204808,
+                "type": "DATA",
+                "at": 4201538
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4201548
+            },
+            {
+                "addr": 4204856,
+                "type": "DATA",
+                "at": 4201572
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4201582
+            },
+            {
+                "addr": 4204912,
+                "type": "DATA",
+                "at": 4201606
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4201616
+            },
+            {
+                "addr": 4204960,
+                "type": "DATA",
+                "at": 4201640
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4201650
+            },
+            {
+                "addr": 4205000,
+                "type": "DATA",
+                "at": 4201674
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4201684
+            },
+            {
+                "addr": 4205056,
+                "type": "DATA",
+                "at": 4201708
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4201718
+            },
+            {
+                "addr": 4205112,
+                "type": "DATA",
+                "at": 4201742
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4201752
+            },
+            {
+                "addr": 4207198,
+                "type": "DATA",
+                "at": 4201774
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4201786
+            },
+            {
+                "addr": 4205160,
+                "type": "DATA",
+                "at": 4201810
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4201820
+            },
+            {
+                "addr": 4205216,
+                "type": "DATA",
+                "at": 4201844
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4201854
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4201871
+            },
+            {
+                "addr": 4207215,
+                "type": "DATA",
+                "at": 4201888
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4201898
+            },
+            {
+                "addr": 4207244,
+                "type": "DATA",
+                "at": 4201915
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4201925
+            },
+            {
+                "addr": 4205280,
+                "type": "DATA",
+                "at": 4201942
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4201952
+            },
+            {
+                "addr": 4205320,
+                "type": "DATA",
+                "at": 4201969
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4201979
+            },
+            {
+                "addr": 4205360,
+                "type": "DATA",
+                "at": 4201996
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4202006
+            },
+            {
+                "addr": 4205400,
+                "type": "DATA",
+                "at": 4202023
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4202033
+            },
+            {
+                "addr": 4205440,
+                "type": "DATA",
+                "at": 4202050
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4202060
+            },
+            {
+                "addr": 4205480,
+                "type": "DATA",
+                "at": 4202077
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4202087
+            },
+            {
+                "addr": 4205520,
+                "type": "DATA",
+                "at": 4202104
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4202114
+            },
+            {
+                "addr": 4205560,
+                "type": "DATA",
+                "at": 4202131
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4202141
+            },
+            {
+                "addr": 4205600,
+                "type": "DATA",
+                "at": 4202158
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4202168
+            },
+            {
+                "addr": 4205640,
+                "type": "DATA",
+                "at": 4202185
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4202195
+            },
+            {
+                "addr": 4205680,
+                "type": "DATA",
+                "at": 4202212
+            },
+            {
+                "addr": 4205728,
+                "type": "DATA",
+                "at": 4202229
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4202239
+            },
+            {
+                "addr": 4205784,
+                "type": "DATA",
+                "at": 4202263
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4202273
+            },
+            {
+                "addr": 4207273,
+                "type": "DATA",
+                "at": 4202295
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4202307
+            },
+            {
+                "addr": 4205840,
+                "type": "DATA",
+                "at": 4202329
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4202341
+            },
+            {
+                "addr": 4205888,
+                "type": "DATA",
+                "at": 4202363
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4202375
+            },
+            {
+                "addr": 4205928,
+                "type": "DATA",
+                "at": 4202397
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4202409
+            },
+            {
+                "addr": 4205968,
+                "type": "DATA",
+                "at": 4202426
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4202443
+            },
+            {
+                "addr": 4196992,
+                "type": "CODE",
+                "at": 4202459
+            }
+        ],
+        "datarefs": [
+            4204488,
+            6309352,
+            4207169,
+            6309352,
+            6309274,
+            4207188,
+            6309352,
+            4204552,
+            6309352,
+            4204608,
+            6309352,
+            4204648,
+            6309352,
+            4204688,
+            6309352,
+            4204728,
+            6309352,
+            4204768,
+            6309352,
+            4204808,
+            6309352,
+            4204856,
+            6309352,
+            4204912,
+            6309352,
+            4204960,
+            6309352,
+            4205000,
+            6309352,
+            4205056,
+            6309352,
+            4205112,
+            6309352,
+            4207198,
+            6309352,
+            4205160,
+            6309352,
+            4205216,
+            6309352,
+            6309352,
+            4207215,
+            6309352,
+            4207244,
+            6309352,
+            4205280,
+            6309352,
+            4205320,
+            6309352,
+            4205360,
+            6309352,
+            4205400,
+            6309352,
+            4205440,
+            6309352,
+            4205480,
+            6309352,
+            4205520,
+            6309352,
+            4205560,
+            6309352,
+            4205600,
+            6309352,
+            4205640,
+            6309352,
+            4205680,
+            4205728,
+            6309352,
+            4205784,
+            6309352,
+            4207273,
+            6309352,
+            4205840,
+            6309352,
+            4205888,
+            6309352,
+            4205928,
+            6309352,
+            4205968,
+            6309352
+        ],
+        "codexrefs": [
+            {
+                "addr": 4197396,
+                "type": "CALL",
+                "at": 4201216
+            },
+            {
+                "addr": 4198092,
+                "type": "CALL",
+                "at": 4201216
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 2,
+        "outdegree": 64,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4202992,
+        "name": "dbg.Print_Byte_Order",
+        "size": 259,
+        "is-pure": "false",
+        "realsz": 238,
+        "noreturn": false,
+        "stackframe": 8,
+        "calltype": "amd64",
+        "cost": 66,
+        "cc": 7,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 7,
+        "is-lineal": false,
+        "ninstrs": 49,
+        "edges": 6,
+        "ebbs": 4,
+        "signature": "dbg.Print_Byte_Order (int EndianNess);",
+        "minbound": 4202992,
+        "maxbound": 4203251,
+        "callrefs": [
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4203004
+            },
+            {
+                "addr": 4203200,
+                "type": "CODE",
+                "at": 4203011
+            },
+            {
+                "addr": 4203112,
+                "type": "CODE",
+                "at": 4203020
+            },
+            {
+                "addr": 4203056,
+                "type": "CODE",
+                "at": 4203024
+            },
+            {
+                "addr": 4209454,
+                "type": "DATA",
+                "at": 4203036
+            },
+            {
+                "addr": 4197120,
+                "type": "CODE",
+                "at": 4203045
+            },
+            {
+                "addr": 4208360,
+                "type": "DATA",
+                "at": 4203066
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4203076
+            },
+            {
+                "addr": 4208416,
+                "type": "DATA",
+                "at": 4203093
+            },
+            {
+                "addr": 4197120,
+                "type": "CODE",
+                "at": 4203102
+            },
+            {
+                "addr": 4208624,
+                "type": "DATA",
+                "at": 4203122
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4203132
+            },
+            {
+                "addr": 4208704,
+                "type": "DATA",
+                "at": 4203149
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4203159
+            },
+            {
+                "addr": 4208792,
+                "type": "DATA",
+                "at": 4203176
+            },
+            {
+                "addr": 4197120,
+                "type": "CODE",
+                "at": 4203185
+            },
+            {
+                "addr": 4208496,
+                "type": "DATA",
+                "at": 4203210
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4203220
+            },
+            {
+                "addr": 4208544,
+                "type": "DATA",
+                "at": 4203237
+            },
+            {
+                "addr": 4197120,
+                "type": "CODE",
+                "at": 4203246
+            }
+        ],
+        "datarefs": [
+            6309352,
+            4209454,
+            4208360,
+            6309352,
+            4208416,
+            4208624,
+            6309352,
+            4208704,
+            6309352,
+            4208792,
+            4208496,
+            6309352,
+            4208544
+        ],
+        "codexrefs": [
+            {
+                "addr": 4197532,
+                "type": "CALL",
+                "at": 4202992
+            },
+            {
+                "addr": 4203024,
+                "type": "CODE",
+                "at": 4203056
+            },
+            {
+                "addr": 4203020,
+                "type": "CODE",
+                "at": 4203112
+            },
+            {
+                "addr": 4203011,
+                "type": "CODE",
+                "at": 4203200
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 4,
+        "outdegree": 5,
+        "nlocals": 1,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [
+            {
+                "name": "EndianNess",
+                "kind": "reg",
+                "type": "int",
+                "ref": "rax"
+            }
+        ],
+        "difftype": "new"
+    },
+    {
+        "offset": 4204352,
+        "name": "sym.__libc_csu_init",
+        "size": 101,
+        "is-pure": "false",
+        "realsz": 101,
+        "noreturn": false,
+        "stackframe": 56,
+        "calltype": "amd64",
+        "cost": 43,
+        "cc": 3,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 4,
+        "is-lineal": true,
+        "ninstrs": 34,
+        "edges": 5,
+        "ebbs": 1,
+        "signature": "sym.__libc_csu_init (int64_t arg1, int64_t arg2, int64_t arg3);",
+        "minbound": 4204352,
+        "maxbound": 4204453,
+        "callrefs": [
+            {
+                "addr": 6307840,
+                "type": "DATA",
+                "at": 4204369
+            },
+            {
+                "addr": 6307848,
+                "type": "DATA",
+                "at": 4204377
+            },
+            {
+                "addr": 4204438,
+                "type": "CODE",
+                "at": 4204406
+            },
+            {
+                "addr": 4204416,
+                "type": "CODE",
+                "at": 4204436
+            }
+        ],
+        "datarefs": [
+            6307840,
+            6307848
+        ],
+        "codexrefs": [
+            {
+                "addr": 4204436,
+                "type": "CODE",
+                "at": 4204416
+            },
+            {
+                "addr": 4204406,
+                "type": "CODE",
+                "at": 4204438
+            }
+        ],
+        "dataxrefs": [
+            4200974
+        ],
+        "indegree": 2,
+        "outdegree": 1,
+        "nlocals": 0,
+        "nargs": 3,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [
+            {
+                "name": "arg1",
+                "kind": "reg",
+                "type": "int64_t",
+                "ref": "rdi"
+            },
+            {
+                "name": "arg2",
+                "kind": "reg",
+                "type": "int64_t",
+                "ref": "rsi"
+            },
+            {
+                "name": "arg3",
+                "kind": "reg",
+                "type": "int64_t",
+                "ref": "rdx"
+            }
+        ],
+        "difftype": "new"
+    },
+    {
+        "offset": 4204144,
+        "name": "dbg.Print_ExitCodes",
+        "size": 197,
+        "is-pure": "false",
+        "realsz": 197,
+        "noreturn": false,
+        "stackframe": 8,
+        "calltype": "amd64",
+        "cost": 50,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 37,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "dbg.Print_ExitCodes ();",
+        "minbound": 4204144,
+        "maxbound": 4204341,
+        "callrefs": [
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4204148
+            },
+            {
+                "addr": 4209648,
+                "type": "DATA",
+                "at": 4204165
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4204175
+            },
+            {
+                "addr": 4209688,
+                "type": "DATA",
+                "at": 4204192
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4204202
+            },
+            {
+                "addr": 4209700,
+                "type": "DATA",
+                "at": 4204219
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4204229
+            },
+            {
+                "addr": 4209709,
+                "type": "DATA",
+                "at": 4204246
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4204256
+            },
+            {
+                "addr": 4209726,
+                "type": "DATA",
+                "at": 4204273
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4204283
+            },
+            {
+                "addr": 4209749,
+                "type": "DATA",
+                "at": 4204300
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4204310
+            },
+            {
+                "addr": 4209765,
+                "type": "DATA",
+                "at": 4204327
+            },
+            {
+                "addr": 4197120,
+                "type": "CODE",
+                "at": 4204336
+            }
+        ],
+        "datarefs": [
+            6309352,
+            4209648,
+            6309352,
+            4209688,
+            6309352,
+            4209700,
+            6309352,
+            4209709,
+            6309352,
+            4209726,
+            6309352,
+            4209749,
+            6309352,
+            4209765
+        ],
+        "codexrefs": [
+            {
+                "addr": 4197838,
+                "type": "CALL",
+                "at": 4204144
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 1,
+        "outdegree": 6,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4203264,
+        "name": "dbg.Print_Sizes",
+        "size": 853,
+        "is-pure": "false",
+        "realsz": 853,
+        "noreturn": false,
+        "stackframe": 72,
+        "calltype": "amd64",
+        "cost": 208,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 169,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "dbg.Print_Sizes ();",
+        "minbound": 4203264,
+        "maxbound": 4204117,
+        "callrefs": [
+            {
+                "addr": 4208856,
+                "type": "DATA",
+                "at": 4203276
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4203295
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4203318
+            },
+            {
+                "addr": 4208936,
+                "type": "DATA",
+                "at": 4203349
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4203361
+            },
+            {
+                "addr": 4208976,
+                "type": "DATA",
+                "at": 4203387
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4203406
+            },
+            {
+                "addr": 4209016,
+                "type": "DATA",
+                "at": 4203435
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4203454
+            },
+            {
+                "addr": 4208976,
+                "type": "DATA",
+                "at": 4203480
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4203499
+            },
+            {
+                "addr": 4209056,
+                "type": "DATA",
+                "at": 4203528
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4203547
+            },
+            {
+                "addr": 4209096,
+                "type": "DATA",
+                "at": 4203573
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4203592
+            },
+            {
+                "addr": 4209136,
+                "type": "DATA",
+                "at": 4203625
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4203641
+            },
+            {
+                "addr": 4209176,
+                "type": "DATA",
+                "at": 4203667
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4203683
+            },
+            {
+                "addr": 4209216,
+                "type": "DATA",
+                "at": 4203716
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4203732
+            },
+            {
+                "addr": 4209256,
+                "type": "DATA",
+                "at": 4203758
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4203774
+            },
+            {
+                "addr": 4209296,
+                "type": "DATA",
+                "at": 4203804
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4203824
+            },
+            {
+                "addr": 4209616,
+                "type": "DATA",
+                "at": 4203831
+            },
+            {
+                "addr": 4209624,
+                "type": "DATA",
+                "at": 4203839
+            },
+            {
+                "addr": 4209336,
+                "type": "DATA",
+                "at": 4203863
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4203878
+            },
+            {
+                "addr": 4209632,
+                "type": "DATA",
+                "at": 4203885
+            },
+            {
+                "addr": 4209640,
+                "type": "DATA",
+                "at": 4203893
+            },
+            {
+                "addr": 4209376,
+                "type": "DATA",
+                "at": 4203917
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4203942
+            },
+            {
+                "addr": 4209416,
+                "type": "DATA",
+                "at": 4203975
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4203987
+            },
+            {
+                "addr": 4209477,
+                "type": "DATA",
+                "at": 4204003
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4204015
+            },
+            {
+                "addr": 4209504,
+                "type": "DATA",
+                "at": 4204027
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4204039
+            },
+            {
+                "addr": 4209531,
+                "type": "DATA",
+                "at": 4204051
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4204063
+            },
+            {
+                "addr": 4209558,
+                "type": "DATA",
+                "at": 4204075
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4204087
+            },
+            {
+                "addr": 4209585,
+                "type": "DATA",
+                "at": 4204105
+            },
+            {
+                "addr": 4196992,
+                "type": "CODE",
+                "at": 4204112
+            }
+        ],
+        "datarefs": [
+            4208856,
+            6309352,
+            6309352,
+            4208936,
+            6309352,
+            4208976,
+            6309352,
+            4209016,
+            6309352,
+            4208976,
+            6309352,
+            4209056,
+            6309352,
+            4209096,
+            6309352,
+            4209136,
+            6309352,
+            4209176,
+            6309352,
+            4209216,
+            6309352,
+            4209256,
+            6309352,
+            4209296,
+            6309352,
+            4209616,
+            4209624,
+            4209336,
+            6309352,
+            4209632,
+            4209640,
+            4209376,
+            6309352,
+            4209416,
+            6309352,
+            4209477,
+            6309352,
+            4209504,
+            6309352,
+            4209531,
+            6309352,
+            4209558,
+            6309352,
+            4209585
+        ],
+        "codexrefs": [
+            {
+                "addr": 4197510,
+                "type": "CALL",
+                "at": 4203264
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 1,
+        "outdegree": 19,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4197152,
+        "name": "dbg.main",
+        "size": 3800,
+        "is-pure": "false",
+        "realsz": 3683,
+        "noreturn": false,
+        "stackframe": 200,
+        "calltype": "amd64",
+        "cost": 1174,
+        "cc": 181,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 205,
+        "is-lineal": false,
+        "ninstrs": 815,
+        "edges": 278,
+        "ebbs": 16,
+        "signature": "int dbg.main (int argc, char **argv);",
+        "minbound": 4197152,
+        "maxbound": 4200952,
+        "callrefs": [
+            {
+                "addr": 4207309,
+                "type": "DATA",
+                "at": 4197181
+            },
+            {
+                "addr": 4207324,
+                "type": "DATA",
+                "at": 4197210
+            },
+            {
+                "addr": 4207337,
+                "type": "DATA",
+                "at": 4197215
+            },
+            {
+                "addr": 4207337,
+                "type": "DATA",
+                "at": 4197225
+            },
+            {
+                "addr": 6309344,
+                "type": "DATA",
+                "at": 4197237
+            },
+            {
+                "addr": 6308608,
+                "type": "DATA",
+                "at": 4197338
+            },
+            {
+                "addr": 4207408,
+                "type": "DATA",
+                "at": 4197343
+            },
+            {
+                "addr": 4198107,
+                "type": "CODE",
+                "at": 4197361
+            },
+            {
+                "addr": 4198045,
+                "type": "CODE",
+                "at": 4197373
+            },
+            {
+                "addr": 4197386,
+                "type": "CODE",
+                "at": 4197379
+            },
+            {
+                "addr": 4197396,
+                "type": "CODE",
+                "at": 4197379
+            },
+            {
+                "addr": 4197411,
+                "type": "CODE",
+                "at": 4197379
+            },
+            {
+                "addr": 4197420,
+                "type": "CODE",
+                "at": 4197379
+            },
+            {
+                "addr": 4197445,
+                "type": "CODE",
+                "at": 4197379
+            },
+            {
+                "addr": 4197474,
+                "type": "CODE",
+                "at": 4197379
+            },
+            {
+                "addr": 4197510,
+                "type": "CODE",
+                "at": 4197379
+            },
+            {
+                "addr": 4197547,
+                "type": "CODE",
+                "at": 4197379
+            },
+            {
+                "addr": 4197626,
+                "type": "CODE",
+                "at": 4197379
+            },
+            {
+                "addr": 4197641,
+                "type": "CODE",
+                "at": 4197379
+            },
+            {
+                "addr": 4197654,
+                "type": "CODE",
+                "at": 4197379
+            },
+            {
+                "addr": 4197665,
+                "type": "CODE",
+                "at": 4197379
+            },
+            {
+                "addr": 4197700,
+                "type": "CODE",
+                "at": 4197379
+            },
+            {
+                "addr": 4197757,
+                "type": "CODE",
+                "at": 4197379
+            },
+            {
+                "addr": 4197765,
+                "type": "CODE",
+                "at": 4197379
+            },
+            {
+                "addr": 4197825,
+                "type": "CODE",
+                "at": 4197379
+            },
+            {
+                "addr": 4197838,
+                "type": "CODE",
+                "at": 4197379
+            },
+            {
+                "addr": 4197853,
+                "type": "CODE",
+                "at": 4197379
+            },
+            {
+                "addr": 4197861,
+                "type": "CODE",
+                "at": 4197379
+            },
+            {
+                "addr": 4198034,
+                "type": "CODE",
+                "at": 4197379
+            },
+            {
+                "addr": 4198045,
+                "type": "CODE",
+                "at": 4197379
+            },
+            {
+                "addr": 4207712,
+                "type": "CODE",
+                "at": 4197379
+            },
+            {
+                "addr": 4197333,
+                "type": "CODE",
+                "at": 4197394
+            },
+            {
+                "addr": 4197333,
+                "type": "CODE",
+                "at": 4197418
+            },
+            {
+                "addr": 6309328,
+                "type": "DATA",
+                "at": 4197420
+            },
+            {
+                "addr": 4197333,
+                "type": "CODE",
+                "at": 4197443
+            },
+            {
+                "addr": 6309328,
+                "type": "DATA",
+                "at": 4197445
+            },
+            {
+                "addr": 4197333,
+                "type": "CODE",
+                "at": 4197469
+            },
+            {
+                "addr": 6309328,
+                "type": "DATA",
+                "at": 4197474
+            },
+            {
+                "addr": 4197333,
+                "type": "CODE",
+                "at": 4197505
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4197515
+            },
+            {
+                "addr": 6309328,
+                "type": "DATA",
+                "at": 4197552
+            },
+            {
+                "addr": 4198515,
+                "type": "CODE",
+                "at": 4197575
+            },
+            {
+                "addr": 4198285,
+                "type": "CODE",
+                "at": 4197581
+            },
+            {
+                "addr": 4198409,
+                "type": "CODE",
+                "at": 4197590
+            },
+            {
+                "addr": 4198484,
+                "type": "CODE",
+                "at": 4197599
+            },
+            {
+                "addr": 4197333,
+                "type": "CODE",
+                "at": 4197621
+            },
+            {
+                "addr": 4197333,
+                "type": "CODE",
+                "at": 4197649
+            },
+            {
+                "addr": 4197333,
+                "type": "CODE",
+                "at": 4197660
+            },
+            {
+                "addr": 6309328,
+                "type": "DATA",
+                "at": 4197665
+            },
+            {
+                "addr": 4197333,
+                "type": "CODE",
+                "at": 4197695
+            },
+            {
+                "addr": 6309336,
+                "type": "DATA",
+                "at": 4197700
+            },
+            {
+                "addr": 4206520,
+                "type": "DATA",
+                "at": 4197711
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4197725
+            },
+            {
+                "addr": 6309274,
+                "type": "DATA",
+                "at": 4197735
+            },
+            {
+                "addr": 4197333,
+                "type": "CODE",
+                "at": 4197760
+            },
+            {
+                "addr": 6309328,
+                "type": "DATA",
+                "at": 4197765
+            },
+            {
+                "addr": 4197333,
+                "type": "CODE",
+                "at": 4197785
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4197791
+            },
+            {
+                "addr": 6309328,
+                "type": "DATA",
+                "at": 4197798
+            },
+            {
+                "addr": 4206288,
+                "type": "DATA",
+                "at": 4197805
+            },
+            {
+                "addr": 4197333,
+                "type": "CODE",
+                "at": 4197833
+            },
+            {
+                "addr": 4197333,
+                "type": "CODE",
+                "at": 4197856
+            },
+            {
+                "addr": 6309328,
+                "type": "DATA",
+                "at": 4197866
+            },
+            {
+                "addr": 4198473,
+                "type": "CODE",
+                "at": 4197886
+            },
+            {
+                "addr": 4198422,
+                "type": "CODE",
+                "at": 4197892
+            },
+            {
+                "addr": 4198388,
+                "type": "CODE",
+                "at": 4197901
+            },
+            {
+                "addr": 4197333,
+                "type": "CODE",
+                "at": 4197916
+            },
+            {
+                "addr": 4200809,
+                "type": "CODE",
+                "at": 4197950
+            },
+            {
+                "addr": 4197975,
+                "type": "CODE",
+                "at": 4197959
+            },
+            {
+                "addr": 4197333,
+                "type": "CODE",
+                "at": 4197969
+            },
+            {
+                "addr": 6309328,
+                "type": "DATA",
+                "at": 4197975
+            },
+            {
+                "addr": 4207350,
+                "type": "DATA",
+                "at": 4197987
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4198002
+            },
+            {
+                "addr": 6309274,
+                "type": "DATA",
+                "at": 4198012
+            },
+            {
+                "addr": 4197333,
+                "type": "CODE",
+                "at": 4198040
+            },
+            {
+                "addr": 6309336,
+                "type": "DATA",
+                "at": 4198045
+            },
+            {
+                "addr": 4207380,
+                "type": "DATA",
+                "at": 4198056
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4198068
+            },
+            {
+                "addr": 6309274,
+                "type": "DATA",
+                "at": 4198080
+            },
+            {
+                "addr": 4198188,
+                "type": "CODE",
+                "at": 4198122
+            },
+            {
+                "addr": 4198188,
+                "type": "CODE",
+                "at": 4198133
+            },
+            {
+                "addr": 4198188,
+                "type": "CODE",
+                "at": 4198139
+            },
+            {
+                "addr": 4206568,
+                "type": "DATA",
+                "at": 4198146
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4198161
+            },
+            {
+                "addr": 4198209,
+                "type": "CODE",
+                "at": 4198197
+            },
+            {
+                "addr": 4199444,
+                "type": "CODE",
+                "at": 4198203
+            },
+            {
+                "addr": 4199404,
+                "type": "CODE",
+                "at": 4198219
+            },
+            {
+                "addr": 4198528,
+                "type": "CODE",
+                "at": 4198230
+            },
+            {
+                "addr": 4206696,
+                "type": "DATA",
+                "at": 4198241
+            },
+            {
+                "addr": 6309274,
+                "type": "DATA",
+                "at": 4198253
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4198258
+            },
+            {
+                "addr": 4198399,
+                "type": "CODE",
+                "at": 4198288
+            },
+            {
+                "addr": 4198484,
+                "type": "CODE",
+                "at": 4198293
+            },
+            {
+                "addr": 4200426,
+                "type": "CODE",
+                "at": 4198329
+            },
+            {
+                "addr": 4199459,
+                "type": "CODE",
+                "at": 4198349
+            },
+            {
+                "addr": 4198442,
+                "type": "CODE",
+                "at": 4198355
+            },
+            {
+                "addr": 4199472,
+                "type": "CODE",
+                "at": 4198360
+            },
+            {
+                "addr": 4199485,
+                "type": "CODE",
+                "at": 4198369
+            },
+            {
+                "addr": 4197333,
+                "type": "CODE",
+                "at": 4198383
+            },
+            {
+                "addr": 4197333,
+                "type": "CODE",
+                "at": 4198394
+            },
+            {
+                "addr": 4198307,
+                "type": "CODE",
+                "at": 4198407
+            },
+            {
+                "addr": 4197613,
+                "type": "CODE",
+                "at": 4198417
+            },
+            {
+                "addr": 4197333,
+                "type": "CODE",
+                "at": 4198431
+            },
+            {
+                "addr": 4197922,
+                "type": "CODE",
+                "at": 4198437
+            },
+            {
+                "addr": 4199504,
+                "type": "CODE",
+                "at": 4198445
+            },
+            {
+                "addr": 4199485,
+                "type": "CODE",
+                "at": 4198454
+            },
+            {
+                "addr": 4197333,
+                "type": "CODE",
+                "at": 4198468
+            },
+            {
+                "addr": 4197333,
+                "type": "CODE",
+                "at": 4198479
+            },
+            {
+                "addr": 4206392,
+                "type": "DATA",
+                "at": 4198493
+            },
+            {
+                "addr": 4197725,
+                "type": "CODE",
+                "at": 4198510
+            },
+            {
+                "addr": 4197613,
+                "type": "CODE",
+                "at": 4198523
+            },
+            {
+                "addr": 4200074,
+                "type": "CODE",
+                "at": 4198531
+            },
+            {
+                "addr": 4200111,
+                "type": "CODE",
+                "at": 4198542
+            },
+            {
+                "addr": 4200137,
+                "type": "CODE",
+                "at": 4198554
+            },
+            {
+                "addr": 4200208,
+                "type": "CODE",
+                "at": 4198565
+            },
+            {
+                "addr": 4200034,
+                "type": "CODE",
+                "at": 4198576
+            },
+            {
+                "addr": 4200099,
+                "type": "CODE",
+                "at": 4198586
+            },
+            {
+                "addr": 4198667,
+                "type": "CODE",
+                "at": 4198606
+            },
+            {
+                "addr": 4198667,
+                "type": "CODE",
+                "at": 4198610
+            },
+            {
+                "addr": 4207016,
+                "type": "DATA",
+                "at": 4198617
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4198639
+            },
+            {
+                "addr": 4198608,
+                "type": "CODE",
+                "at": 4198671
+            },
+            {
+                "addr": 4199321,
+                "type": "CODE",
+                "at": 4198671
+            },
+            {
+                "addr": 4199335,
+                "type": "CODE",
+                "at": 4198671
+            },
+            {
+                "addr": 4199390,
+                "type": "CODE",
+                "at": 4198671
+            },
+            {
+                "addr": 4208232,
+                "type": "CODE",
+                "at": 4198671
+            },
+            {
+                "addr": 4199290,
+                "type": "CODE",
+                "at": 4198692
+            },
+            {
+                "addr": 4200903,
+                "type": "CODE",
+                "at": 4198706
+            },
+            {
+                "addr": 4200896,
+                "type": "CODE",
+                "at": 4198716
+            },
+            {
+                "addr": 4198790,
+                "type": "CODE",
+                "at": 4198731
+            },
+            {
+                "addr": 4200941,
+                "type": "CODE",
+                "at": 4198736
+            },
+            {
+                "addr": 4198790,
+                "type": "CODE",
+                "at": 4198764
+            },
+            {
+                "addr": 4198790,
+                "type": "CODE",
+                "at": 4198774
+            },
+            {
+                "addr": 4207080,
+                "type": "DATA",
+                "at": 4198821
+            },
+            {
+                "addr": 4199615,
+                "type": "CODE",
+                "at": 4198837
+            },
+            {
+                "addr": 4199113,
+                "type": "CODE",
+                "at": 4198845
+            },
+            {
+                "addr": 4198868,
+                "type": "CODE",
+                "at": 4198855
+            },
+            {
+                "addr": 4200263,
+                "type": "CODE",
+                "at": 4198862
+            },
+            {
+                "addr": 4200280,
+                "type": "CODE",
+                "at": 4198905
+            },
+            {
+                "addr": 4200291,
+                "type": "CODE",
+                "at": 4198914
+            },
+            {
+                "addr": 4207467,
+                "type": "DATA",
+                "at": 4198927
+            },
+            {
+                "addr": 4200697,
+                "type": "CODE",
+                "at": 4199004
+            },
+            {
+                "addr": 4200845,
+                "type": "CODE",
+                "at": 4199017
+            },
+            {
+                "addr": 4200831,
+                "type": "CODE",
+                "at": 4199023
+            },
+            {
+                "addr": 4200799,
+                "type": "CODE",
+                "at": 4199032
+            },
+            {
+                "addr": 4199052,
+                "type": "CODE",
+                "at": 4199041
+            },
+            {
+                "addr": 4200386,
+                "type": "CODE",
+                "at": 4199056
+            },
+            {
+                "addr": 4200551,
+                "type": "CODE",
+                "at": 4199066
+            },
+            {
+                "addr": 4199102,
+                "type": "CODE",
+                "at": 4199076
+            },
+            {
+                "addr": 4200320,
+                "type": "CODE",
+                "at": 4199107
+            },
+            {
+                "addr": 6309320,
+                "type": "DATA",
+                "at": 4199113
+            },
+            {
+                "addr": 6309312,
+                "type": "DATA",
+                "at": 4199125
+            },
+            {
+                "addr": 4199649,
+                "type": "CODE",
+                "at": 4199145
+            },
+            {
+                "addr": 4199173,
+                "type": "CODE",
+                "at": 4199158
+            },
+            {
+                "addr": 4199649,
+                "type": "CODE",
+                "at": 4199167
+            },
+            {
+                "addr": 4199160,
+                "type": "CODE",
+                "at": 4199192
+            },
+            {
+                "addr": 4207128,
+                "type": "DATA",
+                "at": 4199199
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4199211
+            },
+            {
+                "addr": 4198748,
+                "type": "CODE",
+                "at": 4199295
+            },
+            {
+                "addr": 4198742,
+                "type": "CODE",
+                "at": 4199304
+            },
+            {
+                "addr": 4198748,
+                "type": "CODE",
+                "at": 4199316
+            },
+            {
+                "addr": 4198687,
+                "type": "CODE",
+                "at": 4199330
+            },
+            {
+                "addr": 4199285,
+                "type": "CODE",
+                "at": 4199349
+            },
+            {
+                "addr": 4199290,
+                "type": "CODE",
+                "at": 4199351
+            },
+            {
+                "addr": 4198687,
+                "type": "CODE",
+                "at": 4199399
+            },
+            {
+                "addr": 4198528,
+                "type": "CODE",
+                "at": 4199409
+            },
+            {
+                "addr": 4198528,
+                "type": "CODE",
+                "at": 4199423
+            },
+            {
+                "addr": 4206752,
+                "type": "DATA",
+                "at": 4199434
+            },
+            {
+                "addr": 4199204,
+                "type": "CODE",
+                "at": 4199439
+            },
+            {
+                "addr": 4206640,
+                "type": "DATA",
+                "at": 4199449
+            },
+            {
+                "addr": 4199204,
+                "type": "CODE",
+                "at": 4199454
+            },
+            {
+                "addr": 4197333,
+                "type": "CODE",
+                "at": 4199467
+            },
+            {
+                "addr": 4197333,
+                "type": "CODE",
+                "at": 4199480
+            },
+            {
+                "addr": 4206480,
+                "type": "DATA",
+                "at": 4199494
+            },
+            {
+                "addr": 4198498,
+                "type": "CODE",
+                "at": 4199499
+            },
+            {
+                "addr": 4197333,
+                "type": "CODE",
+                "at": 4199512
+            },
+            {
+                "addr": 4200234,
+                "type": "CODE",
+                "at": 4199531
+            },
+            {
+                "addr": 4199596,
+                "type": "CODE",
+                "at": 4199542
+            },
+            {
+                "addr": 4200658,
+                "type": "CODE",
+                "at": 4199553
+            },
+            {
+                "addr": 4207505,
+                "type": "DATA",
+                "at": 4199559
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4199571
+            },
+            {
+                "addr": 6309274,
+                "type": "DATA",
+                "at": 4199584
+            },
+            {
+                "addr": 4200256,
+                "type": "CODE",
+                "at": 4199599
+            },
+            {
+                "addr": 4207530,
+                "type": "DATA",
+                "at": 4199610
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4199622
+            },
+            {
+                "addr": 4199517,
+                "type": "CODE",
+                "at": 4199681
+            },
+            {
+                "addr": 4199517,
+                "type": "CODE",
+                "at": 4199695
+            },
+            {
+                "addr": 4199702,
+                "type": "CODE",
+                "at": 4199695
+            },
+            {
+                "addr": 4199759,
+                "type": "CODE",
+                "at": 4199695
+            },
+            {
+                "addr": 4199786,
+                "type": "CODE",
+                "at": 4199695
+            },
+            {
+                "addr": 4199814,
+                "type": "CODE",
+                "at": 4199695
+            },
+            {
+                "addr": 4199881,
+                "type": "CODE",
+                "at": 4199695
+            },
+            {
+                "addr": 4199909,
+                "type": "CODE",
+                "at": 4199695
+            },
+            {
+                "addr": 4199949,
+                "type": "CODE",
+                "at": 4199695
+            },
+            {
+                "addr": 4199992,
+                "type": "CODE",
+                "at": 4199695
+            },
+            {
+                "addr": 4208296,
+                "type": "CODE",
+                "at": 4199695
+            },
+            {
+                "addr": 6309312,
+                "type": "DATA",
+                "at": 4199728
+            },
+            {
+                "addr": 4200019,
+                "type": "CODE",
+                "at": 4199741
+            },
+            {
+                "addr": 4199661,
+                "type": "CODE",
+                "at": 4199757
+            },
+            {
+                "addr": 4199723,
+                "type": "CODE",
+                "at": 4199784
+            },
+            {
+                "addr": 4200347,
+                "type": "CODE",
+                "at": 4199790
+            },
+            {
+                "addr": 4199723,
+                "type": "CODE",
+                "at": 4199812
+            },
+            {
+                "addr": 4200580,
+                "type": "CODE",
+                "at": 4199818
+            },
+            {
+                "addr": 4199723,
+                "type": "CODE",
+                "at": 4199846
+            },
+            {
+                "addr": 4199723,
+                "type": "CODE",
+                "at": 4199853
+            },
+            {
+                "addr": 6309312,
+                "type": "DATA",
+                "at": 4199859
+            },
+            {
+                "addr": 4199723,
+                "type": "CODE",
+                "at": 4199876
+            },
+            {
+                "addr": 4200619,
+                "type": "CODE",
+                "at": 4199885
+            },
+            {
+                "addr": 4199840,
+                "type": "CODE",
+                "at": 4199907
+            },
+            {
+                "addr": 4200511,
+                "type": "CODE",
+                "at": 4199913
+            },
+            {
+                "addr": 4200164,
+                "type": "CODE",
+                "at": 4199924
+            },
+            {
+                "addr": 4199840,
+                "type": "CODE",
+                "at": 4199947
+            },
+            {
+                "addr": 4200471,
+                "type": "CODE",
+                "at": 4199953
+            },
+            {
+                "addr": 4200186,
+                "type": "CODE",
+                "at": 4199964
+            },
+            {
+                "addr": 4199840,
+                "type": "CODE",
+                "at": 4199987
+            },
+            {
+                "addr": 4199723,
+                "type": "CODE",
+                "at": 4200014
+            },
+            {
+                "addr": 4199661,
+                "type": "CODE",
+                "at": 4200029
+            },
+            {
+                "addr": 4207436,
+                "type": "DATA",
+                "at": 4200039
+            },
+            {
+                "addr": 4198161,
+                "type": "CODE",
+                "at": 4200055
+            },
+            {
+                "addr": 4206816,
+                "type": "DATA",
+                "at": 4200079
+            },
+            {
+                "addr": 4198161,
+                "type": "CODE",
+                "at": 4200094
+            },
+            {
+                "addr": 4206984,
+                "type": "DATA",
+                "at": 4200104
+            },
+            {
+                "addr": 4200084,
+                "type": "CODE",
+                "at": 4200109
+            },
+            {
+                "addr": 4206856,
+                "type": "DATA",
+                "at": 4200116
+            },
+            {
+                "addr": 4198161,
+                "type": "CODE",
+                "at": 4200132
+            },
+            {
+                "addr": 4206896,
+                "type": "DATA",
+                "at": 4200142
+            },
+            {
+                "addr": 4198258,
+                "type": "CODE",
+                "at": 4200159
+            },
+            {
+                "addr": 4199840,
+                "type": "CODE",
+                "at": 4200181
+            },
+            {
+                "addr": 4199840,
+                "type": "CODE",
+                "at": 4200203
+            },
+            {
+                "addr": 4206936,
+                "type": "DATA",
+                "at": 4200213
+            },
+            {
+                "addr": 4198161,
+                "type": "CODE",
+                "at": 4200229
+            },
+            {
+                "addr": 6309312,
+                "type": "DATA",
+                "at": 4200234
+            },
+            {
+                "addr": 4199537,
+                "type": "CODE",
+                "at": 4200251
+            },
+            {
+                "addr": 4198873,
+                "type": "CODE",
+                "at": 4200275
+            },
+            {
+                "addr": 4198911,
+                "type": "CODE",
+                "at": 4200286
+            },
+            {
+                "addr": 4198920,
+                "type": "CODE",
+                "at": 4200315
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4200320
+            },
+            {
+                "addr": 4207470,
+                "type": "DATA",
+                "at": 4200330
+            },
+            {
+                "addr": 4199113,
+                "type": "CODE",
+                "at": 4200342
+            },
+            {
+                "addr": 6309312,
+                "type": "DATA",
+                "at": 4200347
+            },
+            {
+                "addr": 4199723,
+                "type": "CODE",
+                "at": 4200381
+            },
+            {
+                "addr": 4200884,
+                "type": "CODE",
+                "at": 4200408
+            },
+            {
+                "addr": 4199102,
+                "type": "CODE",
+                "at": 4200421
+            },
+            {
+                "addr": 4206432,
+                "type": "DATA",
+                "at": 4200431
+            },
+            {
+                "addr": 4198002,
+                "type": "CODE",
+                "at": 4200456
+            },
+            {
+                "addr": 6309312,
+                "type": "DATA",
+                "at": 4200476
+            },
+            {
+                "addr": 4199840,
+                "type": "CODE",
+                "at": 4200506
+            },
+            {
+                "addr": 6309312,
+                "type": "DATA",
+                "at": 4200516
+            },
+            {
+                "addr": 4199840,
+                "type": "CODE",
+                "at": 4200546
+            },
+            {
+                "addr": 4199102,
+                "type": "CODE",
+                "at": 4200575
+            },
+            {
+                "addr": 6309312,
+                "type": "DATA",
+                "at": 4200580
+            },
+            {
+                "addr": 4199840,
+                "type": "CODE",
+                "at": 4200614
+            },
+            {
+                "addr": 6309312,
+                "type": "DATA",
+                "at": 4200619
+            },
+            {
+                "addr": 4199840,
+                "type": "CODE",
+                "at": 4200653
+            },
+            {
+                "addr": 4207482,
+                "type": "DATA",
+                "at": 4200660
+            },
+            {
+                "addr": 6309352,
+                "type": "DATA",
+                "at": 4200670
+            },
+            {
+                "addr": 6309274,
+                "type": "DATA",
+                "at": 4200680
+            },
+            {
+                "addr": 4199596,
+                "type": "CODE",
+                "at": 4200692
+            },
+            {
+                "addr": 4207466,
+                "type": "DATA",
+                "at": 4200705
+            },
+            {
+                "addr": 4200763,
+                "type": "CODE",
+                "at": 4200756
+            },
+            {
+                "addr": 4200855,
+                "type": "CODE",
+                "at": 4200768
+            },
+            {
+                "addr": 4199102,
+                "type": "CODE",
+                "at": 4200794
+            },
+            {
+                "addr": 4199052,
+                "type": "CODE",
+                "at": 4200804
+            },
+            {
+                "addr": 6309328,
+                "type": "DATA",
+                "at": 4200809
+            },
+            {
+                "addr": 4206328,
+                "type": "DATA",
+                "at": 4200821
+            },
+            {
+                "addr": 4197992,
+                "type": "CODE",
+                "at": 4200826
+            },
+            {
+                "addr": 4199052,
+                "type": "CODE",
+                "at": 4200840
+            },
+            {
+                "addr": 4199052,
+                "type": "CODE",
+                "at": 4200850
+            },
+            {
+                "addr": 4199102,
+                "type": "CODE",
+                "at": 4200879
+            },
+            {
+                "addr": 4199102,
+                "type": "CODE",
+                "at": 4200891
+            },
+            {
+                "addr": 4199290,
+                "type": "CODE",
+                "at": 4200898
+            },
+            {
+                "addr": 4200930,
+                "type": "CODE",
+                "at": 4200913
+            },
+            {
+                "addr": 4198742,
+                "type": "CODE",
+                "at": 4200918
+            },
+            {
+                "addr": 4198761,
+                "type": "CODE",
+                "at": 4200936
+            },
+            {
+                "addr": 4198761,
+                "type": "CODE",
+                "at": 4200947
+            }
+        ],
+        "datarefs": [
+            4207309,
+            4207324,
+            4207337,
+            4207337,
+            6309344,
+            6308608,
+            4207408,
+            6309328,
+            6309328,
+            6309328,
+            6309352,
+            6309328,
+            6309328,
+            6309336,
+            4206520,
+            6309352,
+            6309274,
+            6309328,
+            6309352,
+            6309328,
+            4206288,
+            6309328,
+            6309328,
+            4207350,
+            6309352,
+            6309274,
+            6309336,
+            4207380,
+            6309352,
+            6309274,
+            4206568,
+            6309352,
+            4206696,
+            6309274,
+            6309352,
+            4206392,
+            4207016,
+            6309352,
+            4207080,
+            4207467,
+            6309320,
+            6309312,
+            4207128,
+            6309352,
+            4206752,
+            4206640,
+            4206480,
+            4207505,
+            6309352,
+            6309274,
+            4207530,
+            6309352,
+            6309312,
+            6309312,
+            4207436,
+            4206816,
+            4206984,
+            4206856,
+            4206896,
+            4206936,
+            6309312,
+            6309352,
+            4207470,
+            6309312,
+            4206432,
+            6309312,
+            6309312,
+            6309312,
+            6309312,
+            4207482,
+            6309352,
+            6309274,
+            4207466,
+            6309328,
+            4206328
+        ],
+        "codexrefs": [
+            {
+                "addr": 4197394,
+                "type": "CODE",
+                "at": 4197333
+            },
+            {
+                "addr": 4197418,
+                "type": "CODE",
+                "at": 4197333
+            },
+            {
+                "addr": 4197443,
+                "type": "CODE",
+                "at": 4197333
+            },
+            {
+                "addr": 4197469,
+                "type": "CODE",
+                "at": 4197333
+            },
+            {
+                "addr": 4197505,
+                "type": "CODE",
+                "at": 4197333
+            },
+            {
+                "addr": 4197621,
+                "type": "CODE",
+                "at": 4197333
+            },
+            {
+                "addr": 4197649,
+                "type": "CODE",
+                "at": 4197333
+            },
+            {
+                "addr": 4197660,
+                "type": "CODE",
+                "at": 4197333
+            },
+            {
+                "addr": 4197695,
+                "type": "CODE",
+                "at": 4197333
+            },
+            {
+                "addr": 4197760,
+                "type": "CODE",
+                "at": 4197333
+            },
+            {
+                "addr": 4197785,
+                "type": "CODE",
+                "at": 4197333
+            },
+            {
+                "addr": 4197833,
+                "type": "CODE",
+                "at": 4197333
+            },
+            {
+                "addr": 4197856,
+                "type": "CODE",
+                "at": 4197333
+            },
+            {
+                "addr": 4197916,
+                "type": "CODE",
+                "at": 4197333
+            },
+            {
+                "addr": 4197969,
+                "type": "CODE",
+                "at": 4197333
+            },
+            {
+                "addr": 4198040,
+                "type": "CODE",
+                "at": 4197333
+            },
+            {
+                "addr": 4198383,
+                "type": "CODE",
+                "at": 4197333
+            },
+            {
+                "addr": 4198394,
+                "type": "CODE",
+                "at": 4197333
+            },
+            {
+                "addr": 4198431,
+                "type": "CODE",
+                "at": 4197333
+            },
+            {
+                "addr": 4198468,
+                "type": "CODE",
+                "at": 4197333
+            },
+            {
+                "addr": 4198479,
+                "type": "CODE",
+                "at": 4197333
+            },
+            {
+                "addr": 4199467,
+                "type": "CODE",
+                "at": 4197333
+            },
+            {
+                "addr": 4199480,
+                "type": "CODE",
+                "at": 4197333
+            },
+            {
+                "addr": 4199512,
+                "type": "CODE",
+                "at": 4197333
+            },
+            {
+                "addr": 4197379,
+                "type": "CODE",
+                "at": 4197386
+            },
+            {
+                "addr": 4197379,
+                "type": "CODE",
+                "at": 4197396
+            },
+            {
+                "addr": 4197379,
+                "type": "CODE",
+                "at": 4197411
+            },
+            {
+                "addr": 4197379,
+                "type": "CODE",
+                "at": 4197420
+            },
+            {
+                "addr": 4197379,
+                "type": "CODE",
+                "at": 4197445
+            },
+            {
+                "addr": 4197379,
+                "type": "CODE",
+                "at": 4197474
+            },
+            {
+                "addr": 4197379,
+                "type": "CODE",
+                "at": 4197510
+            },
+            {
+                "addr": 4197379,
+                "type": "CODE",
+                "at": 4197547
+            },
+            {
+                "addr": 4198417,
+                "type": "CODE",
+                "at": 4197613
+            },
+            {
+                "addr": 4198523,
+                "type": "CODE",
+                "at": 4197613
+            },
+            {
+                "addr": 4197379,
+                "type": "CODE",
+                "at": 4197626
+            },
+            {
+                "addr": 4197379,
+                "type": "CODE",
+                "at": 4197641
+            },
+            {
+                "addr": 4197379,
+                "type": "CODE",
+                "at": 4197654
+            },
+            {
+                "addr": 4197379,
+                "type": "CODE",
+                "at": 4197665
+            },
+            {
+                "addr": 4197379,
+                "type": "CODE",
+                "at": 4197700
+            },
+            {
+                "addr": 4198510,
+                "type": "CODE",
+                "at": 4197725
+            },
+            {
+                "addr": 4197379,
+                "type": "CODE",
+                "at": 4197757
+            },
+            {
+                "addr": 4197379,
+                "type": "CODE",
+                "at": 4197765
+            },
+            {
+                "addr": 4197379,
+                "type": "CODE",
+                "at": 4197825
+            },
+            {
+                "addr": 4197379,
+                "type": "CODE",
+                "at": 4197838
+            },
+            {
+                "addr": 4197379,
+                "type": "CODE",
+                "at": 4197853
+            },
+            {
+                "addr": 4197379,
+                "type": "CODE",
+                "at": 4197861
+            },
+            {
+                "addr": 4198437,
+                "type": "CODE",
+                "at": 4197922
+            },
+            {
+                "addr": 4197959,
+                "type": "CODE",
+                "at": 4197975
+            },
+            {
+                "addr": 4200826,
+                "type": "CODE",
+                "at": 4197992
+            },
+            {
+                "addr": 4200456,
+                "type": "CODE",
+                "at": 4198002
+            },
+            {
+                "addr": 4197379,
+                "type": "CODE",
+                "at": 4198034
+            },
+            {
+                "addr": 4197373,
+                "type": "CODE",
+                "at": 4198045
+            },
+            {
+                "addr": 4197379,
+                "type": "CODE",
+                "at": 4198045
+            },
+            {
+                "addr": 4197361,
+                "type": "CODE",
+                "at": 4198107
+            },
+            {
+                "addr": 4200055,
+                "type": "CODE",
+                "at": 4198161
+            },
+            {
+                "addr": 4200094,
+                "type": "CODE",
+                "at": 4198161
+            },
+            {
+                "addr": 4200132,
+                "type": "CODE",
+                "at": 4198161
+            },
+            {
+                "addr": 4200229,
+                "type": "CODE",
+                "at": 4198161
+            },
+            {
+                "addr": 4198122,
+                "type": "CODE",
+                "at": 4198188
+            },
+            {
+                "addr": 4198133,
+                "type": "CODE",
+                "at": 4198188
+            },
+            {
+                "addr": 4198139,
+                "type": "CODE",
+                "at": 4198188
+            },
+            {
+                "addr": 4198197,
+                "type": "CODE",
+                "at": 4198209
+            },
+            {
+                "addr": 4200159,
+                "type": "CODE",
+                "at": 4198258
+            },
+            {
+                "addr": 4197581,
+                "type": "CODE",
+                "at": 4198285
+            },
+            {
+                "addr": 4198407,
+                "type": "CODE",
+                "at": 4198307
+            },
+            {
+                "addr": 4197901,
+                "type": "CODE",
+                "at": 4198388
+            },
+            {
+                "addr": 4198288,
+                "type": "CODE",
+                "at": 4198399
+            },
+            {
+                "addr": 4197590,
+                "type": "CODE",
+                "at": 4198409
+            },
+            {
+                "addr": 4197892,
+                "type": "CODE",
+                "at": 4198422
+            },
+            {
+                "addr": 4198355,
+                "type": "CODE",
+                "at": 4198442
+            },
+            {
+                "addr": 4197886,
+                "type": "CODE",
+                "at": 4198473
+            },
+            {
+                "addr": 4197599,
+                "type": "CODE",
+                "at": 4198484
+            },
+            {
+                "addr": 4198293,
+                "type": "CODE",
+                "at": 4198484
+            },
+            {
+                "addr": 4199499,
+                "type": "CODE",
+                "at": 4198498
+            },
+            {
+                "addr": 4197575,
+                "type": "CODE",
+                "at": 4198515
+            },
+            {
+                "addr": 4198230,
+                "type": "CODE",
+                "at": 4198528
+            },
+            {
+                "addr": 4199409,
+                "type": "CODE",
+                "at": 4198528
+            },
+            {
+                "addr": 4199423,
+                "type": "CODE",
+                "at": 4198528
+            },
+            {
+                "addr": 4198671,
+                "type": "CODE",
+                "at": 4198608
+            },
+            {
+                "addr": 4198606,
+                "type": "CODE",
+                "at": 4198667
+            },
+            {
+                "addr": 4198610,
+                "type": "CODE",
+                "at": 4198667
+            },
+            {
+                "addr": 4199330,
+                "type": "CODE",
+                "at": 4198687
+            },
+            {
+                "addr": 4199362,
+                "type": "CODE",
+                "at": 4198687
+            },
+            {
+                "addr": 4199399,
+                "type": "CODE",
+                "at": 4198687
+            },
+            {
+                "addr": 4199279,
+                "type": "CODE",
+                "at": 4198698
+            },
+            {
+                "addr": 4199304,
+                "type": "CODE",
+                "at": 4198742
+            },
+            {
+                "addr": 4200918,
+                "type": "CODE",
+                "at": 4198742
+            },
+            {
+                "addr": 4199295,
+                "type": "CODE",
+                "at": 4198748
+            },
+            {
+                "addr": 4199316,
+                "type": "CODE",
+                "at": 4198748
+            },
+            {
+                "addr": 4200936,
+                "type": "CODE",
+                "at": 4198761
+            },
+            {
+                "addr": 4200947,
+                "type": "CODE",
+                "at": 4198761
+            },
+            {
+                "addr": 4198731,
+                "type": "CODE",
+                "at": 4198790
+            },
+            {
+                "addr": 4198764,
+                "type": "CODE",
+                "at": 4198790
+            },
+            {
+                "addr": 4198774,
+                "type": "CODE",
+                "at": 4198790
+            },
+            {
+                "addr": 4198855,
+                "type": "CODE",
+                "at": 4198868
+            },
+            {
+                "addr": 4200275,
+                "type": "CODE",
+                "at": 4198873
+            },
+            {
+                "addr": 4200286,
+                "type": "CODE",
+                "at": 4198911
+            },
+            {
+                "addr": 4200315,
+                "type": "CODE",
+                "at": 4198920
+            },
+            {
+                "addr": 4199041,
+                "type": "CODE",
+                "at": 4199052
+            },
+            {
+                "addr": 4200804,
+                "type": "CODE",
+                "at": 4199052
+            },
+            {
+                "addr": 4200840,
+                "type": "CODE",
+                "at": 4199052
+            },
+            {
+                "addr": 4200850,
+                "type": "CODE",
+                "at": 4199052
+            },
+            {
+                "addr": 4199076,
+                "type": "CODE",
+                "at": 4199102
+            },
+            {
+                "addr": 4200421,
+                "type": "CODE",
+                "at": 4199102
+            },
+            {
+                "addr": 4200575,
+                "type": "CODE",
+                "at": 4199102
+            },
+            {
+                "addr": 4200794,
+                "type": "CODE",
+                "at": 4199102
+            },
+            {
+                "addr": 4200879,
+                "type": "CODE",
+                "at": 4199102
+            },
+            {
+                "addr": 4200891,
+                "type": "CODE",
+                "at": 4199102
+            },
+            {
+                "addr": 4198845,
+                "type": "CODE",
+                "at": 4199113
+            },
+            {
+                "addr": 4200342,
+                "type": "CODE",
+                "at": 4199113
+            },
+            {
+                "addr": 4199192,
+                "type": "CODE",
+                "at": 4199160
+            },
+            {
+                "addr": 4199158,
+                "type": "CODE",
+                "at": 4199173
+            },
+            {
+                "addr": 4199439,
+                "type": "CODE",
+                "at": 4199204
+            },
+            {
+                "addr": 4199454,
+                "type": "CODE",
+                "at": 4199204
+            },
+            {
+                "addr": 4199349,
+                "type": "CODE",
+                "at": 4199285
+            },
+            {
+                "addr": 4198692,
+                "type": "CODE",
+                "at": 4199290
+            },
+            {
+                "addr": 4199351,
+                "type": "CODE",
+                "at": 4199290
+            },
+            {
+                "addr": 4199381,
+                "type": "CODE",
+                "at": 4199290
+            },
+            {
+                "addr": 4199388,
+                "type": "CODE",
+                "at": 4199290
+            },
+            {
+                "addr": 4200069,
+                "type": "CODE",
+                "at": 4199290
+            },
+            {
+                "addr": 4200466,
+                "type": "CODE",
+                "at": 4199290
+            },
+            {
+                "addr": 4200898,
+                "type": "CODE",
+                "at": 4199290
+            },
+            {
+                "addr": 4198671,
+                "type": "CODE",
+                "at": 4199321
+            },
+            {
+                "addr": 4198671,
+                "type": "CODE",
+                "at": 4199335
+            },
+            {
+                "addr": 4198671,
+                "type": "CODE",
+                "at": 4199390
+            },
+            {
+                "addr": 4198219,
+                "type": "CODE",
+                "at": 4199404
+            },
+            {
+                "addr": 4198203,
+                "type": "CODE",
+                "at": 4199444
+            },
+            {
+                "addr": 4198349,
+                "type": "CODE",
+                "at": 4199459
+            },
+            {
+                "addr": 4198360,
+                "type": "CODE",
+                "at": 4199472
+            },
+            {
+                "addr": 4198369,
+                "type": "CODE",
+                "at": 4199485
+            },
+            {
+                "addr": 4198454,
+                "type": "CODE",
+                "at": 4199485
+            },
+            {
+                "addr": 4198445,
+                "type": "CODE",
+                "at": 4199504
+            },
+            {
+                "addr": 4199681,
+                "type": "CODE",
+                "at": 4199517
+            },
+            {
+                "addr": 4199695,
+                "type": "CODE",
+                "at": 4199517
+            },
+            {
+                "addr": 4200251,
+                "type": "CODE",
+                "at": 4199537
+            },
+            {
+                "addr": 4199542,
+                "type": "CODE",
+                "at": 4199596
+            },
+            {
+                "addr": 4200692,
+                "type": "CODE",
+                "at": 4199596
+            },
+            {
+                "addr": 4198837,
+                "type": "CODE",
+                "at": 4199615
+            },
+            {
+                "addr": 4199145,
+                "type": "CODE",
+                "at": 4199649
+            },
+            {
+                "addr": 4199167,
+                "type": "CODE",
+                "at": 4199649
+            },
+            {
+                "addr": 4199757,
+                "type": "CODE",
+                "at": 4199661
+            },
+            {
+                "addr": 4200029,
+                "type": "CODE",
+                "at": 4199661
+            },
+            {
+                "addr": 4199695,
+                "type": "CODE",
+                "at": 4199702
+            },
+            {
+                "addr": 4199784,
+                "type": "CODE",
+                "at": 4199723
+            },
+            {
+                "addr": 4199812,
+                "type": "CODE",
+                "at": 4199723
+            },
+            {
+                "addr": 4199846,
+                "type": "CODE",
+                "at": 4199723
+            },
+            {
+                "addr": 4199853,
+                "type": "CODE",
+                "at": 4199723
+            },
+            {
+                "addr": 4199876,
+                "type": "CODE",
+                "at": 4199723
+            },
+            {
+                "addr": 4200014,
+                "type": "CODE",
+                "at": 4199723
+            },
+            {
+                "addr": 4200381,
+                "type": "CODE",
+                "at": 4199723
+            },
+            {
+                "addr": 4199695,
+                "type": "CODE",
+                "at": 4199759
+            },
+            {
+                "addr": 4199695,
+                "type": "CODE",
+                "at": 4199786
+            },
+            {
+                "addr": 4199695,
+                "type": "CODE",
+                "at": 4199814
+            },
+            {
+                "addr": 4199907,
+                "type": "CODE",
+                "at": 4199840
+            },
+            {
+                "addr": 4199947,
+                "type": "CODE",
+                "at": 4199840
+            },
+            {
+                "addr": 4199987,
+                "type": "CODE",
+                "at": 4199840
+            },
+            {
+                "addr": 4200181,
+                "type": "CODE",
+                "at": 4199840
+            },
+            {
+                "addr": 4200203,
+                "type": "CODE",
+                "at": 4199840
+            },
+            {
+                "addr": 4200506,
+                "type": "CODE",
+                "at": 4199840
+            },
+            {
+                "addr": 4200546,
+                "type": "CODE",
+                "at": 4199840
+            },
+            {
+                "addr": 4200614,
+                "type": "CODE",
+                "at": 4199840
+            },
+            {
+                "addr": 4200653,
+                "type": "CODE",
+                "at": 4199840
+            },
+            {
+                "addr": 4199695,
+                "type": "CODE",
+                "at": 4199881
+            },
+            {
+                "addr": 4199695,
+                "type": "CODE",
+                "at": 4199909
+            },
+            {
+                "addr": 4199695,
+                "type": "CODE",
+                "at": 4199949
+            },
+            {
+                "addr": 4199695,
+                "type": "CODE",
+                "at": 4199992
+            },
+            {
+                "addr": 4199741,
+                "type": "CODE",
+                "at": 4200019
+            },
+            {
+                "addr": 4198576,
+                "type": "CODE",
+                "at": 4200034
+            },
+            {
+                "addr": 4198531,
+                "type": "CODE",
+                "at": 4200074
+            },
+            {
+                "addr": 4200109,
+                "type": "CODE",
+                "at": 4200084
+            },
+            {
+                "addr": 4198586,
+                "type": "CODE",
+                "at": 4200099
+            },
+            {
+                "addr": 4198542,
+                "type": "CODE",
+                "at": 4200111
+            },
+            {
+                "addr": 4198554,
+                "type": "CODE",
+                "at": 4200137
+            },
+            {
+                "addr": 4199924,
+                "type": "CODE",
+                "at": 4200164
+            },
+            {
+                "addr": 4199964,
+                "type": "CODE",
+                "at": 4200186
+            },
+            {
+                "addr": 4198565,
+                "type": "CODE",
+                "at": 4200208
+            },
+            {
+                "addr": 4199531,
+                "type": "CODE",
+                "at": 4200234
+            },
+            {
+                "addr": 4199599,
+                "type": "CODE",
+                "at": 4200256
+            },
+            {
+                "addr": 4198862,
+                "type": "CODE",
+                "at": 4200263
+            },
+            {
+                "addr": 4198905,
+                "type": "CODE",
+                "at": 4200280
+            },
+            {
+                "addr": 4198914,
+                "type": "CODE",
+                "at": 4200291
+            },
+            {
+                "addr": 4199107,
+                "type": "CODE",
+                "at": 4200320
+            },
+            {
+                "addr": 4199790,
+                "type": "CODE",
+                "at": 4200347
+            },
+            {
+                "addr": 4199056,
+                "type": "CODE",
+                "at": 4200386
+            },
+            {
+                "addr": 4198329,
+                "type": "CODE",
+                "at": 4200426
+            },
+            {
+                "addr": 4199953,
+                "type": "CODE",
+                "at": 4200471
+            },
+            {
+                "addr": 4199913,
+                "type": "CODE",
+                "at": 4200511
+            },
+            {
+                "addr": 4199066,
+                "type": "CODE",
+                "at": 4200551
+            },
+            {
+                "addr": 4199818,
+                "type": "CODE",
+                "at": 4200580
+            },
+            {
+                "addr": 4199885,
+                "type": "CODE",
+                "at": 4200619
+            },
+            {
+                "addr": 4199553,
+                "type": "CODE",
+                "at": 4200658
+            },
+            {
+                "addr": 4199004,
+                "type": "CODE",
+                "at": 4200697
+            },
+            {
+                "addr": 4200756,
+                "type": "CODE",
+                "at": 4200763
+            },
+            {
+                "addr": 4199032,
+                "type": "CODE",
+                "at": 4200799
+            },
+            {
+                "addr": 4197950,
+                "type": "CODE",
+                "at": 4200809
+            },
+            {
+                "addr": 4199023,
+                "type": "CODE",
+                "at": 4200831
+            },
+            {
+                "addr": 4199017,
+                "type": "CODE",
+                "at": 4200845
+            },
+            {
+                "addr": 4200768,
+                "type": "CODE",
+                "at": 4200855
+            },
+            {
+                "addr": 4200408,
+                "type": "CODE",
+                "at": 4200884
+            },
+            {
+                "addr": 4198716,
+                "type": "CODE",
+                "at": 4200896
+            },
+            {
+                "addr": 4198706,
+                "type": "CODE",
+                "at": 4200903
+            },
+            {
+                "addr": 4200913,
+                "type": "CODE",
+                "at": 4200930
+            },
+            {
+                "addr": 4198736,
+                "type": "CODE",
+                "at": 4200941
+            }
+        ],
+        "dataxrefs": [
+            4200981
+        ],
+        "indegree": 203,
+        "outdegree": 95,
+        "nlocals": 28,
+        "nargs": 2,
+        "bpvars": [
+            {
+                "name": "infd",
+                "kind": "var",
+                "type": "int",
+                "ref": {
+                    "base": "rbp",
+                    "offset": 0
+                }
+            },
+            {
+                "name": "tmpstr",
+                "kind": "var",
+                "type": "char[12]",
+                "ref": {
+                    "base": "rbp",
+                    "offset": -96
+                }
+            },
+            {
+                "name": "lgoindex",
+                "kind": "var",
+                "type": "int",
+                "ref": {
+                    "base": "rbp",
+                    "offset": -108
+                }
+            },
+            {
+                "name": "cb",
+                "kind": "var",
+                "type": "char",
+                "ref": {
+                    "base": "rbp",
+                    "offset": -109
+                }
+            }
+        ],
+        "spvars": [
+            {
+                "name": "stream",
+                "kind": "var",
+                "type": "long",
+                "ref": {
+                    "base": "rsp",
+                    "offset": 24
+                }
+            },
+            {
+                "name": "var_14h",
+                "kind": "var",
+                "type": "uint32_t",
+                "ref": {
+                    "base": "rsp",
+                    "offset": 36
+                }
+            },
+            {
+                "name": "var_18h",
+                "kind": "var",
+                "type": "long",
+                "ref": {
+                    "base": "rsp",
+                    "offset": 40
+                }
+            },
+            {
+                "name": "var_20h",
+                "kind": "var",
+                "type": "long",
+                "ref": {
+                    "base": "rsp",
+                    "offset": 48
+                }
+            },
+            {
+                "name": "var_24h",
+                "kind": "var",
+                "type": "long",
+                "ref": {
+                    "base": "rsp",
+                    "offset": 52
+                }
+            },
+            {
+                "name": "var_28h",
+                "kind": "var",
+                "type": "uint32_t",
+                "ref": {
+                    "base": "rsp",
+                    "offset": 56
+                }
+            },
+            {
+                "name": "var_2ch",
+                "kind": "var",
+                "type": "uint32_t",
+                "ref": {
+                    "base": "rsp",
+                    "offset": 60
+                }
+            },
+            {
+                "name": "var_30h",
+                "kind": "var",
+                "type": "uint32_t",
+                "ref": {
+                    "base": "rsp",
+                    "offset": 64
+                }
+            },
+            {
+                "name": "var_34h",
+                "kind": "var",
+                "type": "uint32_t",
+                "ref": {
+                    "base": "rsp",
+                    "offset": 68
+                }
+            },
+            {
+                "name": "var_38h",
+                "kind": "var",
+                "type": "uint32_t",
+                "ref": {
+                    "base": "rsp",
+                    "offset": 72
+                }
+            },
+            {
+                "name": "var_3ch",
+                "kind": "var",
+                "type": "uint32_t",
+                "ref": {
+                    "base": "rsp",
+                    "offset": 76
+                }
+            },
+            {
+                "name": "var_3fh",
+                "kind": "var",
+                "type": "int64_t",
+                "ref": {
+                    "base": "rsp",
+                    "offset": 79
+                }
+            },
+            {
+                "name": "buf",
+                "kind": "var",
+                "type": "void *",
+                "ref": {
+                    "base": "rsp",
+                    "offset": 83
+                }
+            },
+            {
+                "name": "var_44h",
+                "kind": "var",
+                "type": "int64_t",
+                "ref": {
+                    "base": "rsp",
+                    "offset": 84
+                }
+            },
+            {
+                "name": "endptr",
+                "kind": "var",
+                "type": "char * *",
+                "ref": {
+                    "base": "rsp",
+                    "offset": 88
+                }
+            },
+            {
+                "name": "s",
+                "kind": "var",
+                "type": "char *",
+                "ref": {
+                    "base": "rsp",
+                    "offset": 96
+                }
+            },
+            {
+                "name": "format",
+                "kind": "var",
+                "type": "char *",
+                "ref": {
+                    "base": "rsp",
+                    "offset": 112
+                }
+            },
+            {
+                "name": "var_62h",
+                "kind": "var",
+                "type": "int64_t",
+                "ref": {
+                    "base": "rsp",
+                    "offset": 114
+                }
+            }
+        ],
+        "regvars": [
+            {
+                "name": "argc",
+                "kind": "reg",
+                "type": "int",
+                "ref": "rdi"
+            },
+            {
+                "name": "argv",
+                "kind": "reg",
+                "type": "char **",
+                "ref": "rsi"
+            },
+            {
+                "name": "Current_Byte_Offset",
+                "kind": "reg",
+                "type": "long int",
+                "ref": "rbx"
+            },
+            {
+                "name": "Flag",
+                "kind": "reg",
+                "type": "int",
+                "ref": "rax"
+            },
+            {
+                "name": "inbufptr",
+                "kind": "reg",
+                "type": "char *",
+                "ref": "r13"
+            },
+            {
+                "name": "Delimit_P",
+                "kind": "reg",
+                "type": "int",
+                "ref": "r15"
+            },
+            {
+                "name": "Base",
+                "kind": "reg",
+                "type": "int",
+                "ref": "r12"
+            },
+            {
+                "name": "Zero_Pad_P",
+                "kind": "reg",
+                "type": "int",
+                "ref": "r14"
+            }
+        ],
+        "difftype": "new"
+    },
+    {
+        "offset": 4197072,
+        "name": "sym.imp.setlocale",
+        "size": 6,
+        "is-pure": "true",
+        "realsz": 6,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 3,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 1,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "char *sym.imp.setlocale (int category, const char *locale);",
+        "minbound": 4197072,
+        "maxbound": 4197078,
+        "callrefs": [
+            {
+                "addr": 6308496,
+                "type": "CODE",
+                "at": 4197072
+            }
+        ],
+        "datarefs": [],
+        "codexrefs": [
+            {
+                "addr": 4197205,
+                "type": "CALL",
+                "at": 4197072
+            },
+            {
+                "addr": 4197777,
+                "type": "CALL",
+                "at": 4197072
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 2,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4196832,
+        "name": "sym.imp.bindtextdomain",
+        "size": 6,
+        "is-pure": "true",
+        "realsz": 6,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 3,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 1,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "char *sym.imp.bindtextdomain (char *domainname, char *dirname);",
+        "minbound": 4196832,
+        "maxbound": 4196838,
+        "callrefs": [
+            {
+                "addr": 6308376,
+                "type": "CODE",
+                "at": 4196832
+            }
+        ],
+        "datarefs": [],
+        "codexrefs": [
+            {
+                "addr": 4197220,
+                "type": "CALL",
+                "at": 4196832
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 1,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4196816,
+        "name": "sym.imp.textdomain",
+        "size": 6,
+        "is-pure": "true",
+        "realsz": 6,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 3,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 1,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "char *sym.imp.textdomain (char *domainname);",
+        "minbound": 4196816,
+        "maxbound": 4196822,
+        "callrefs": [
+            {
+                "addr": 6308368,
+                "type": "CODE",
+                "at": 4196816
+            }
+        ],
+        "datarefs": [],
+        "codexrefs": [
+            {
+                "addr": 4197230,
+                "type": "CALL",
+                "at": 4196816
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 1,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4196880,
+        "name": "sym.imp.getopt_long",
+        "size": 6,
+        "is-pure": "true",
+        "realsz": 6,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 3,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 1,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "sym.imp.getopt_long ();",
+        "minbound": 4196880,
+        "maxbound": 4196886,
+        "callrefs": [
+            {
+                "addr": 6308400,
+                "type": "CODE",
+                "at": 4196880
+            }
+        ],
+        "datarefs": [],
+        "codexrefs": [
+            {
+                "addr": 4197353,
+                "type": "CALL",
+                "at": 4196880
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 1,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4197104,
+        "name": "sym.imp.exit",
+        "size": 6,
+        "is-pure": "true",
+        "realsz": 6,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 3,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 1,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "void sym.imp.exit (int status);",
+        "minbound": 4197104,
+        "maxbound": 4197110,
+        "callrefs": [
+            {
+                "addr": 6308512,
+                "type": "CODE",
+                "at": 4197104
+            }
+        ],
+        "datarefs": [],
+        "codexrefs": [
+            {
+                "addr": 4197406,
+                "type": "CALL",
+                "at": 4197104
+            },
+            {
+                "addr": 4197542,
+                "type": "CALL",
+                "at": 4197104
+            },
+            {
+                "addr": 4197636,
+                "type": "CALL",
+                "at": 4197104
+            },
+            {
+                "addr": 4197752,
+                "type": "CALL",
+                "at": 4197104
+            },
+            {
+                "addr": 4197820,
+                "type": "CALL",
+                "at": 4197104
+            },
+            {
+                "addr": 4197848,
+                "type": "CALL",
+                "at": 4197104
+            },
+            {
+                "addr": 4198029,
+                "type": "CALL",
+                "at": 4197104
+            },
+            {
+                "addr": 4198102,
+                "type": "CALL",
+                "at": 4197104
+            },
+            {
+                "addr": 4198183,
+                "type": "CALL",
+                "at": 4197104
+            },
+            {
+                "addr": 4198280,
+                "type": "CALL",
+                "at": 4197104
+            },
+            {
+                "addr": 4199233,
+                "type": "CALL",
+                "at": 4197104
+            },
+            {
+                "addr": 4199644,
+                "type": "CALL",
+                "at": 4197104
+            },
+            {
+                "addr": 4200258,
+                "type": "CALL",
+                "at": 4197104
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 13,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4197024,
+        "name": "sym.imp.strtol",
+        "size": 6,
+        "is-pure": "true",
+        "realsz": 6,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 3,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 1,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "long sym.imp.strtol (const char *str, char * *endptr, int base);",
+        "minbound": 4197024,
+        "maxbound": 4197030,
+        "callrefs": [
+            {
+                "addr": 6308472,
+                "type": "CODE",
+                "at": 4197024
+            }
+        ],
+        "datarefs": [],
+        "codexrefs": [
+            {
+                "addr": 4197434,
+                "type": "CALL",
+                "at": 4197024
+            },
+            {
+                "addr": 4197459,
+                "type": "CALL",
+                "at": 4197024
+            },
+            {
+                "addr": 4197488,
+                "type": "CALL",
+                "at": 4197024
+            },
+            {
+                "addr": 4197679,
+                "type": "CALL",
+                "at": 4197024
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 4,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4196912,
+        "name": "sym.imp._IO_putc",
+        "size": 6,
+        "is-pure": "true",
+        "realsz": 6,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 3,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 1,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "sym.imp._IO_putc ();",
+        "minbound": 4196912,
+        "maxbound": 4196918,
+        "callrefs": [
+            {
+                "addr": 6308416,
+                "type": "CODE",
+                "at": 4196912
+            }
+        ],
+        "datarefs": [],
+        "codexrefs": [
+            {
+                "addr": 4197527,
+                "type": "CALL",
+                "at": 4196912
+            },
+            {
+                "addr": 4199752,
+                "type": "CALL",
+                "at": 4196912
+            },
+            {
+                "addr": 4199871,
+                "type": "CALL",
+                "at": 4196912
+            },
+            {
+                "addr": 4200024,
+                "type": "CALL",
+                "at": 4196912
+            },
+            {
+                "addr": 4200246,
+                "type": "CALL",
+                "at": 4196912
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 5,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4197136,
+        "name": "sym.imp.__ctype_tolower_loc",
+        "size": 6,
+        "is-pure": "true",
+        "realsz": 6,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 3,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 1,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "sym.imp.__ctype_tolower_loc ();",
+        "minbound": 4197136,
+        "maxbound": 4197142,
+        "callrefs": [
+            {
+                "addr": 6308528,
+                "type": "CODE",
+                "at": 4197136
+            }
+        ],
+        "datarefs": [],
+        "codexrefs": [
+            {
+                "addr": 4197547,
+                "type": "CALL",
+                "at": 4197136
+            },
+            {
+                "addr": 4197861,
+                "type": "CALL",
+                "at": 4197136
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 2,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4197088,
+        "name": "sym.imp.strtoul",
+        "size": 6,
+        "is-pure": "true",
+        "realsz": 6,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 3,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 1,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "long sym.imp.strtoul (const char *str, char * *endptr, int base);",
+        "minbound": 4197088,
+        "maxbound": 4197094,
+        "callrefs": [
+            {
+                "addr": 6308504,
+                "type": "CODE",
+                "at": 4197088
+            }
+        ],
+        "datarefs": [],
+        "codexrefs": [
+            {
+                "addr": 4197932,
+                "type": "CALL",
+                "at": 4197088
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 1,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4196800,
+        "name": "sym.imp.__errno_location",
+        "size": 6,
+        "is-pure": "true",
+        "realsz": 6,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 3,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 1,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "sym.imp.__errno_location ();",
+        "minbound": 4196800,
+        "maxbound": 4196806,
+        "callrefs": [
+            {
+                "addr": 6308360,
+                "type": "CODE",
+                "at": 4196800
+            }
+        ],
+        "datarefs": [],
+        "codexrefs": [
+            {
+                "addr": 4197940,
+                "type": "CALL",
+                "at": 4196800
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 1,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4197056,
+        "name": "sym.imp.malloc",
+        "size": 6,
+        "is-pure": "true",
+        "realsz": 6,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 3,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 1,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "void *sym.imp.malloc (size_t size);",
+        "minbound": 4197056,
+        "maxbound": 4197062,
+        "callrefs": [
+            {
+                "addr": 6308488,
+                "type": "CODE",
+                "at": 4197056
+            }
+        ],
+        "datarefs": [],
+        "codexrefs": [
+            {
+                "addr": 4198805,
+                "type": "CALL",
+                "at": 4197056
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 1,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4196928,
+        "name": "sym.imp.snprintf",
+        "size": 6,
+        "is-pure": "true",
+        "realsz": 6,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 3,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 1,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "int sym.imp.snprintf (char *s, size_t size, const char *format);",
+        "minbound": 4196928,
+        "maxbound": 4196934,
+        "callrefs": [
+            {
+                "addr": 6308424,
+                "type": "CODE",
+                "at": 4196928
+            }
+        ],
+        "datarefs": [],
+        "codexrefs": [
+            {
+                "addr": 4198956,
+                "type": "CALL",
+                "at": 4196928
+            },
+            {
+                "addr": 4200717,
+                "type": "CALL",
+                "at": 4196928
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 2,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4196848,
+        "name": "sym.imp.stpcpy",
+        "size": 6,
+        "is-pure": "true",
+        "realsz": 6,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 3,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 1,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "sym.imp.stpcpy ();",
+        "minbound": 4196848,
+        "maxbound": 4196854,
+        "callrefs": [
+            {
+                "addr": 6308384,
+                "type": "CODE",
+                "at": 4196848
+            }
+        ],
+        "datarefs": [],
+        "codexrefs": [
+            {
+                "addr": 4198985,
+                "type": "CALL",
+                "at": 4196848
+            },
+            {
+                "addr": 4200746,
+                "type": "CALL",
+                "at": 4196848
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 2,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4197040,
+        "name": "sym.imp.fileno",
+        "size": 6,
+        "is-pure": "true",
+        "realsz": 6,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 3,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 1,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "int sym.imp.fileno (FILE *stream);",
+        "minbound": 4197040,
+        "maxbound": 4197046,
+        "callrefs": [
+            {
+                "addr": 6308480,
+                "type": "CODE",
+                "at": 4197040
+            }
+        ],
+        "datarefs": [],
+        "codexrefs": [
+            {
+                "addr": 4199120,
+                "type": "CALL",
+                "at": 4197040
+            },
+            {
+                "addr": 4199134,
+                "type": "CALL",
+                "at": 4197040
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 2,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4196960,
+        "name": "sym.imp.read",
+        "size": 6,
+        "is-pure": "true",
+        "realsz": 6,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 3,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 1,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "ssize_t sym.imp.read (int fildes, void *buf, size_t nbyte);",
+        "minbound": 4196960,
+        "maxbound": 4196966,
+        "callrefs": [
+            {
+                "addr": 6308440,
+                "type": "CODE",
+                "at": 4196960
+            }
+        ],
+        "datarefs": [],
+        "codexrefs": [
+            {
+                "addr": 4199185,
+                "type": "CALL",
+                "at": 4196960
+            },
+            {
+                "addr": 4199669,
+                "type": "CALL",
+                "at": 4196960
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 2,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4196896,
+        "name": "sym.imp.printf",
+        "size": 6,
+        "is-pure": "true",
+        "realsz": 6,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 3,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 1,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "int sym.imp.printf (const char *format);",
+        "minbound": 4196896,
+        "maxbound": 4196902,
+        "callrefs": [
+            {
+                "addr": 6308408,
+                "type": "CODE",
+                "at": 4196896
+            }
+        ],
+        "datarefs": [],
+        "codexrefs": [
+            {
+                "addr": 4199718,
+                "type": "CALL",
+                "at": 4196896
+            },
+            {
+                "addr": 4199779,
+                "type": "CALL",
+                "at": 4196896
+            },
+            {
+                "addr": 4199807,
+                "type": "CALL",
+                "at": 4196896
+            },
+            {
+                "addr": 4199835,
+                "type": "CALL",
+                "at": 4196896
+            },
+            {
+                "addr": 4199902,
+                "type": "CALL",
+                "at": 4196896
+            },
+            {
+                "addr": 4199942,
+                "type": "CALL",
+                "at": 4196896
+            },
+            {
+                "addr": 4199982,
+                "type": "CALL",
+                "at": 4196896
+            },
+            {
+                "addr": 4200007,
+                "type": "CALL",
+                "at": 4196896
+            },
+            {
+                "addr": 4200176,
+                "type": "CALL",
+                "at": 4196896
+            },
+            {
+                "addr": 4200198,
+                "type": "CALL",
+                "at": 4196896
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 10,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4196944,
+        "name": "sym.imp.fputs",
+        "size": 6,
+        "is-pure": "true",
+        "realsz": 6,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 3,
+        "cc": 1,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 1,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "int sym.imp.fputs (const char *s, FILE *stream);",
+        "minbound": 4196944,
+        "maxbound": 4196950,
+        "callrefs": [
+            {
+                "addr": 6308432,
+                "type": "CODE",
+                "at": 4196944
+            }
+        ],
+        "datarefs": [],
+        "codexrefs": [
+            {
+                "addr": 4200376,
+                "type": "CALL",
+                "at": 4196944
+            },
+            {
+                "addr": 4200501,
+                "type": "CALL",
+                "at": 4196944
+            },
+            {
+                "addr": 4200541,
+                "type": "CALL",
+                "at": 4196944
+            },
+            {
+                "addr": 4200609,
+                "type": "CALL",
+                "at": 4196944
+            },
+            {
+                "addr": 4200648,
+                "type": "CALL",
+                "at": 4196944
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 5,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4202864,
+        "name": "dbg.binfmtl",
+        "size": 54,
+        "is-pure": "false",
+        "realsz": 54,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 18,
+        "cc": 2,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 3,
+        "is-lineal": true,
+        "ninstrs": 15,
+        "edges": 3,
+        "ebbs": 1,
+        "signature": "dbg.binfmtl (long unsigned int n);",
+        "minbound": 4202864,
+        "maxbound": 4202918,
+        "callrefs": [
+            {
+                "addr": 6309567,
+                "type": "DATA",
+                "at": 4202864
+            },
+            {
+                "addr": 6309503,
+                "type": "DATA",
+                "at": 4202897
+            },
+            {
+                "addr": 4202872,
+                "type": "CODE",
+                "at": 4202903
+            },
+            {
+                "addr": 6309568,
+                "type": "DATA",
+                "at": 4202905
+            },
+            {
+                "addr": 6309504,
+                "type": "DATA",
+                "at": 4202912
+            }
+        ],
+        "datarefs": [
+            6309567,
+            6309503,
+            6309568,
+            6309504
+        ],
+        "codexrefs": [
+            {
+                "addr": 4200596,
+                "type": "CALL",
+                "at": 4202864
+            },
+            {
+                "addr": 4202903,
+                "type": "CODE",
+                "at": 4202872
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 2,
+        "outdegree": 0,
+        "nlocals": 1,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [
+            {
+                "name": "n",
+                "kind": "reg",
+                "type": "long unsigned int",
+                "ref": "rdi"
+            }
+        ],
+        "difftype": "new"
+    },
+    {
+        "offset": 4196752,
+        "name": "sym._init",
+        "size": 26,
+        "is-pure": "false",
+        "realsz": 26,
+        "noreturn": false,
+        "stackframe": 8,
+        "calltype": "amd64",
+        "cost": 12,
+        "cc": 2,
+        "bits": 64,
+        "type": "sym",
+        "nbbs": 3,
+        "is-lineal": true,
+        "ninstrs": 7,
+        "edges": 3,
+        "ebbs": 1,
+        "signature": "sym._init ();",
+        "minbound": 4196752,
+        "maxbound": 4196778,
+        "callrefs": [
+            {
+                "addr": 6308328,
+                "type": "DATA",
+                "at": 4196756
+            },
+            {
+                "addr": 4196773,
+                "type": "CODE",
+                "at": 4196766
+            }
+        ],
+        "datarefs": [
+            6308328
+        ],
+        "codexrefs": [
+            {
+                "addr": 4204398,
+                "type": "CALL",
+                "at": 4196752
+            },
+            {
+                "addr": 4196766,
+                "type": "CODE",
+                "at": 4196773
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 2,
+        "outdegree": 1,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    },
+    {
+        "offset": 4197008,
+        "name": "loc.imp.__gmon_start__",
+        "size": 6,
+        "is-pure": "true",
+        "realsz": 6,
+        "noreturn": false,
+        "stackframe": 0,
+        "calltype": "amd64",
+        "cost": 3,
+        "cc": 1,
+        "bits": 64,
+        "type": "fcn",
+        "nbbs": 1,
+        "is-lineal": true,
+        "ninstrs": 1,
+        "edges": 0,
+        "ebbs": 1,
+        "signature": "loc.imp.__gmon_start__ ();",
+        "minbound": 4197008,
+        "maxbound": 4197014,
+        "callrefs": [
+            {
+                "addr": 6308464,
+                "type": "CODE",
+                "at": 4197008
+            }
+        ],
+        "datarefs": [],
+        "codexrefs": [
+            {
+                "addr": 4196768,
+                "type": "CALL",
+                "at": 4197008
+            }
+        ],
+        "dataxrefs": [],
+        "indegree": 1,
+        "outdegree": 0,
+        "nlocals": 0,
+        "nargs": 0,
+        "bpvars": [],
+        "spvars": [],
+        "regvars": [],
+        "difftype": "new"
+    }
+]
