@@ -15,7 +15,7 @@ docopt==0.6.2
 dpkt==1.9.8
 future==0.18.3
 gitdb==4.0.10
-GitPython==3.1.31
+GitPython==3.1.62
 icontract==2.6.2
 itanium-demangler==1.1
 lief==0.13.0
